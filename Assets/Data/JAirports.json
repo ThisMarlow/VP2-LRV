@@ -1,0 +1,5090 @@
+{
+    "Items":[
+        {
+            "_id": "62614a401eacded7b7bbe001",
+            "name": "BAMBERG-BREITENAU",
+            "icaoCode": "EDQA",
+            "type": 9,
+            "trafficType": [
+                0,
+                1
+            ],
+            "magneticDeclination": 3.939,
+            "country": "DE",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.914444444444,
+                    49.920555555556
+                ]
+            },
+            "elevation": {
+                "value": 252,
+                "unit": 0,
+                "referenceDatum": 1
+            },
+            "ppr": true,
+            "private": false,
+            "skydiveActivity": false,
+            "winchOnly": false,
+            "frequencies": [
+                {
+                    "value": "123.440",
+                    "unit": 2,
+                    "type": 16,
+                    "name": "Bamberg Radio",
+                    "primary": true,
+                    "publicUse": true,
+                    "_id": "62614a401eacded7b7bbe002"
+                },
+                {
+                    "value": "124.130",
+                    "unit": 2,
+                    "type": 15,
+                    "name": "Bamberg ATIS",
+                    "primary": false,
+                    "publicUse": true,
+                    "_id": "62614a401eacded7b7bbe003"
+                }
+            ],
+            "runways": [
+                {
+                    "designator": "03",
+                    "trueHeading": 33,
+                    "alignedTrueNorth": false,
+                    "operations": 0,
+                    "mainRunway": true,
+                    "turnDirection": 2,
+                    "takeOffOnly": false,
+                    "landingOnly": false,
+                    "surface": {
+                        "composition": [
+                            0
+                        ],
+                        "mainComposite": 0,
+                        "condition": 0,
+                        "mtow": {
+                            "value": 10,
+                            "unit": 9
+                        }
+                    },
+                    "dimension": {
+                        "length": {
+                            "value": 1104,
+                            "unit": 0
+                        },
+                        "width": {
+                            "value": 23,
+                            "unit": 0
+                        }
+                    },
+                    "declaredDistance": {
+                        "tora": {
+                            "value": 935,
+                            "unit": 0
+                        },
+                        "lda": {
+                            "value": 935,
+                            "unit": 0
+                        }
+                    },
+                    "pilotCtrlLighting": false,
+                    "visualApproachAids": [
+                        1
+                    ],
+                    "_id": "62614a401eacded7b7bbe004"
+                },
+                {
+                    "designator": "21",
+                    "trueHeading": 213,
+                    "alignedTrueNorth": false,
+                    "operations": 0,
+                    "mainRunway": true,
+                    "turnDirection": 2,
+                    "takeOffOnly": false,
+                    "landingOnly": false,
+                    "surface": {
+                        "composition": [
+                            0
+                        ],
+                        "mainComposite": 0,
+                        "condition": 0,
+                        "mtow": {
+                            "value": 10,
+                            "unit": 9
+                        }
+                    },
+                    "dimension": {
+                        "length": {
+                            "value": 1104,
+                            "unit": 0
+                        },
+                        "width": {
+                            "value": 23,
+                            "unit": 0
+                        }
+                    },
+                    "declaredDistance": {
+                        "tora": {
+                            "value": 968,
+                            "unit": 0
+                        },
+                        "lda": {
+                            "value": 968,
+                            "unit": 0
+                        }
+                    },
+                    "pilotCtrlLighting": false,
+                    "visualApproachAids": [
+                        1
+                    ],
+                    "_id": "62614a401eacded7b7bbe005"
+                }
+            ],
+            "createdAt": "2022-04-21T12:12:48.876Z",
+            "updatedAt": "2023-02-27T06:33:21.051Z",
+            "createdBy": "AUTO-IMPORTER",
+            "updatedBy": "eBT9qSrxquPVguazo7MwJzzaf2p1",
+            "elevationGeoid": {
+                "geoidHeight": 46.88046880000013,
+                "hae": 298.88046880000013
+            },
+            "services": {
+                "fuelTypes": [
+                    1,
+                    3
+                ]
+            }
+        },
+        {
+            "_id": "62614a411eacded7b7bbe02e",
+            "name": "BARTH",
+            "icaoCode": "EDBH",
+            "type": 9,
+            "trafficType": [
+                0,
+                1
+            ],
+            "magneticDeclination": 4.693,
+            "country": "DE",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.71,
+                    54.3381
+                ]
+            },
+            "elevation": {
+                "value": 7,
+                "unit": 0,
+                "referenceDatum": 1
+            },
+            "ppr": false,
+            "private": false,
+            "skydiveActivity": false,
+            "winchOnly": false,
+            "frequencies": [
+                {
+                    "value": "118.080",
+                    "unit": 2,
+                    "type": 16,
+                    "name": "Radio",
+                    "primary": true,
+                    "publicUse": true,
+                    "_id": "62614a411eacded7b7bbe02f"
+                }
+            ],
+            "runways": [
+                {
+                    "designator": "09",
+                    "trueHeading": 88,
+                    "alignedTrueNorth": false,
+                    "operations": 0,
+                    "mainRunway": true,
+                    "turnDirection": 2,
+                    "takeOffOnly": false,
+                    "landingOnly": false,
+                    "surface": {
+                        "composition": [
+                            0
+                        ],
+                        "mainComposite": 0,
+                        "condition": 0,
+                        "pcn": "30/F/A/X/T"
+                    },
+                    "dimension": {
+                        "length": {
+                            "value": 1685,
+                            "unit": 0
+                        },
+                        "width": {
+                            "value": 30,
+                            "unit": 0
+                        }
+                    },
+                    "declaredDistance": {
+                        "tora": {
+                            "value": 1385,
+                            "unit": 0
+                        },
+                        "lda": {
+                            "value": 1385,
+                            "unit": 0
+                        }
+                    },
+                    "pilotCtrlLighting": false,
+                    "visualApproachAids": [
+                        1
+                    ],
+                    "_id": "62614a411eacded7b7bbe030"
+                },
+                {
+                    "designator": "27",
+                    "trueHeading": 268,
+                    "alignedTrueNorth": false,
+                    "operations": 0,
+                    "mainRunway": true,
+                    "turnDirection": 2,
+                    "takeOffOnly": false,
+                    "landingOnly": false,
+                    "surface": {
+                        "composition": [
+                            0
+                        ],
+                        "mainComposite": 0,
+                        "condition": 0,
+                        "pcn": "30/F/A/X/T"
+                    },
+                    "dimension": {
+                        "length": {
+                            "value": 1685,
+                            "unit": 0
+                        },
+                        "width": {
+                            "value": 30,
+                            "unit": 0
+                        }
+                    },
+                    "declaredDistance": {
+                        "tora": {
+                            "value": 1450,
+                            "unit": 0
+                        },
+                        "lda": {
+                            "value": 1450,
+                            "unit": 0
+                        }
+                    },
+                    "pilotCtrlLighting": false,
+                    "visualApproachAids": [
+                        1
+                    ],
+                    "_id": "62614a411eacded7b7bbe031"
+                }
+            ],
+            "createdAt": "2022-04-21T12:12:49.392Z",
+            "updatedAt": "2023-01-07T13:37:00.944Z",
+            "createdBy": "AUTO-IMPORTER",
+            "updatedBy": "openaip-system",
+            "elevationGeoid": {
+                "geoidHeight": 37.55394172800001,
+                "hae": 44.55394172800001
+            },
+            "services": {
+                "fuelTypes": [
+                    1,
+                    3,
+                    0
+                ]
+            }
+        },
+        {
+            "_id": "62614a421eacded7b7bbe080",
+            "name": "BAUTZEN",
+            "icaoCode": "EDAB",
+            "type": 9,
+            "trafficType": [
+                0,
+                1
+            ],
+            "magneticDeclination": 4.986,
+            "country": "DE",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    14.5197,
+                    51.193466666666666
+                ]
+            },
+            "elevation": {
+                "value": 161,
+                "unit": 0,
+                "referenceDatum": 1
+            },
+            "ppr": false,
+            "private": false,
+            "skydiveActivity": false,
+            "winchOnly": false,
+            "frequencies": [
+                {
+                    "value": "120.605",
+                    "unit": 2,
+                    "type": 10,
+                    "name": "Bautzen Information",
+                    "primary": true,
+                    "publicUse": true,
+                    "_id": "62614a421eacded7b7bbe081"
+                },
+                {
+                    "value": "132.290",
+                    "unit": 2,
+                    "type": 15,
+                    "name": "BAUTZEN ATIS",
+                    "primary": false,
+                    "publicUse": true,
+                    "_id": "62614a421eacded7b7bbe082"
+                }
+            ],
+            "runways": [
+                {
+                    "designator": "07",
+                    "trueHeading": 70,
+                    "alignedTrueNorth": false,
+                    "operations": 0,
+                    "mainRunway": true,
+                    "turnDirection": 2,
+                    "takeOffOnly": false,
+                    "landingOnly": false,
+                    "surface": {
+                        "composition": [
+                            1
+                        ],
+                        "mainComposite": 1,
+                        "condition": 0,
+                        "pcn": "44/R/B/W/T"
+                    },
+                    "dimension": {
+                        "length": {
+                            "value": 2200,
+                            "unit": 0
+                        },
+                        "width": {
+                            "value": 50,
+                            "unit": 0
+                        }
+                    },
+                    "declaredDistance": {
+                        "tora": {
+                            "value": 2200,
+                            "unit": 0
+                        },
+                        "lda": {
+                            "value": 2200,
+                            "unit": 0
+                        }
+                    },
+                    "pilotCtrlLighting": false,
+                    "visualApproachAids": [
+                        1
+                    ],
+                    "_id": "62614a421eacded7b7bbe083"
+                },
+                {
+                    "designator": "25",
+                    "trueHeading": 250,
+                    "alignedTrueNorth": false,
+                    "operations": 0,
+                    "mainRunway": true,
+                    "turnDirection": 2,
+                    "takeOffOnly": false,
+                    "landingOnly": false,
+                    "surface": {
+                        "composition": [
+                            1
+                        ],
+                        "mainComposite": 1,
+                        "condition": 0,
+                        "pcn": "44/R/B/W/T"
+                    },
+                    "dimension": {
+                        "length": {
+                            "value": 2200,
+                            "unit": 0
+                        },
+                        "width": {
+                            "value": 50,
+                            "unit": 0
+                        }
+                    },
+                    "declaredDistance": {
+                        "tora": {
+                            "value": 2200,
+                            "unit": 0
+                        },
+                        "lda": {
+                            "value": 2200,
+                            "unit": 0
+                        }
+                    },
+                    "pilotCtrlLighting": false,
+                    "visualApproachAids": [
+                        1
+                    ],
+                    "_id": "62614a421eacded7b7bbe084"
+                },
+                {
+                    "designator": "07",
+                    "trueHeading": 70,
+                    "alignedTrueNorth": false,
+                    "operations": 0,
+                    "mainRunway": false,
+                    "turnDirection": 2,
+                    "takeOffOnly": false,
+                    "landingOnly": false,
+                    "surface": {
+                        "composition": [
+                            2
+                        ],
+                        "mainComposite": 2,
+                        "condition": 0,
+                        "mtow": {
+                            "value": 5.7,
+                            "unit": 9
+                        }
+                    },
+                    "dimension": {
+                        "length": {
+                            "value": 1000,
+                            "unit": 0
+                        },
+                        "width": {
+                            "value": 40,
+                            "unit": 0
+                        }
+                    },
+                    "declaredDistance": {
+                        "tora": {
+                            "value": 1000,
+                            "unit": 0
+                        },
+                        "lda": {
+                            "value": 1000,
+                            "unit": 0
+                        }
+                    },
+                    "pilotCtrlLighting": false,
+                    "_id": "62614a421eacded7b7bbe085"
+                },
+                {
+                    "designator": "25",
+                    "trueHeading": 250,
+                    "alignedTrueNorth": false,
+                    "operations": 0,
+                    "mainRunway": false,
+                    "turnDirection": 2,
+                    "takeOffOnly": false,
+                    "landingOnly": false,
+                    "surface": {
+                        "composition": [
+                            2
+                        ],
+                        "mainComposite": 2,
+                        "condition": 0,
+                        "mtow": {
+                            "value": 5.7,
+                            "unit": 9
+                        }
+                    },
+                    "dimension": {
+                        "length": {
+                            "value": 1000,
+                            "unit": 0
+                        },
+                        "width": {
+                            "value": 40,
+                            "unit": 0
+                        }
+                    },
+                    "declaredDistance": {
+                        "tora": {
+                            "value": 1000,
+                            "unit": 0
+                        },
+                        "lda": {
+                            "value": 1000,
+                            "unit": 0
+                        }
+                    },
+                    "pilotCtrlLighting": false,
+                    "_id": "62614a421eacded7b7bbe086"
+                }
+            ],
+            "createdAt": "2022-04-21T12:12:50.023Z",
+            "updatedAt": "2023-05-22T04:50:56.769Z",
+            "createdBy": "AUTO-IMPORTER",
+            "updatedBy": "OPONcQnzWGOLiJSceNaf8pvx1fA2",
+            "elevationGeoid": {
+                "geoidHeight": 42.79255168512003,
+                "hae": 203.79255168512003
+            },
+            "services": {
+                "fuelTypes": [
+                    1,
+                    3
+                ]
+            },
+            "contact": "https://www.flugplatz-bautzen.com/"
+        },
+        {
+            "_id": "62614a4fcb27f42509444bd0",
+            "name": "COBURG-BRANDENSTEINSEBENE",
+            "icaoCode": "EDQC",
+            "type": 9,
+            "trafficType": [
+                0,
+                1
+            ],
+            "magneticDeclination": 3.976,
+            "country": "DE",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.995,
+                    50.26272222222222
+                ]
+            },
+            "elevation": {
+                "value": 438,
+                "unit": 0,
+                "referenceDatum": 1
+            },
+            "ppr": false,
+            "private": false,
+            "skydiveActivity": false,
+            "winchOnly": false,
+            "frequencies": [
+                {
+                    "value": "128.680",
+                    "unit": 2,
+                    "type": 16,
+                    "name": "Coburg Radio",
+                    "primary": true,
+                    "publicUse": true,
+                    "_id": "62614a4fcb27f42509444bd1"
+                },
+                {
+                    "value": "120.100",
+                    "unit": 2,
+                    "type": 15,
+                    "name": "Coburg ATIS",
+                    "primary": false,
+                    "publicUse": true,
+                    "_id": "62614a4fcb27f42509444bd2"
+                }
+            ],
+            "runways": [
+                {
+                    "designator": "12",
+                    "trueHeading": 117,
+                    "alignedTrueNorth": false,
+                    "operations": 0,
+                    "mainRunway": false,
+                    "turnDirection": 2,
+                    "takeOffOnly": false,
+                    "landingOnly": false,
+                    "surface": {
+                        "composition": [
+                            2
+                        ],
+                        "mainComposite": 2,
+                        "condition": 0,
+                        "mtow": {
+                            "value": 2,
+                            "unit": 9
+                        }
+                    },
+                    "dimension": {
+                        "length": {
+                            "value": 631,
+                            "unit": 0
+                        },
+                        "width": {
+                            "value": 30,
+                            "unit": 0
+                        }
+                    },
+                    "declaredDistance": {
+                        "tora": {
+                            "value": 631,
+                            "unit": 0
+                        },
+                        "lda": {
+                            "value": 631,
+                            "unit": 0
+                        }
+                    },
+                    "pilotCtrlLighting": false,
+                    "_id": "62614a4fcb27f42509444bd3"
+                },
+                {
+                    "designator": "30",
+                    "trueHeading": 297,
+                    "alignedTrueNorth": false,
+                    "operations": 0,
+                    "mainRunway": false,
+                    "turnDirection": 2,
+                    "takeOffOnly": false,
+                    "landingOnly": false,
+                    "surface": {
+                        "composition": [
+                            2
+                        ],
+                        "mainComposite": 2,
+                        "condition": 0,
+                        "mtow": {
+                            "value": 2,
+                            "unit": 9
+                        }
+                    },
+                    "dimension": {
+                        "length": {
+                            "value": 631,
+                            "unit": 0
+                        },
+                        "width": {
+                            "value": 30,
+                            "unit": 0
+                        }
+                    },
+                    "declaredDistance": {
+                        "tora": {
+                            "value": 631,
+                            "unit": 0
+                        },
+                        "lda": {
+                            "value": 631,
+                            "unit": 0
+                        }
+                    },
+                    "pilotCtrlLighting": false,
+                    "_id": "62614a4fcb27f42509444bd4"
+                },
+                {
+                    "designator": "12",
+                    "trueHeading": 117,
+                    "alignedTrueNorth": false,
+                    "operations": 0,
+                    "mainRunway": true,
+                    "turnDirection": 2,
+                    "takeOffOnly": false,
+                    "landingOnly": false,
+                    "surface": {
+                        "composition": [
+                            0
+                        ],
+                        "mainComposite": 0,
+                        "condition": 0,
+                        "mtow": {
+                            "value": 2,
+                            "unit": 9
+                        }
+                    },
+                    "dimension": {
+                        "length": {
+                            "value": 632,
+                            "unit": 0
+                        },
+                        "width": {
+                            "value": 20,
+                            "unit": 0
+                        }
+                    },
+                    "declaredDistance": {
+                        "tora": {
+                            "value": 632,
+                            "unit": 0
+                        },
+                        "lda": {
+                            "value": 632,
+                            "unit": 0
+                        }
+                    },
+                    "pilotCtrlLighting": false,
+                    "_id": "62614a4fcb27f42509444bd5"
+                },
+                {
+                    "designator": "30",
+                    "trueHeading": 297,
+                    "alignedTrueNorth": false,
+                    "operations": 0,
+                    "mainRunway": true,
+                    "turnDirection": 2,
+                    "takeOffOnly": false,
+                    "landingOnly": false,
+                    "surface": {
+                        "composition": [
+                            0
+                        ],
+                        "mainComposite": 0,
+                        "condition": 0,
+                        "mtow": {
+                            "value": 2,
+                            "unit": 9
+                        }
+                    },
+                    "dimension": {
+                        "length": {
+                            "value": 632,
+                            "unit": 0
+                        },
+                        "width": {
+                            "value": 20,
+                            "unit": 0
+                        }
+                    },
+                    "declaredDistance": {
+                        "tora": {
+                            "value": 632,
+                            "unit": 0
+                        },
+                        "lda": {
+                            "value": 632,
+                            "unit": 0
+                        }
+                    },
+                    "pilotCtrlLighting": false,
+                    "visualApproachAids": [
+                        1
+                    ],
+                    "_id": "62614a4fcb27f42509444bd6"
+                }
+            ],
+            "createdAt": "2022-04-21T12:13:03.215Z",
+            "updatedAt": "2023-02-27T06:33:26.530Z",
+            "createdBy": "AUTO-IMPORTER",
+            "updatedBy": "eBT9qSrxquPVguazo7MwJzzaf2p1",
+            "elevationGeoid": {
+                "geoidHeight": 46.896613719999976,
+                "hae": 484.89661372
+            },
+            "services": {
+                "fuelTypes": [
+                    1,
+                    3
+                ]
+            }
+        },
+        {
+            "_id": "62614a52cb27f42509444e97",
+            "name": "DIEPHOLZ",
+            "icaoCode": "ETND",
+            "type": 0,
+            "trafficType": [
+                0,
+                1
+            ],
+            "magneticDeclination": 3.282,
+            "country": "DE",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.3408333333333,
+                    52.585555555556
+                ]
+            },
+            "elevation": {
+                "value": 39,
+                "unit": 0,
+                "referenceDatum": 1
+            },
+            "ppr": false,
+            "private": false,
+            "skydiveActivity": false,
+            "winchOnly": false,
+            "frequencies": [
+                {
+                    "value": "122.530",
+                    "unit": 2,
+                    "type": 16,
+                    "name": "Diepholz Radio",
+                    "primary": false,
+                    "publicUse": true,
+                    "_id": "62614a52cb27f42509444e98"
+                },
+                {
+                    "value": "135.130",
+                    "unit": 2,
+                    "type": 14,
+                    "name": "TWR",
+                    "primary": true,
+                    "publicUse": true,
+                    "_id": "62614a52cb27f42509444e99"
+                }
+            ],
+            "runways": [
+                {
+                    "designator": "08",
+                    "trueHeading": 82,
+                    "alignedTrueNorth": false,
+                    "operations": 0,
+                    "mainRunway": true,
+                    "turnDirection": 2,
+                    "takeOffOnly": false,
+                    "landingOnly": false,
+                    "surface": {
+                        "composition": [
+                            0
+                        ],
+                        "mainComposite": 0,
+                        "condition": 0,
+                        "pcn": "120/R/A/W/T"
+                    },
+                    "dimension": {
+                        "length": {
+                            "value": 1283,
+                            "unit": 0
+                        },
+                        "width": {
+                            "value": 45,
+                            "unit": 0
+                        }
+                    },
+                    "declaredDistance": {
+                        "tora": {
+                            "value": 1247,
+                            "unit": 0
+                        },
+                        "lda": {
+                            "value": 1247,
+                            "unit": 0
+                        }
+                    },
+                    "pilotCtrlLighting": false,
+                    "_id": "62614a52cb27f42509444e9a"
+                },
+                {
+                    "designator": "26",
+                    "trueHeading": 262,
+                    "alignedTrueNorth": false,
+                    "operations": 0,
+                    "mainRunway": true,
+                    "turnDirection": 2,
+                    "takeOffOnly": false,
+                    "landingOnly": false,
+                    "surface": {
+                        "composition": [
+                            0
+                        ],
+                        "mainComposite": 0,
+                        "condition": 0,
+                        "pcn": "120/R/A/W/T"
+                    },
+                    "dimension": {
+                        "length": {
+                            "value": 1283,
+                            "unit": 0
+                        },
+                        "width": {
+                            "value": 45,
+                            "unit": 0
+                        }
+                    },
+                    "declaredDistance": {
+                        "tora": {
+                            "value": 1283,
+                            "unit": 0
+                        },
+                        "lda": {
+                            "value": 1283,
+                            "unit": 0
+                        }
+                    },
+                    "pilotCtrlLighting": false,
+                    "_id": "62614a52cb27f42509444e9b"
+                }
+            ],
+            "createdAt": "2022-04-21T12:13:06.776Z",
+            "updatedAt": "2023-01-07T13:37:06.821Z",
+            "createdBy": "AUTO-IMPORTER",
+            "updatedBy": "openaip-system",
+            "elevationGeoid": {
+                "geoidHeight": 42.85966159999788,
+                "hae": 81.85966159999788
+            },
+            "services": {
+                "fuelTypes": [
+                    1,
+                    3,
+                    0
+                ]
+            }
+        },
+        {
+            "_id": "62614a635e9ded5710443b7b",
+            "name": "GIEBELSTADT",
+            "icaoCode": "EDQG",
+            "type": 9,
+            "trafficType": [
+                0,
+                1
+            ],
+            "magneticDeclination": 3.727,
+            "country": "DE",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.9664,
+                    49.6481
+                ]
+            },
+            "elevation": {
+                "value": 299,
+                "unit": 0,
+                "referenceDatum": 1
+            },
+            "ppr": false,
+            "private": false,
+            "skydiveActivity": false,
+            "winchOnly": false,
+            "frequencies": [
+                {
+                    "value": "125.505",
+                    "unit": 2,
+                    "type": 10,
+                    "name": "GIEBELSTADT Information",
+                    "primary": true,
+                    "publicUse": true,
+                    "_id": "62614a635e9ded5710443b7c"
+                }
+            ],
+            "runways": [
+                {
+                    "designator": "08",
+                    "trueHeading": 75,
+                    "alignedTrueNorth": false,
+                    "operations": 0,
+                    "mainRunway": true,
+                    "turnDirection": 2,
+                    "takeOffOnly": false,
+                    "landingOnly": false,
+                    "surface": {
+                        "composition": [
+                            1
+                        ],
+                        "mainComposite": 1,
+                        "condition": 0
+                    },
+                    "dimension": {
+                        "length": {
+                            "value": 1982,
+                            "unit": 0
+                        },
+                        "width": {
+                            "value": 30,
+                            "unit": 0
+                        }
+                    },
+                    "declaredDistance": {
+                        "tora": {
+                            "value": 1882,
+                            "unit": 0
+                        },
+                        "lda": {
+                            "value": 1847,
+                            "unit": 0
+                        }
+                    },
+                    "pilotCtrlLighting": false,
+                    "visualApproachAids": [
+                        1
+                    ],
+                    "_id": "62614a635e9ded5710443b7d"
+                },
+                {
+                    "designator": "26",
+                    "trueHeading": 255,
+                    "alignedTrueNorth": false,
+                    "operations": 0,
+                    "mainRunway": true,
+                    "turnDirection": 2,
+                    "takeOffOnly": false,
+                    "landingOnly": false,
+                    "surface": {
+                        "composition": [
+                            1
+                        ],
+                        "mainComposite": 1,
+                        "condition": 0
+                    },
+                    "dimension": {
+                        "length": {
+                            "value": 1982,
+                            "unit": 0
+                        },
+                        "width": {
+                            "value": 30,
+                            "unit": 0
+                        }
+                    },
+                    "declaredDistance": {
+                        "tora": {
+                            "value": 1847,
+                            "unit": 0
+                        },
+                        "lda": {
+                            "value": 1882,
+                            "unit": 0
+                        }
+                    },
+                    "pilotCtrlLighting": false,
+                    "visualApproachAids": [
+                        1
+                    ],
+                    "_id": "62614a635e9ded5710443b7e"
+                }
+            ],
+            "createdAt": "2022-04-21T12:13:23.399Z",
+            "updatedAt": "2023-05-29T16:43:34.746Z",
+            "createdBy": "AUTO-IMPORTER",
+            "updatedBy": "OPONcQnzWGOLiJSceNaf8pvx1fA2",
+            "elevationGeoid": {
+                "geoidHeight": 48.29254090559999,
+                "hae": 347.2925409056
+            },
+            "services": {
+                "fuelTypes": [
+                    1,
+                    3
+                ]
+            }
+        },
+        {
+            "_id": "62614a6a5e9ded5710443e13",
+            "name": "HAMBURG-FINKENWERDER",
+            "icaoCode": "EDHI",
+            "type": 9,
+            "trafficType": [
+                0,
+                1
+            ],
+            "magneticDeclination": 3.762,
+            "country": "DE",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.8353,
+                    53.5353
+                ]
+            },
+            "elevation": {
+                "value": 6,
+                "unit": 0,
+                "referenceDatum": 1
+            },
+            "ppr": false,
+            "private": true,
+            "skydiveActivity": false,
+            "winchOnly": false,
+            "frequencies": [
+                {
+                    "value": "121.655",
+                    "unit": 2,
+                    "type": 9,
+                    "name": "APRON",
+                    "primary": false,
+                    "publicUse": true,
+                    "_id": "62614a6a5e9ded5710443e14"
+                },
+                {
+                    "value": "123.255",
+                    "unit": 2,
+                    "type": 14,
+                    "name": "Finkenwerder TWR",
+                    "primary": true,
+                    "publicUse": true,
+                    "_id": "62614a6a5e9ded5710443e15"
+                },
+                {
+                    "value": "135.965",
+                    "unit": 2,
+                    "type": 15,
+                    "name": "Finkenwerder ATIS",
+                    "primary": false,
+                    "publicUse": true,
+                    "_id": "62614a6a5e9ded5710443e16"
+                }
+            ],
+            "runways": [
+                {
+                    "designator": "05",
+                    "trueHeading": 50,
+                    "alignedTrueNorth": false,
+                    "operations": 0,
+                    "mainRunway": true,
+                    "turnDirection": 2,
+                    "takeOffOnly": false,
+                    "landingOnly": false,
+                    "surface": {
+                        "composition": [
+                            0
+                        ],
+                        "mainComposite": 0,
+                        "condition": 0,
+                        "pcn": "110/R/A/W/T"
+                    },
+                    "dimension": {
+                        "length": {
+                            "value": 3183,
+                            "unit": 0
+                        },
+                        "width": {
+                            "value": 45,
+                            "unit": 0
+                        }
+                    },
+                    "declaredDistance": {
+                        "tora": {
+                            "value": 3183,
+                            "unit": 0
+                        },
+                        "toda": {
+                            "value": 3183,
+                            "unit": 0
+                        },
+                        "asda": {
+                            "value": 3183,
+                            "unit": 0
+                        },
+                        "lda": {
+                            "value": 2526,
+                            "unit": 0
+                        }
+                    },
+                    "pilotCtrlLighting": false,
+                    "visualApproachAids": [
+                        1
+                    ],
+                    "_id": "62614a6a5e9ded5710443e17"
+                },
+                {
+                    "designator": "23",
+                    "trueHeading": 230,
+                    "alignedTrueNorth": false,
+                    "operations": 0,
+                    "mainRunway": true,
+                    "turnDirection": 2,
+                    "takeOffOnly": false,
+                    "landingOnly": false,
+                    "surface": {
+                        "composition": [
+                            0
+                        ],
+                        "mainComposite": 0,
+                        "condition": 0,
+                        "pcn": "110/R/A/W/T"
+                    },
+                    "dimension": {
+                        "length": {
+                            "value": 3183,
+                            "unit": 0
+                        },
+                        "width": {
+                            "value": 45,
+                            "unit": 0
+                        }
+                    },
+                    "declaredDistance": {
+                        "tora": {
+                            "value": 2935,
+                            "unit": 0
+                        },
+                        "toda": {
+                            "value": 2935,
+                            "unit": 0
+                        },
+                        "asda": {
+                            "value": 3025,
+                            "unit": 0
+                        },
+                        "lda": {
+                            "value": 2518,
+                            "unit": 0
+                        }
+                    },
+                    "pilotCtrlLighting": false,
+                    "visualApproachAids": [
+                        1
+                    ],
+                    "_id": "62614a6a5e9ded5710443e18"
+                }
+            ],
+            "createdAt": "2022-04-21T12:13:30.967Z",
+            "updatedAt": "2023-01-07T13:37:14.655Z",
+            "createdBy": "AUTO-IMPORTER",
+            "updatedBy": "openaip-system",
+            "elevationGeoid": {
+                "geoidHeight": 40.147315227360025,
+                "hae": 46.147315227360025
+            },
+            "services": {
+                "fuelTypes": [
+                    3
+                ]
+            }
+        },
+        {
+            "_id": "62614a72cb27f42509445c42",
+            "name": "HOF-PLAUEN",
+            "icaoCode": "EDQM",
+            "type": 9,
+            "trafficType": [
+                0,
+                1
+            ],
+            "magneticDeclination": 4.212,
+            "country": "DE",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.8547,
+                    50.28868333333333
+                ]
+            },
+            "elevation": {
+                "value": 582,
+                "unit": 0,
+                "referenceDatum": 1
+            },
+            "ppr": false,
+            "private": false,
+            "skydiveActivity": false,
+            "winchOnly": false,
+            "frequencies": [
+                {
+                    "value": "124.355",
+                    "unit": 2,
+                    "type": 14,
+                    "name": "HOF TOWER",
+                    "primary": true,
+                    "publicUse": true,
+                    "_id": "62614a72cb27f42509445c43"
+                }
+            ],
+            "runways": [
+                {
+                    "designator": "08",
+                    "trueHeading": 84,
+                    "alignedTrueNorth": false,
+                    "operations": 0,
+                    "mainRunway": true,
+                    "turnDirection": 2,
+                    "takeOffOnly": false,
+                    "landingOnly": false,
+                    "surface": {
+                        "composition": [
+                            0
+                        ],
+                        "mainComposite": 0,
+                        "condition": 0,
+                        "pcn": "30/F/D/Y/T"
+                    },
+                    "dimension": {
+                        "length": {
+                            "value": 1480,
+                            "unit": 0
+                        },
+                        "width": {
+                            "value": 30,
+                            "unit": 0
+                        }
+                    },
+                    "declaredDistance": {
+                        "tora": {
+                            "value": 1240,
+                            "unit": 0
+                        },
+                        "lda": {
+                            "value": 1240,
+                            "unit": 0
+                        }
+                    },
+                    "pilotCtrlLighting": false,
+                    "visualApproachAids": [
+                        1
+                    ],
+                    "_id": "62614a72cb27f42509445c44"
+                },
+                {
+                    "designator": "26",
+                    "trueHeading": 264,
+                    "alignedTrueNorth": false,
+                    "operations": 0,
+                    "mainRunway": true,
+                    "turnDirection": 2,
+                    "takeOffOnly": false,
+                    "landingOnly": false,
+                    "surface": {
+                        "composition": [
+                            0
+                        ],
+                        "mainComposite": 0,
+                        "condition": 0,
+                        "pcn": "30/F/D/Y/T"
+                    },
+                    "dimension": {
+                        "length": {
+                            "value": 1480,
+                            "unit": 0
+                        },
+                        "width": {
+                            "value": 30,
+                            "unit": 0
+                        }
+                    },
+                    "declaredDistance": {
+                        "tora": {
+                            "value": 1420,
+                            "unit": 0
+                        },
+                        "lda": {
+                            "value": 1420,
+                            "unit": 0
+                        }
+                    },
+                    "pilotCtrlLighting": false,
+                    "visualApproachAids": [
+                        1
+                    ],
+                    "_id": "62614a72cb27f42509445c45"
+                }
+            ],
+            "createdAt": "2022-04-21T12:13:38.175Z",
+            "updatedAt": "2023-03-30T08:14:52.676Z",
+            "createdBy": "AUTO-IMPORTER",
+            "updatedBy": "eBT9qSrxquPVguazo7MwJzzaf2p1",
+            "elevationGeoid": {
+                "geoidHeight": 47.49387966264001,
+                "hae": 629.49387966264
+            },
+            "services": {
+                "fuelTypes": [
+                    1,
+                    3
+                ]
+            }
+        },
+        {
+            "_id": "62614a76cb27f42509445dc1",
+            "name": "INGOLSTADT/MANCHING",
+            "icaoCode": "ETSI",
+            "type": 0,
+            "trafficType": [
+                0,
+                1
+            ],
+            "magneticDeclination": 4.09,
+            "country": "DE",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.536944444444,
+                    48.709444444444
+                ]
+            },
+            "elevation": {
+                "value": 367,
+                "unit": 0,
+                "referenceDatum": 1
+            },
+            "ppr": false,
+            "private": false,
+            "skydiveActivity": false,
+            "winchOnly": false,
+            "frequencies": [
+                {
+                    "value": "122.100",
+                    "unit": 2,
+                    "type": 17,
+                    "name": "Ingo TWR",
+                    "primary": false,
+                    "publicUse": true,
+                    "_id": "62614a76cb27f42509445dc2"
+                },
+                {
+                    "value": "125.580",
+                    "unit": 2,
+                    "type": 13,
+                    "name": "Ingo RADAR",
+                    "primary": false,
+                    "publicUse": true,
+                    "_id": "62614a76cb27f42509445dc3"
+                },
+                {
+                    "value": "125.255",
+                    "unit": 2,
+                    "type": 14,
+                    "name": "Ingo Tower",
+                    "primary": true,
+                    "publicUse": true,
+                    "_id": "62614a76cb27f42509445dc4"
+                },
+                {
+                    "value": "120.605",
+                    "unit": 2,
+                    "type": 13,
+                    "name": "Ingo RADAR",
+                    "primary": false,
+                    "publicUse": true,
+                    "_id": "62614a76cb27f42509445dc5"
+                },
+                {
+                    "value": "118.865",
+                    "unit": 2,
+                    "type": 15,
+                    "name": "ATIS",
+                    "primary": false,
+                    "publicUse": true,
+                    "_id": "63871c9ae2c2ef6a5db38429"
+                },
+                {
+                    "value": "123.300",
+                    "unit": 2,
+                    "type": 13,
+                    "name": "INGO RADAR",
+                    "primary": false,
+                    "publicUse": true,
+                    "_id": "64afab7c9ae7ec8954773572"
+                }
+            ],
+            "runways": [
+                {
+                    "designator": "07L",
+                    "trueHeading": 64,
+                    "alignedTrueNorth": false,
+                    "operations": 0,
+                    "mainRunway": false,
+                    "turnDirection": 2,
+                    "takeOffOnly": false,
+                    "landingOnly": false,
+                    "surface": {
+                        "composition": [
+                            1
+                        ],
+                        "mainComposite": 1,
+                        "condition": 0,
+                        "pcn": "92/R/A/W/T"
+                    },
+                    "dimension": {
+                        "length": {
+                            "value": 2439,
+                            "unit": 0
+                        },
+                        "width": {
+                            "value": 30,
+                            "unit": 0
+                        }
+                    },
+                    "declaredDistance": {
+                        "tora": {
+                            "value": 2439,
+                            "unit": 0
+                        },
+                        "lda": {
+                            "value": 2439,
+                            "unit": 0
+                        }
+                    },
+                    "pilotCtrlLighting": false,
+                    "visualApproachAids": [
+                        1
+                    ],
+                    "_id": "62614a76cb27f42509445dc6"
+                },
+                {
+                    "designator": "25R",
+                    "trueHeading": 244,
+                    "alignedTrueNorth": false,
+                    "operations": 0,
+                    "mainRunway": false,
+                    "turnDirection": 2,
+                    "takeOffOnly": false,
+                    "landingOnly": false,
+                    "surface": {
+                        "composition": [
+                            1
+                        ],
+                        "mainComposite": 1,
+                        "condition": 0,
+                        "pcn": "92/R/A/W/T"
+                    },
+                    "dimension": {
+                        "length": {
+                            "value": 2439,
+                            "unit": 0
+                        },
+                        "width": {
+                            "value": 30,
+                            "unit": 0
+                        }
+                    },
+                    "declaredDistance": {
+                        "tora": {
+                            "value": 2439,
+                            "unit": 0
+                        },
+                        "lda": {
+                            "value": 2439,
+                            "unit": 0
+                        }
+                    },
+                    "pilotCtrlLighting": false,
+                    "_id": "62614a76cb27f42509445dc7"
+                },
+                {
+                    "designator": "07R",
+                    "trueHeading": 64,
+                    "alignedTrueNorth": false,
+                    "operations": 0,
+                    "mainRunway": true,
+                    "turnDirection": 2,
+                    "takeOffOnly": false,
+                    "landingOnly": false,
+                    "surface": {
+                        "composition": [
+                            1
+                        ],
+                        "mainComposite": 1,
+                        "condition": 0,
+                        "pcn": "92/R/A/W/T"
+                    },
+                    "dimension": {
+                        "length": {
+                            "value": 2940,
+                            "unit": 0
+                        },
+                        "width": {
+                            "value": 60,
+                            "unit": 0
+                        }
+                    },
+                    "declaredDistance": {
+                        "tora": {
+                            "value": 2940,
+                            "unit": 0
+                        },
+                        "lda": {
+                            "value": 2940,
+                            "unit": 0
+                        }
+                    },
+                    "pilotCtrlLighting": false,
+                    "visualApproachAids": [
+                        1
+                    ],
+                    "_id": "62614a76cb27f42509445dc8"
+                },
+                {
+                    "designator": "25L",
+                    "trueHeading": 244,
+                    "alignedTrueNorth": false,
+                    "operations": 0,
+                    "mainRunway": true,
+                    "turnDirection": 2,
+                    "takeOffOnly": false,
+                    "landingOnly": false,
+                    "surface": {
+                        "composition": [
+                            1
+                        ],
+                        "mainComposite": 1,
+                        "condition": 0,
+                        "pcn": "92/R/A/W/T"
+                    },
+                    "dimension": {
+                        "length": {
+                            "value": 2940,
+                            "unit": 0
+                        },
+                        "width": {
+                            "value": 60,
+                            "unit": 0
+                        }
+                    },
+                    "declaredDistance": {
+                        "tora": {
+                            "value": 2940,
+                            "unit": 0
+                        },
+                        "lda": {
+                            "value": 2940,
+                            "unit": 0
+                        }
+                    },
+                    "pilotCtrlLighting": false,
+                    "visualApproachAids": [
+                        1
+                    ],
+                    "_id": "62614a76cb27f42509445dc9"
+                }
+            ],
+            "createdAt": "2022-04-21T12:13:42.673Z",
+            "updatedAt": "2023-07-13T07:45:09.697Z",
+            "createdBy": "AUTO-IMPORTER",
+            "updatedBy": "OPONcQnzWGOLiJSceNaf8pvx1fA2",
+            "elevationGeoid": {
+                "geoidHeight": 46.28649993333326,
+                "hae": 413.2864999333333
+            },
+            "services": {
+                "fuelTypes": [
+                    1,
+                    3
+                ]
+            }
+        },
+        {
+            "_id": "62614a795e9ded571044438f",
+            "name": "KARLSRUHE/BADEN-BADEN",
+            "icaoCode": "EDSB",
+            "type": 9,
+            "trafficType": [
+                0,
+                1
+            ],
+            "magneticDeclination": 3.203,
+            "country": "DE",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.0803,
+                    48.7792
+                ]
+            },
+            "elevation": {
+                "value": 125,
+                "unit": 0,
+                "referenceDatum": 1
+            },
+            "ppr": false,
+            "private": false,
+            "skydiveActivity": false,
+            "winchOnly": false,
+            "frequencies": [
+                {
+                    "value": "121.830",
+                    "unit": 2,
+                    "type": 9,
+                    "name": "Baden Ground",
+                    "primary": false,
+                    "publicUse": true,
+                    "_id": "62614a795e9ded5710444390"
+                },
+                {
+                    "value": "134.105",
+                    "unit": 2,
+                    "type": 14,
+                    "name": "TWR",
+                    "primary": true,
+                    "publicUse": true,
+                    "_id": "62614a795e9ded5710444391"
+                },
+                {
+                    "value": "121.280",
+                    "unit": 2,
+                    "type": 15,
+                    "name": "ATIS",
+                    "primary": false,
+                    "publicUse": true,
+                    "_id": "62614a795e9ded5710444392"
+                }
+            ],
+            "runways": [
+                {
+                    "designator": "03",
+                    "trueHeading": 30,
+                    "alignedTrueNorth": false,
+                    "operations": 0,
+                    "mainRunway": true,
+                    "turnDirection": 2,
+                    "takeOffOnly": false,
+                    "landingOnly": false,
+                    "surface": {
+                        "composition": [
+                            0
+                        ],
+                        "mainComposite": 0,
+                        "condition": 0,
+                        "pcn": "120/F/B/W/T"
+                    },
+                    "dimension": {
+                        "length": {
+                            "value": 3000,
+                            "unit": 0
+                        },
+                        "width": {
+                            "value": 45,
+                            "unit": 0
+                        }
+                    },
+                    "declaredDistance": {
+                        "tora": {
+                            "value": 2740,
+                            "unit": 0
+                        },
+                        "lda": {
+                            "value": 2740,
+                            "unit": 0
+                        }
+                    },
+                    "pilotCtrlLighting": false,
+                    "visualApproachAids": [
+                        1
+                    ],
+                    "_id": "62614a795e9ded5710444393"
+                },
+                {
+                    "designator": "21",
+                    "trueHeading": 210,
+                    "alignedTrueNorth": false,
+                    "operations": 0,
+                    "mainRunway": true,
+                    "turnDirection": 2,
+                    "takeOffOnly": false,
+                    "landingOnly": false,
+                    "surface": {
+                        "composition": [
+                            0
+                        ],
+                        "mainComposite": 0,
+                        "condition": 0,
+                        "pcn": "120/F/B/W/T"
+                    },
+                    "dimension": {
+                        "length": {
+                            "value": 3000,
+                            "unit": 0
+                        },
+                        "width": {
+                            "value": 45,
+                            "unit": 0
+                        }
+                    },
+                    "declaredDistance": {
+                        "tora": {
+                            "value": 2740,
+                            "unit": 0
+                        },
+                        "lda": {
+                            "value": 2740,
+                            "unit": 0
+                        }
+                    },
+                    "pilotCtrlLighting": false,
+                    "_id": "62614a795e9ded5710444394"
+                }
+            ],
+            "createdAt": "2022-04-21T12:13:45.507Z",
+            "updatedAt": "2023-04-23T12:26:57.347Z",
+            "createdBy": "AUTO-IMPORTER",
+            "updatedBy": "eBT9qSrxquPVguazo7MwJzzaf2p1",
+            "elevationGeoid": {
+                "geoidHeight": 48.29026914624001,
+                "hae": 173.29026914624
+            },
+            "services": {
+                "fuelTypes": [
+                    1,
+                    3
+                ]
+            }
+        },
+        {
+            "_id": "62614a795e9ded57104443ca",
+            "name": "KASSEL-CALDEN",
+            "icaoCode": "EDVK",
+            "type": 9,
+            "trafficType": [
+                0,
+                1
+            ],
+            "magneticDeclination": 3.604,
+            "country": "DE",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.3922222222222,
+                    51.420833333333
+                ]
+            },
+            "elevation": {
+                "value": 242,
+                "unit": 0,
+                "referenceDatum": 1
+            },
+            "ppr": false,
+            "private": false,
+            "skydiveActivity": false,
+            "winchOnly": false,
+            "frequencies": [
+                {
+                    "value": "121.905",
+                    "unit": 2,
+                    "type": 9,
+                    "name": "GROUND",
+                    "primary": false,
+                    "publicUse": true,
+                    "_id": "62614a795e9ded57104443cb"
+                },
+                {
+                    "value": "118.105",
+                    "unit": 2,
+                    "type": 14,
+                    "name": "TWR",
+                    "primary": true,
+                    "publicUse": true,
+                    "_id": "62614a795e9ded57104443cc"
+                },
+                {
+                    "value": "129.205",
+                    "unit": 2,
+                    "type": 15,
+                    "name": "KASSEL ATIS",
+                    "primary": false,
+                    "publicUse": true,
+                    "_id": "62614a795e9ded57104443cd"
+                }
+            ],
+            "runways": [
+                {
+                    "designator": "09",
+                    "trueHeading": 92,
+                    "alignedTrueNorth": false,
+                    "operations": 0,
+                    "mainRunway": true,
+                    "turnDirection": 2,
+                    "takeOffOnly": false,
+                    "landingOnly": false,
+                    "surface": {
+                        "composition": [
+                            0
+                        ],
+                        "mainComposite": 0,
+                        "condition": 0,
+                        "pcn": "70/F/A/X/T"
+                    },
+                    "dimension": {
+                        "length": {
+                            "value": 2500,
+                            "unit": 0
+                        },
+                        "width": {
+                            "value": 45,
+                            "unit": 0
+                        }
+                    },
+                    "declaredDistance": {
+                        "tora": {
+                            "value": 2500,
+                            "unit": 0
+                        },
+                        "lda": {
+                            "value": 2500,
+                            "unit": 0
+                        }
+                    },
+                    "pilotCtrlLighting": false,
+                    "visualApproachAids": [
+                        1
+                    ],
+                    "_id": "62614a795e9ded57104443ce"
+                },
+                {
+                    "designator": "27",
+                    "trueHeading": 272,
+                    "alignedTrueNorth": false,
+                    "operations": 0,
+                    "mainRunway": true,
+                    "turnDirection": 2,
+                    "takeOffOnly": false,
+                    "landingOnly": false,
+                    "surface": {
+                        "composition": [
+                            0
+                        ],
+                        "mainComposite": 0,
+                        "condition": 0,
+                        "pcn": "70/F/A/X/T"
+                    },
+                    "dimension": {
+                        "length": {
+                            "value": 2500,
+                            "unit": 0
+                        },
+                        "width": {
+                            "value": 45,
+                            "unit": 0
+                        }
+                    },
+                    "declaredDistance": {
+                        "tora": {
+                            "value": 2500,
+                            "unit": 0
+                        },
+                        "lda": {
+                            "value": 2500,
+                            "unit": 0
+                        }
+                    },
+                    "pilotCtrlLighting": false,
+                    "visualApproachAids": [
+                        1
+                    ],
+                    "_id": "62614a795e9ded57104443cf"
+                }
+            ],
+            "createdAt": "2022-04-21T12:13:45.951Z",
+            "updatedAt": "2023-03-30T08:21:58.477Z",
+            "createdBy": "AUTO-IMPORTER",
+            "updatedBy": "eBT9qSrxquPVguazo7MwJzzaf2p1",
+            "elevationGeoid": {
+                "geoidHeight": 46.475434000000945,
+                "hae": 288.475434000001
+            },
+            "services": {
+                "fuelTypes": [
+                    1,
+                    3
+                ]
+            }
+        },
+        {
+            "_id": "62614a7b5e9ded5710444447",
+            "name": "KIEL-HOLTENAU",
+            "icaoCode": "EDHK",
+            "type": 9,
+            "trafficType": [
+                0,
+                1
+            ],
+            "magneticDeclination": 3.891,
+            "country": "DE",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.144166666667,
+                    54.379444444444
+                ]
+            },
+            "elevation": {
+                "value": 31,
+                "unit": 0,
+                "referenceDatum": 1
+            },
+            "ppr": false,
+            "private": false,
+            "skydiveActivity": false,
+            "winchOnly": false,
+            "frequencies": [
+                {
+                    "value": "119.980",
+                    "unit": 2,
+                    "type": 10,
+                    "name": "Kiel INFORMATION",
+                    "primary": true,
+                    "publicUse": true,
+                    "_id": "62614a7b5e9ded5710444448"
+                }
+            ],
+            "runways": [
+                {
+                    "designator": "08",
+                    "trueHeading": 80,
+                    "alignedTrueNorth": false,
+                    "operations": 0,
+                    "mainRunway": false,
+                    "turnDirection": 2,
+                    "takeOffOnly": false,
+                    "landingOnly": false,
+                    "surface": {
+                        "composition": [
+                            2
+                        ],
+                        "mainComposite": 2,
+                        "condition": 0,
+                        "mtow": {
+                            "value": 5.7,
+                            "unit": 9
+                        }
+                    },
+                    "dimension": {
+                        "length": {
+                            "value": 450,
+                            "unit": 0
+                        },
+                        "width": {
+                            "value": 35,
+                            "unit": 0
+                        }
+                    },
+                    "declaredDistance": {
+                        "tora": {
+                            "value": 450,
+                            "unit": 0
+                        },
+                        "lda": {
+                            "value": 450,
+                            "unit": 0
+                        }
+                    },
+                    "pilotCtrlLighting": false,
+                    "_id": "62614a7b5e9ded5710444449"
+                },
+                {
+                    "designator": "26",
+                    "trueHeading": 260,
+                    "alignedTrueNorth": false,
+                    "operations": 0,
+                    "mainRunway": false,
+                    "turnDirection": 2,
+                    "takeOffOnly": false,
+                    "landingOnly": false,
+                    "surface": {
+                        "composition": [
+                            2
+                        ],
+                        "mainComposite": 2,
+                        "condition": 0,
+                        "mtow": {
+                            "value": 5.7,
+                            "unit": 9
+                        }
+                    },
+                    "dimension": {
+                        "length": {
+                            "value": 450,
+                            "unit": 0
+                        },
+                        "width": {
+                            "value": 35,
+                            "unit": 0
+                        }
+                    },
+                    "declaredDistance": {
+                        "tora": {
+                            "value": 450,
+                            "unit": 0
+                        },
+                        "lda": {
+                            "value": 450,
+                            "unit": 0
+                        }
+                    },
+                    "pilotCtrlLighting": false,
+                    "_id": "62614a7b5e9ded571044444a"
+                },
+                {
+                    "designator": "08",
+                    "trueHeading": 82,
+                    "alignedTrueNorth": false,
+                    "operations": 0,
+                    "mainRunway": true,
+                    "turnDirection": 2,
+                    "takeOffOnly": false,
+                    "landingOnly": false,
+                    "surface": {
+                        "composition": [
+                            0
+                        ],
+                        "mainComposite": 0,
+                        "condition": 0,
+                        "pcn": "32/F/C/X/T"
+                    },
+                    "dimension": {
+                        "length": {
+                            "value": 1260,
+                            "unit": 0
+                        },
+                        "width": {
+                            "value": 30,
+                            "unit": 0
+                        }
+                    },
+                    "declaredDistance": {
+                        "tora": {
+                            "value": 1260,
+                            "unit": 0
+                        },
+                        "toda": {
+                            "value": 1320,
+                            "unit": 0
+                        },
+                        "asda": {
+                            "value": 1260,
+                            "unit": 0
+                        },
+                        "lda": {
+                            "value": 1080,
+                            "unit": 0
+                        }
+                    },
+                    "pilotCtrlLighting": false,
+                    "visualApproachAids": [
+                        1
+                    ],
+                    "_id": "62614a7b5e9ded571044444b"
+                },
+                {
+                    "designator": "26",
+                    "trueHeading": 262,
+                    "alignedTrueNorth": false,
+                    "operations": 0,
+                    "mainRunway": true,
+                    "turnDirection": 2,
+                    "takeOffOnly": false,
+                    "landingOnly": false,
+                    "surface": {
+                        "composition": [
+                            0
+                        ],
+                        "mainComposite": 0,
+                        "condition": 0,
+                        "pcn": "32/F/C/X/T"
+                    },
+                    "dimension": {
+                        "length": {
+                            "value": 1260,
+                            "unit": 0
+                        },
+                        "width": {
+                            "value": 30,
+                            "unit": 0
+                        }
+                    },
+                    "declaredDistance": {
+                        "tora": {
+                            "value": 1180,
+                            "unit": 0
+                        },
+                        "toda": {
+                            "value": 1180,
+                            "unit": 0
+                        },
+                        "asda": {
+                            "value": 1260,
+                            "unit": 0
+                        },
+                        "lda": {
+                            "value": 1216,
+                            "unit": 0
+                        }
+                    },
+                    "pilotCtrlLighting": false,
+                    "visualApproachAids": [
+                        1
+                    ],
+                    "_id": "62614a7b5e9ded571044444c"
+                }
+            ],
+            "createdAt": "2022-04-21T12:13:47.091Z",
+            "updatedAt": "2023-01-07T13:37:20.094Z",
+            "createdBy": "AUTO-IMPORTER",
+            "updatedBy": "openaip-system",
+            "elevationGeoid": {
+                "geoidHeight": 39.80586739999981,
+                "hae": 70.80586739999981
+            },
+            "services": {
+                "fuelTypes": [
+                    1,
+                    3
+                ]
+            }
+        },
+        {
+            "_id": "62614a7fcb27f42509446107",
+            "name": "LAAGE",
+            "icaoCode": "ETNL",
+            "type": 0,
+            "trafficType": [
+                0,
+                1
+            ],
+            "magneticDeclination": 4.529,
+            "country": "DE",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.2792,
+                    53.9181
+                ]
+            },
+            "elevation": {
+                "value": 43,
+                "unit": 0,
+                "referenceDatum": 1
+            },
+            "ppr": false,
+            "private": false,
+            "skydiveActivity": false,
+            "winchOnly": false,
+            "frequencies": [
+                {
+                    "value": "123.300",
+                    "unit": 2,
+                    "type": 13,
+                    "name": "Laage Radar",
+                    "primary": false,
+                    "publicUse": true,
+                    "_id": "62614a7fcb27f42509446108"
+                },
+                {
+                    "value": "122.100",
+                    "unit": 2,
+                    "type": 17,
+                    "name": "Laage TWR",
+                    "primary": false,
+                    "publicUse": true,
+                    "_id": "62614a7fcb27f42509446109"
+                },
+                {
+                    "value": "121.955",
+                    "unit": 2,
+                    "type": 1,
+                    "name": "LAAGE Apron",
+                    "primary": false,
+                    "publicUse": true,
+                    "_id": "62614a7fcb27f4250944610a"
+                },
+                {
+                    "value": "118.430",
+                    "unit": 2,
+                    "type": 14,
+                    "name": "LAAGE TWR",
+                    "primary": true,
+                    "publicUse": true,
+                    "_id": "62614a7fcb27f4250944610b"
+                },
+                {
+                    "value": "133.105",
+                    "unit": 2,
+                    "type": 13,
+                    "name": "Laage Radar",
+                    "primary": false,
+                    "publicUse": true,
+                    "_id": "62614a7fcb27f4250944610c"
+                },
+                {
+                    "value": "134.605",
+                    "unit": 2,
+                    "type": 15,
+                    "name": "LAAGE ATIS",
+                    "primary": false,
+                    "publicUse": true,
+                    "_id": "62614a7fcb27f4250944610d"
+                }
+            ],
+            "runways": [
+                {
+                    "designator": "09",
+                    "trueHeading": 93,
+                    "alignedTrueNorth": false,
+                    "operations": 0,
+                    "mainRunway": true,
+                    "turnDirection": 2,
+                    "takeOffOnly": false,
+                    "landingOnly": false,
+                    "surface": {
+                        "composition": [
+                            1
+                        ],
+                        "mainComposite": 1,
+                        "condition": 0,
+                        "pcn": "88/R/B/W/T"
+                    },
+                    "dimension": {
+                        "length": {
+                            "value": 2520,
+                            "unit": 0
+                        },
+                        "width": {
+                            "value": 45,
+                            "unit": 0
+                        }
+                    },
+                    "declaredDistance": {
+                        "tora": {
+                            "value": 2520,
+                            "unit": 0
+                        },
+                        "lda": {
+                            "value": 2520,
+                            "unit": 0
+                        }
+                    },
+                    "pilotCtrlLighting": false,
+                    "visualApproachAids": [
+                        1
+                    ],
+                    "_id": "62614a7fcb27f4250944610e"
+                },
+                {
+                    "designator": "27",
+                    "trueHeading": 273,
+                    "alignedTrueNorth": false,
+                    "operations": 0,
+                    "mainRunway": true,
+                    "turnDirection": 2,
+                    "takeOffOnly": false,
+                    "landingOnly": false,
+                    "surface": {
+                        "composition": [
+                            1
+                        ],
+                        "mainComposite": 1,
+                        "condition": 0,
+                        "pcn": "88/R/B/W/T"
+                    },
+                    "dimension": {
+                        "length": {
+                            "value": 2520,
+                            "unit": 0
+                        },
+                        "width": {
+                            "value": 45,
+                            "unit": 0
+                        }
+                    },
+                    "declaredDistance": {
+                        "tora": {
+                            "value": 2520,
+                            "unit": 0
+                        },
+                        "lda": {
+                            "value": 2520,
+                            "unit": 0
+                        }
+                    },
+                    "pilotCtrlLighting": false,
+                    "visualApproachAids": [
+                        1
+                    ],
+                    "_id": "62614a7fcb27f4250944610f"
+                }
+            ],
+            "createdAt": "2022-04-21T12:13:51.598Z",
+            "updatedAt": "2023-01-07T13:37:21.609Z",
+            "images": [
+                {
+                    "filename": "62614a7fcb27f42509446107_1650553764622.jpeg",
+                    "_id": "626173a5abdcc7f0ccbc5f0e"
+                },
+                {
+                    "filename": "62614a7fcb27f42509446107_1650553765404.jpeg",
+                    "_id": "626173a5abdcc7f0ccbc5f0f"
+                }
+            ],
+            "createdBy": "AUTO-IMPORTER",
+            "updatedBy": "openaip-system",
+            "elevationGeoid": {
+                "geoidHeight": 38.82518760000002,
+                "hae": 81.82518760000002
+            }
+        },
+        {
+            "_id": "62614a7f5e9ded571044464a",
+            "name": "LAHR",
+            "icaoCode": "EDTL",
+            "type": 9,
+            "trafficType": [
+                0,
+                1
+            ],
+            "magneticDeclination": 3.126,
+            "country": "DE",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.8275,
+                    48.3692
+                ]
+            },
+            "elevation": {
+                "value": 156,
+                "unit": 0,
+                "referenceDatum": 1
+            },
+            "ppr": false,
+            "private": false,
+            "skydiveActivity": false,
+            "winchOnly": false,
+            "frequencies": [
+                {
+                    "value": "125.180",
+                    "unit": 2,
+                    "type": 14,
+                    "name": "LAHR TWR / LAHR  RADIO",
+                    "primary": true,
+                    "publicUse": true,
+                    "_id": "62614a7f5e9ded571044464b"
+                },
+                {
+                    "value": "119.580",
+                    "unit": 2,
+                    "type": 0,
+                    "name": "Strasbourg Approach",
+                    "primary": false,
+                    "publicUse": false,
+                    "_id": "626dafcf56ee0c038a1abe3a"
+                }
+            ],
+            "runways": [
+                {
+                    "designator": "03",
+                    "trueHeading": 27,
+                    "alignedTrueNorth": false,
+                    "operations": 0,
+                    "mainRunway": true,
+                    "turnDirection": 2,
+                    "takeOffOnly": false,
+                    "landingOnly": false,
+                    "surface": {
+                        "composition": [
+                            1,
+                            0
+                        ],
+                        "mainComposite": 0,
+                        "condition": 0,
+                        "pcn": "100/F/D/W/T"
+                    },
+                    "dimension": {
+                        "length": {
+                            "value": 3000,
+                            "unit": 0
+                        },
+                        "width": {
+                            "value": 45,
+                            "unit": 0
+                        }
+                    },
+                    "declaredDistance": {
+                        "tora": {
+                            "value": 3000,
+                            "unit": 0
+                        },
+                        "toda": {
+                            "value": 3000,
+                            "unit": 0
+                        },
+                        "asda": {
+                            "value": 3000,
+                            "unit": 0
+                        },
+                        "lda": {
+                            "value": 3000,
+                            "unit": 0
+                        }
+                    },
+                    "thresholdLocation": {
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                7.818130555555555,
+                                48.357373611111115
+                            ]
+                        },
+                        "elevation": {
+                            "value": 156,
+                            "unit": 0,
+                            "referenceDatum": 1
+                        }
+                    },
+                    "pilotCtrlLighting": false,
+                    "lightingSystem": [
+                        1,
+                        2,
+                        8
+                    ],
+                    "visualApproachAids": [
+                        1
+                    ],
+                    "_id": "62614a7f5e9ded571044464c"
+                },
+                {
+                    "designator": "21",
+                    "trueHeading": 207,
+                    "alignedTrueNorth": false,
+                    "operations": 0,
+                    "mainRunway": true,
+                    "turnDirection": 2,
+                    "takeOffOnly": false,
+                    "landingOnly": false,
+                    "surface": {
+                        "composition": [
+                            1,
+                            0
+                        ],
+                        "mainComposite": 0,
+                        "condition": 0,
+                        "pcn": "100/F/D/W/T"
+                    },
+                    "dimension": {
+                        "length": {
+                            "value": 3000,
+                            "unit": 0
+                        },
+                        "width": {
+                            "value": 45,
+                            "unit": 0
+                        }
+                    },
+                    "declaredDistance": {
+                        "tora": {
+                            "value": 3000,
+                            "unit": 0
+                        },
+                        "toda": {
+                            "value": 3000,
+                            "unit": 0
+                        },
+                        "asda": {
+                            "value": 3000,
+                            "unit": 0
+                        },
+                        "lda": {
+                            "value": 3000,
+                            "unit": 0
+                        }
+                    },
+                    "thresholdLocation": {
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                7.837319444444445,
+                                48.38112805555556
+                            ]
+                        },
+                        "elevation": {
+                            "value": 153,
+                            "unit": 0,
+                            "referenceDatum": 1
+                        }
+                    },
+                    "pilotCtrlLighting": false,
+                    "lightingSystem": [
+                        1,
+                        8,
+                        2
+                    ],
+                    "instrumentApproachAids": [
+                        {
+                            "identifier": "ILRW",
+                            "frequency": {
+                                "value": "109.700",
+                                "unit": 2
+                            },
+                            "alignedTrueNorth": false,
+                            "type": 0,
+                            "hoursOfOperation": {
+                                "operatingHours": [
+                                    {
+                                        "dayOfWeek": 0,
+                                        "startTime": "00:00",
+                                        "endTime": "00:00",
+                                        "byNotam": false,
+                                        "sunrise": false,
+                                        "sunset": false,
+                                        "publicHolidaysExcluded": false
+                                    },
+                                    {
+                                        "dayOfWeek": 1,
+                                        "startTime": "00:00",
+                                        "endTime": "00:00",
+                                        "byNotam": false,
+                                        "sunrise": false,
+                                        "sunset": false,
+                                        "publicHolidaysExcluded": false
+                                    },
+                                    {
+                                        "dayOfWeek": 2,
+                                        "startTime": "00:00",
+                                        "endTime": "00:00",
+                                        "byNotam": false,
+                                        "sunrise": false,
+                                        "sunset": false,
+                                        "publicHolidaysExcluded": false
+                                    },
+                                    {
+                                        "dayOfWeek": 3,
+                                        "startTime": "00:00",
+                                        "endTime": "00:00",
+                                        "byNotam": false,
+                                        "sunrise": false,
+                                        "sunset": false,
+                                        "publicHolidaysExcluded": false
+                                    },
+                                    {
+                                        "dayOfWeek": 4,
+                                        "startTime": "00:00",
+                                        "endTime": "00:00",
+                                        "byNotam": false,
+                                        "sunrise": false,
+                                        "sunset": false,
+                                        "publicHolidaysExcluded": false
+                                    },
+                                    {
+                                        "dayOfWeek": 5,
+                                        "startTime": "00:00",
+                                        "endTime": "00:00",
+                                        "byNotam": false,
+                                        "sunrise": false,
+                                        "sunset": false,
+                                        "publicHolidaysExcluded": false
+                                    },
+                                    {
+                                        "dayOfWeek": 6,
+                                        "startTime": "00:00",
+                                        "endTime": "00:00",
+                                        "byNotam": false,
+                                        "sunrise": false,
+                                        "sunset": false,
+                                        "publicHolidaysExcluded": false
+                                    }
+                                ]
+                            }
+                        }
+                    ],
+                    "visualApproachAids": [
+                        1
+                    ],
+                    "_id": "62614a7f5e9ded571044464d"
+                }
+            ],
+            "createdAt": "2022-04-21T12:13:51.905Z",
+            "updatedAt": "2023-04-12T06:29:50.726Z",
+            "createdBy": "AUTO-IMPORTER",
+            "updatedBy": "OPONcQnzWGOLiJSceNaf8pvx1fA2",
+            "elevationGeoid": {
+                "geoidHeight": 48.88323806400001,
+                "hae": 204.883238064
+            },
+            "contact": "Lahrer Flugbetriebs GmbH & Co. KG\nTEL. +49 7821 994200\nops@EDTL-Airport-Lahr.de\nwww.Airport-Lahr.de",
+            "iataCode": "LHA",
+            "remarks": "For ACFT above 14t MTOM PPR until preceding working day 1200(1100)",
+            "services": {
+                "fuelTypes": [
+                    1,
+                    3
+                ]
+            }
+        },
+        {
+            "_id": "62614a825e9ded5710444788",
+            "name": "LEIPZIG-ALTENBURG",
+            "icaoCode": "EDAC",
+            "type": 9,
+            "trafficType": [
+                0,
+                1
+            ],
+            "magneticDeclination": 4.431,
+            "country": "DE",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.506194444444445,
+                    50.98166666666667
+                ]
+            },
+            "elevation": {
+                "value": 201,
+                "unit": 0,
+                "referenceDatum": 1
+            },
+            "ppr": false,
+            "private": false,
+            "skydiveActivity": true,
+            "winchOnly": false,
+            "frequencies": [
+                {
+                    "value": "123.580",
+                    "unit": 2,
+                    "type": 10,
+                    "name": "ALTENBURG Information",
+                    "primary": true,
+                    "publicUse": true,
+                    "_id": "62614a825e9ded5710444789"
+                }
+            ],
+            "runways": [
+                {
+                    "designator": "04",
+                    "trueHeading": 36,
+                    "alignedTrueNorth": false,
+                    "operations": 0,
+                    "mainRunway": true,
+                    "turnDirection": 2,
+                    "takeOffOnly": false,
+                    "landingOnly": false,
+                    "surface": {
+                        "composition": [
+                            1
+                        ],
+                        "mainComposite": 1,
+                        "condition": 0,
+                        "pcn": "48/R/A/W/T"
+                    },
+                    "dimension": {
+                        "length": {
+                            "value": 2435,
+                            "unit": 0
+                        },
+                        "width": {
+                            "value": 45,
+                            "unit": 0
+                        }
+                    },
+                    "declaredDistance": {
+                        "tora": {
+                            "value": 2175,
+                            "unit": 0
+                        },
+                        "lda": {
+                            "value": 2175,
+                            "unit": 0
+                        }
+                    },
+                    "pilotCtrlLighting": false,
+                    "visualApproachAids": [
+                        1
+                    ],
+                    "_id": "62614a825e9ded571044478a"
+                },
+                {
+                    "designator": "22",
+                    "trueHeading": 216,
+                    "alignedTrueNorth": false,
+                    "operations": 0,
+                    "mainRunway": true,
+                    "turnDirection": 2,
+                    "takeOffOnly": false,
+                    "landingOnly": false,
+                    "surface": {
+                        "composition": [
+                            1
+                        ],
+                        "mainComposite": 1,
+                        "condition": 0,
+                        "pcn": "48/R/A/W/T"
+                    },
+                    "dimension": {
+                        "length": {
+                            "value": 2435,
+                            "unit": 0
+                        },
+                        "width": {
+                            "value": 45,
+                            "unit": 0
+                        }
+                    },
+                    "declaredDistance": {
+                        "tora": {
+                            "value": 1935,
+                            "unit": 0
+                        },
+                        "lda": {
+                            "value": 1935,
+                            "unit": 0
+                        }
+                    },
+                    "pilotCtrlLighting": false,
+                    "visualApproachAids": [
+                        1
+                    ],
+                    "_id": "62614a825e9ded571044478b"
+                }
+            ],
+            "createdAt": "2022-04-21T12:13:54.557Z",
+            "updatedAt": "2023-04-11T08:07:57.876Z",
+            "createdBy": "AUTO-IMPORTER",
+            "updatedBy": "eBT9qSrxquPVguazo7MwJzzaf2p1",
+            "elevationGeoid": {
+                "geoidHeight": 45.20704405999999,
+                "hae": 246.20704406
+            },
+            "services": {
+                "fuelTypes": [
+                    1,
+                    3
+                ]
+            }
+        },
+        {
+            "_id": "62614a865e9ded57104448ee",
+            "name": "MAGDEBURG-CITY",
+            "icaoCode": "EDBM",
+            "type": 9,
+            "trafficType": [
+                0,
+                1
+            ],
+            "magneticDeclination": 4.277,
+            "country": "DE",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.6264,
+                    52.0736
+                ]
+            },
+            "elevation": {
+                "value": 82,
+                "unit": 0,
+                "referenceDatum": 1
+            },
+            "ppr": false,
+            "private": false,
+            "skydiveActivity": false,
+            "winchOnly": false,
+            "frequencies": [
+                {
+                    "value": "122.155",
+                    "unit": 2,
+                    "type": 16,
+                    "name": "Magdeburg Start",
+                    "primary": false,
+                    "publicUse": true,
+                    "_id": "62614a865e9ded57104448ef"
+                },
+                {
+                    "value": "119.305",
+                    "unit": 2,
+                    "type": 16,
+                    "name": "Magdeburg Radio",
+                    "primary": true,
+                    "publicUse": true,
+                    "_id": "62614a865e9ded57104448f0"
+                },
+                {
+                    "value": "122.205",
+                    "unit": 2,
+                    "type": 17,
+                    "name": "Magdeburg Segelflug",
+                    "primary": false,
+                    "publicUse": true,
+                    "_id": "62614a865e9ded57104448f1"
+                }
+            ],
+            "runways": [
+                {
+                    "designator": "09",
+                    "trueHeading": 86,
+                    "alignedTrueNorth": false,
+                    "operations": 0,
+                    "mainRunway": false,
+                    "turnDirection": 2,
+                    "takeOffOnly": false,
+                    "landingOnly": false,
+                    "surface": {
+                        "composition": [
+                            2
+                        ],
+                        "mainComposite": 2,
+                        "condition": 0,
+                        "mtow": {
+                            "value": 5.7,
+                            "unit": 9
+                        }
+                    },
+                    "dimension": {
+                        "length": {
+                            "value": 700,
+                            "unit": 0
+                        },
+                        "width": {
+                            "value": 30,
+                            "unit": 0
+                        }
+                    },
+                    "declaredDistance": {
+                        "tora": {
+                            "value": 700,
+                            "unit": 0
+                        },
+                        "lda": {
+                            "value": 700,
+                            "unit": 0
+                        }
+                    },
+                    "pilotCtrlLighting": false,
+                    "_id": "62614a865e9ded57104448f2"
+                },
+                {
+                    "designator": "27",
+                    "trueHeading": 266,
+                    "alignedTrueNorth": false,
+                    "operations": 0,
+                    "mainRunway": false,
+                    "turnDirection": 2,
+                    "takeOffOnly": false,
+                    "landingOnly": false,
+                    "surface": {
+                        "composition": [
+                            2
+                        ],
+                        "mainComposite": 2,
+                        "condition": 0,
+                        "mtow": {
+                            "value": 5.7,
+                            "unit": 9
+                        }
+                    },
+                    "dimension": {
+                        "length": {
+                            "value": 700,
+                            "unit": 0
+                        },
+                        "width": {
+                            "value": 30,
+                            "unit": 0
+                        }
+                    },
+                    "declaredDistance": {
+                        "tora": {
+                            "value": 700,
+                            "unit": 0
+                        },
+                        "lda": {
+                            "value": 700,
+                            "unit": 0
+                        }
+                    },
+                    "pilotCtrlLighting": false,
+                    "_id": "62614a865e9ded57104448f3"
+                },
+                {
+                    "designator": "09",
+                    "trueHeading": 86,
+                    "alignedTrueNorth": false,
+                    "operations": 0,
+                    "mainRunway": true,
+                    "turnDirection": 2,
+                    "takeOffOnly": false,
+                    "landingOnly": false,
+                    "surface": {
+                        "composition": [
+                            0
+                        ],
+                        "mainComposite": 0,
+                        "condition": 0,
+                        "pcn": "36/F/C/W/T"
+                    },
+                    "dimension": {
+                        "length": {
+                            "value": 1000,
+                            "unit": 0
+                        },
+                        "width": {
+                            "value": 30,
+                            "unit": 0
+                        }
+                    },
+                    "declaredDistance": {
+                        "tora": {
+                            "value": 875,
+                            "unit": 0
+                        },
+                        "lda": {
+                            "value": 875,
+                            "unit": 0
+                        }
+                    },
+                    "pilotCtrlLighting": false,
+                    "visualApproachAids": [
+                        1
+                    ],
+                    "_id": "62614a865e9ded57104448f4"
+                },
+                {
+                    "designator": "27",
+                    "trueHeading": 266,
+                    "alignedTrueNorth": false,
+                    "operations": 0,
+                    "mainRunway": true,
+                    "turnDirection": 2,
+                    "takeOffOnly": false,
+                    "landingOnly": false,
+                    "surface": {
+                        "composition": [
+                            0
+                        ],
+                        "mainComposite": 0,
+                        "condition": 0,
+                        "pcn": "36/F/C/W/T"
+                    },
+                    "dimension": {
+                        "length": {
+                            "value": 1000,
+                            "unit": 0
+                        },
+                        "width": {
+                            "value": 30,
+                            "unit": 0
+                        }
+                    },
+                    "declaredDistance": {
+                        "tora": {
+                            "value": 1000,
+                            "unit": 0
+                        },
+                        "lda": {
+                            "value": 1000,
+                            "unit": 0
+                        }
+                    },
+                    "pilotCtrlLighting": false,
+                    "visualApproachAids": [
+                        1
+                    ],
+                    "_id": "62614a865e9ded57104448f5"
+                }
+            ],
+            "createdAt": "2022-04-21T12:13:58.697Z",
+            "updatedAt": "2023-05-07T17:57:24.798Z",
+            "createdBy": "AUTO-IMPORTER",
+            "updatedBy": "OPONcQnzWGOLiJSceNaf8pvx1fA2",
+            "elevationGeoid": {
+                "geoidHeight": 43.370735907840015,
+                "hae": 125.37073590784001
+            },
+            "contact": "FMB Flugplatz Magdeburg Betriebsgesellschaft mbH\nOtto-Lilienthal-Straße 8\n39120 Magdeburg",
+            "services": {
+                "fuelTypes": [
+                    0,
+                    1,
+                    3
+                ]
+            }
+        },
+        {
+            "_id": "62614a87cb27f42509446445",
+            "name": "MANNHEIM CITY",
+            "icaoCode": "EDFM",
+            "type": 9,
+            "trafficType": [
+                0,
+                1
+            ],
+            "magneticDeclination": 3.279,
+            "country": "DE",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.5142,
+                    49.4725
+                ]
+            },
+            "elevation": {
+                "value": 94,
+                "unit": 0,
+                "referenceDatum": 1
+            },
+            "ppr": false,
+            "private": false,
+            "skydiveActivity": false,
+            "winchOnly": false,
+            "frequencies": [
+                {
+                    "value": "129.780",
+                    "unit": 2,
+                    "type": 14,
+                    "name": "Mannheim TWR",
+                    "primary": true,
+                    "publicUse": true,
+                    "_id": "62614a87cb27f42509446446"
+                },
+                {
+                    "value": "132.415",
+                    "unit": 2,
+                    "type": 15,
+                    "name": "ATIS",
+                    "primary": false,
+                    "publicUse": true,
+                    "_id": "62614a87cb27f42509446447"
+                }
+            ],
+            "runways": [
+                {
+                    "designator": "09L",
+                    "trueHeading": 91,
+                    "alignedTrueNorth": false,
+                    "operations": 0,
+                    "mainRunway": false,
+                    "turnDirection": 2,
+                    "takeOffOnly": false,
+                    "landingOnly": false,
+                    "surface": {
+                        "composition": [
+                            2
+                        ],
+                        "mainComposite": 2,
+                        "condition": 0,
+                        "mtow": {
+                            "value": 5.7,
+                            "unit": 9
+                        }
+                    },
+                    "dimension": {
+                        "length": {
+                            "value": 795,
+                            "unit": 0
+                        },
+                        "width": {
+                            "value": 30,
+                            "unit": 0
+                        }
+                    },
+                    "declaredDistance": {
+                        "tora": {
+                            "value": 646,
+                            "unit": 0
+                        },
+                        "lda": {
+                            "value": 646,
+                            "unit": 0
+                        }
+                    },
+                    "pilotCtrlLighting": false,
+                    "_id": "62614a87cb27f42509446448"
+                },
+                {
+                    "designator": "27R",
+                    "trueHeading": 271,
+                    "alignedTrueNorth": false,
+                    "operations": 0,
+                    "mainRunway": false,
+                    "turnDirection": 2,
+                    "takeOffOnly": false,
+                    "landingOnly": false,
+                    "surface": {
+                        "composition": [
+                            2
+                        ],
+                        "mainComposite": 2,
+                        "condition": 0,
+                        "mtow": {
+                            "value": 5.7,
+                            "unit": 9
+                        }
+                    },
+                    "dimension": {
+                        "length": {
+                            "value": 795,
+                            "unit": 0
+                        },
+                        "width": {
+                            "value": 30,
+                            "unit": 0
+                        }
+                    },
+                    "declaredDistance": {
+                        "tora": {
+                            "value": 598,
+                            "unit": 0
+                        },
+                        "lda": {
+                            "value": 598,
+                            "unit": 0
+                        }
+                    },
+                    "pilotCtrlLighting": false,
+                    "_id": "62614a87cb27f42509446449"
+                },
+                {
+                    "designator": "09",
+                    "trueHeading": 91,
+                    "alignedTrueNorth": false,
+                    "operations": 0,
+                    "mainRunway": true,
+                    "turnDirection": 2,
+                    "takeOffOnly": false,
+                    "landingOnly": false,
+                    "surface": {
+                        "composition": [
+                            0
+                        ],
+                        "mainComposite": 0,
+                        "condition": 0,
+                        "mtow": {
+                            "value": 10,
+                            "unit": 9
+                        },
+                        "pcn": "18/F/A/X/T"
+                    },
+                    "dimension": {
+                        "length": {
+                            "value": 1066,
+                            "unit": 0
+                        },
+                        "width": {
+                            "value": 25,
+                            "unit": 0
+                        }
+                    },
+                    "declaredDistance": {
+                        "tora": {
+                            "value": 1013,
+                            "unit": 0
+                        },
+                        "toda": {
+                            "value": 1066,
+                            "unit": 0
+                        },
+                        "asda": {
+                            "value": 1066,
+                            "unit": 0
+                        },
+                        "lda": {
+                            "value": 1060,
+                            "unit": 0
+                        }
+                    },
+                    "thresholdLocation": {
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                8.506390820438071,
+                                49.47298061812472
+                            ]
+                        },
+                        "elevation": {
+                            "value": 94,
+                            "unit": 0,
+                            "referenceDatum": 1
+                        }
+                    },
+                    "pilotCtrlLighting": false,
+                    "lightingSystem": [
+                        2,
+                        1
+                    ],
+                    "visualApproachAids": [
+                        1
+                    ],
+                    "_id": "62614a87cb27f4250944644a"
+                },
+                {
+                    "designator": "27",
+                    "trueHeading": 271,
+                    "alignedTrueNorth": false,
+                    "operations": 0,
+                    "mainRunway": true,
+                    "turnDirection": 2,
+                    "takeOffOnly": false,
+                    "landingOnly": false,
+                    "surface": {
+                        "composition": [
+                            0
+                        ],
+                        "mainComposite": 0,
+                        "condition": 0,
+                        "mtow": {
+                            "value": 10,
+                            "unit": 9
+                        },
+                        "pcn": "18/F/A/X/T"
+                    },
+                    "dimension": {
+                        "length": {
+                            "value": 1066,
+                            "unit": 0
+                        },
+                        "width": {
+                            "value": 25,
+                            "unit": 0
+                        }
+                    },
+                    "declaredDistance": {
+                        "tora": {
+                            "value": 1060,
+                            "unit": 0
+                        },
+                        "toda": {
+                            "value": 1066,
+                            "unit": 0
+                        },
+                        "asda": {
+                            "value": 1066,
+                            "unit": 0
+                        },
+                        "lda": {
+                            "value": 1013,
+                            "unit": 0
+                        }
+                    },
+                    "thresholdLocation": {
+                        "geometry": {
+                            "type": "Point",
+                            "coordinates": [
+                                8.519733631095136,
+                                49.47252925977202
+                            ]
+                        },
+                        "elevation": {
+                            "value": 93,
+                            "unit": 0,
+                            "referenceDatum": 1
+                        }
+                    },
+                    "pilotCtrlLighting": false,
+                    "lightingSystem": [
+                        8,
+                        2,
+                        1
+                    ],
+                    "instrumentApproachAids": [
+                        {
+                            "identifier": "IMAW",
+                            "frequency": {
+                                "value": "108.550",
+                                "unit": 2
+                            },
+                            "channel": "22Y",
+                            "alignedTrueNorth": false,
+                            "type": 1,
+                            "hoursOfOperation": {
+                                "operatingHours": [
+                                    {
+                                        "dayOfWeek": 0,
+                                        "startTime": "00:00",
+                                        "endTime": "00:00",
+                                        "byNotam": false,
+                                        "sunrise": false,
+                                        "sunset": false,
+                                        "publicHolidaysExcluded": false
+                                    },
+                                    {
+                                        "dayOfWeek": 1,
+                                        "startTime": "00:00",
+                                        "endTime": "00:00",
+                                        "byNotam": false,
+                                        "sunrise": false,
+                                        "sunset": false,
+                                        "publicHolidaysExcluded": false
+                                    },
+                                    {
+                                        "dayOfWeek": 2,
+                                        "startTime": "00:00",
+                                        "endTime": "00:00",
+                                        "byNotam": false,
+                                        "sunrise": false,
+                                        "sunset": false,
+                                        "publicHolidaysExcluded": false
+                                    },
+                                    {
+                                        "dayOfWeek": 3,
+                                        "startTime": "00:00",
+                                        "endTime": "00:00",
+                                        "byNotam": false,
+                                        "sunrise": false,
+                                        "sunset": false,
+                                        "publicHolidaysExcluded": false
+                                    },
+                                    {
+                                        "dayOfWeek": 4,
+                                        "startTime": "00:00",
+                                        "endTime": "00:00",
+                                        "byNotam": false,
+                                        "sunrise": false,
+                                        "sunset": false,
+                                        "publicHolidaysExcluded": false
+                                    },
+                                    {
+                                        "dayOfWeek": 5,
+                                        "startTime": "00:00",
+                                        "endTime": "00:00",
+                                        "byNotam": false,
+                                        "sunrise": false,
+                                        "sunset": false,
+                                        "publicHolidaysExcluded": false
+                                    },
+                                    {
+                                        "dayOfWeek": 6,
+                                        "startTime": "00:00",
+                                        "endTime": "00:00",
+                                        "byNotam": false,
+                                        "sunrise": false,
+                                        "sunset": false,
+                                        "publicHolidaysExcluded": false
+                                    }
+                                ]
+                            },
+                            "remarks": "Location of the LOC is 91 m west of THR 09 and 20 m north of the RCL;\nLOC course (offset 0.4°) crosses the RCL 0.8 NM in front of the THR 27."
+                        },
+                        {
+                            "identifier": "MND",
+                            "frequency": {
+                                "value": "113.550",
+                                "unit": 2
+                            },
+                            "channel": "82Y",
+                            "alignedTrueNorth": false,
+                            "type": 4,
+                            "hoursOfOperation": {
+                                "operatingHours": [
+                                    {
+                                        "dayOfWeek": 0,
+                                        "startTime": "00:00",
+                                        "endTime": "00:00",
+                                        "byNotam": false,
+                                        "sunrise": false,
+                                        "sunset": false,
+                                        "publicHolidaysExcluded": false
+                                    },
+                                    {
+                                        "dayOfWeek": 1,
+                                        "startTime": "00:00",
+                                        "endTime": "00:00",
+                                        "byNotam": false,
+                                        "sunrise": false,
+                                        "sunset": false,
+                                        "publicHolidaysExcluded": false
+                                    },
+                                    {
+                                        "dayOfWeek": 2,
+                                        "startTime": "00:00",
+                                        "endTime": "00:00",
+                                        "byNotam": false,
+                                        "sunrise": false,
+                                        "sunset": false,
+                                        "publicHolidaysExcluded": false
+                                    },
+                                    {
+                                        "dayOfWeek": 3,
+                                        "startTime": "00:00",
+                                        "endTime": "00:00",
+                                        "byNotam": false,
+                                        "sunrise": false,
+                                        "sunset": false,
+                                        "publicHolidaysExcluded": false
+                                    },
+                                    {
+                                        "dayOfWeek": 4,
+                                        "startTime": "00:00",
+                                        "endTime": "00:00",
+                                        "byNotam": false,
+                                        "sunrise": false,
+                                        "sunset": false,
+                                        "publicHolidaysExcluded": false
+                                    },
+                                    {
+                                        "dayOfWeek": 5,
+                                        "startTime": "00:00",
+                                        "endTime": "00:00",
+                                        "byNotam": false,
+                                        "sunrise": false,
+                                        "sunset": false,
+                                        "publicHolidaysExcluded": false
+                                    },
+                                    {
+                                        "dayOfWeek": 6,
+                                        "startTime": "00:00",
+                                        "endTime": "00:00",
+                                        "byNotam": false,
+                                        "sunrise": false,
+                                        "sunset": false,
+                                        "publicHolidaysExcluded": false
+                                    }
+                                ]
+                            },
+                            "remarks": "Designated operational coverage 15 NM, FL 100."
+                        }
+                    ],
+                    "visualApproachAids": [
+                        1
+                    ],
+                    "_id": "62614a87cb27f4250944644b"
+                }
+            ],
+            "createdAt": "2022-04-21T12:13:59.727Z",
+            "updatedAt": "2023-01-07T13:37:24.423Z",
+            "createdBy": "AUTO-IMPORTER",
+            "updatedBy": "openaip-system",
+            "elevationGeoid": {
+                "geoidHeight": 47.540125128,
+                "hae": 141.540125128
+            },
+            "services": {
+                "passengerFacilities": [
+                    5,
+                    6,
+                    7,
+                    2
+                ]
+            }
+        },
+        {
+            "_id": "62614a89cb27f42509446532",
+            "name": "MEMMINGEN",
+            "icaoCode": "EDJA",
+            "type": 9,
+            "trafficType": [
+                0,
+                1
+            ],
+            "magneticDeclination": 3.665,
+            "country": "DE",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.2394,
+                    47.9886
+                ]
+            },
+            "elevation": {
+                "value": 634,
+                "unit": 0,
+                "referenceDatum": 1
+            },
+            "ppr": false,
+            "private": false,
+            "skydiveActivity": false,
+            "winchOnly": false,
+            "frequencies": [
+                {
+                    "value": "126.855",
+                    "unit": 2,
+                    "type": 14,
+                    "name": "Memmingen Tower",
+                    "primary": true,
+                    "publicUse": true,
+                    "_id": "62614a89cb27f42509446533"
+                },
+                {
+                    "value": "118.855",
+                    "unit": 2,
+                    "type": 15,
+                    "name": "Memmingen ATIS",
+                    "primary": false,
+                    "publicUse": true,
+                    "_id": "62614a89cb27f42509446534"
+                },
+                {
+                    "value": "121.680",
+                    "unit": 2,
+                    "type": 9,
+                    "name": "Memmingen Ground",
+                    "primary": false,
+                    "publicUse": true,
+                    "remarks": "HX",
+                    "_id": "62a19646b807b05abb9c3cb5"
+                }
+            ],
+            "runways": [
+                {
+                    "designator": "06",
+                    "trueHeading": 57,
+                    "alignedTrueNorth": false,
+                    "operations": 0,
+                    "mainRunway": true,
+                    "turnDirection": 2,
+                    "takeOffOnly": false,
+                    "landingOnly": false,
+                    "surface": {
+                        "composition": [
+                            0
+                        ],
+                        "mainComposite": 0,
+                        "condition": 0,
+                        "pcn": "75/R/B/X/T"
+                    },
+                    "dimension": {
+                        "length": {
+                            "value": 2630,
+                            "unit": 0
+                        },
+                        "width": {
+                            "value": 45,
+                            "unit": 0
+                        }
+                    },
+                    "declaredDistance": {
+                        "tora": {
+                            "value": 2630,
+                            "unit": 0
+                        },
+                        "lda": {
+                            "value": 2630,
+                            "unit": 0
+                        }
+                    },
+                    "pilotCtrlLighting": false,
+                    "visualApproachAids": [
+                        1
+                    ],
+                    "_id": "62614a89cb27f42509446535"
+                },
+                {
+                    "designator": "24",
+                    "trueHeading": 237,
+                    "alignedTrueNorth": false,
+                    "operations": 0,
+                    "mainRunway": true,
+                    "turnDirection": 2,
+                    "takeOffOnly": false,
+                    "landingOnly": false,
+                    "surface": {
+                        "composition": [
+                            0
+                        ],
+                        "mainComposite": 0,
+                        "condition": 0,
+                        "pcn": "75/R/B/X/T"
+                    },
+                    "dimension": {
+                        "length": {
+                            "value": 2630,
+                            "unit": 0
+                        },
+                        "width": {
+                            "value": 45,
+                            "unit": 0
+                        }
+                    },
+                    "declaredDistance": {
+                        "tora": {
+                            "value": 2401,
+                            "unit": 0
+                        },
+                        "lda": {
+                            "value": 2401,
+                            "unit": 0
+                        }
+                    },
+                    "pilotCtrlLighting": false,
+                    "visualApproachAids": [
+                        1
+                    ],
+                    "_id": "62614a89cb27f42509446536"
+                }
+            ],
+            "createdAt": "2022-04-21T12:14:01.573Z",
+            "updatedAt": "2023-01-07T13:37:24.903Z",
+            "createdBy": "AUTO-IMPORTER",
+            "updatedBy": "openaip-system",
+            "elevationGeoid": {
+                "geoidHeight": 46.938727176959986,
+                "hae": 680.93872717696
+            },
+            "services": {
+                "fuelTypes": [
+                    1,
+                    3
+                ]
+            }
+        },
+        {
+            "_id": "62614a93cb27f4250944696a",
+            "name": "NIEDERSTETTEN",
+            "icaoCode": "ETHN",
+            "type": 0,
+            "trafficType": [
+                0,
+                1
+            ],
+            "magneticDeclination": 3.687,
+            "country": "DE",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.9581,
+                    49.39186111111111
+                ]
+            },
+            "elevation": {
+                "value": 466,
+                "unit": 0,
+                "referenceDatum": 1
+            },
+            "ppr": false,
+            "private": false,
+            "skydiveActivity": false,
+            "winchOnly": false,
+            "frequencies": [
+                {
+                    "value": "123.300",
+                    "unit": 2,
+                    "type": 13,
+                    "name": "Stetten Radar",
+                    "primary": false,
+                    "publicUse": true,
+                    "_id": "62614a93cb27f4250944696b"
+                },
+                {
+                    "value": "119.780",
+                    "unit": 2,
+                    "type": 16,
+                    "name": "Stetten RDIO",
+                    "primary": false,
+                    "publicUse": true,
+                    "_id": "62614a93cb27f4250944696c"
+                },
+                {
+                    "value": "122.100",
+                    "unit": 2,
+                    "type": 14,
+                    "name": "STETTEN TWR",
+                    "primary": true,
+                    "publicUse": true,
+                    "_id": "62614a93cb27f4250944696d"
+                },
+                {
+                    "value": "135.605",
+                    "unit": 2,
+                    "type": 13,
+                    "name": "Stetten Radar",
+                    "primary": false,
+                    "publicUse": true,
+                    "_id": "62614a93cb27f4250944696e"
+                }
+            ],
+            "runways": [
+                {
+                    "designator": "07",
+                    "trueHeading": 71,
+                    "alignedTrueNorth": false,
+                    "operations": 0,
+                    "mainRunway": true,
+                    "turnDirection": 2,
+                    "takeOffOnly": false,
+                    "landingOnly": false,
+                    "surface": {
+                        "composition": [
+                            0
+                        ],
+                        "mainComposite": 0,
+                        "condition": 0,
+                        "mtow": {
+                            "value": 20,
+                            "unit": 9
+                        }
+                    },
+                    "dimension": {
+                        "length": {
+                            "value": 1311,
+                            "unit": 0
+                        },
+                        "width": {
+                            "value": 30,
+                            "unit": 0
+                        }
+                    },
+                    "declaredDistance": {
+                        "tora": {
+                            "value": 1311,
+                            "unit": 0
+                        },
+                        "lda": {
+                            "value": 1311,
+                            "unit": 0
+                        }
+                    },
+                    "pilotCtrlLighting": false,
+                    "visualApproachAids": [
+                        1
+                    ],
+                    "_id": "62614a93cb27f4250944696f"
+                },
+                {
+                    "designator": "25",
+                    "trueHeading": 251,
+                    "alignedTrueNorth": false,
+                    "operations": 0,
+                    "mainRunway": true,
+                    "turnDirection": 2,
+                    "takeOffOnly": false,
+                    "landingOnly": false,
+                    "surface": {
+                        "composition": [
+                            0
+                        ],
+                        "mainComposite": 0,
+                        "condition": 0,
+                        "mtow": {
+                            "value": 20,
+                            "unit": 9
+                        }
+                    },
+                    "dimension": {
+                        "length": {
+                            "value": 1311,
+                            "unit": 0
+                        },
+                        "width": {
+                            "value": 30,
+                            "unit": 0
+                        }
+                    },
+                    "declaredDistance": {
+                        "tora": {
+                            "value": 1311,
+                            "unit": 0
+                        },
+                        "lda": {
+                            "value": 1210,
+                            "unit": 0
+                        }
+                    },
+                    "pilotCtrlLighting": false,
+                    "visualApproachAids": [
+                        1
+                    ],
+                    "_id": "62614a93cb27f42509446970"
+                }
+            ],
+            "createdAt": "2022-04-21T12:14:11.032Z",
+            "updatedAt": "2023-03-30T08:26:29.520Z",
+            "createdBy": "AUTO-IMPORTER",
+            "updatedBy": "eBT9qSrxquPVguazo7MwJzzaf2p1",
+            "elevationGeoid": {
+                "geoidHeight": 48.58967720200002,
+                "hae": 514.5896772020001
+            },
+            "services": {
+                "fuelTypes": [
+                    1,
+                    3
+                ]
+            }
+        },
+        {
+            "_id": "62614a945e9ded5710444d79",
+            "name": "NORDHOLZ",
+            "icaoCode": "ETMN",
+            "type": 0,
+            "trafficType": [
+                0,
+                1
+            ],
+            "magneticDeclination": 3.4,
+            "country": "DE",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.6583,
+                    53.7675
+                ]
+            },
+            "elevation": {
+                "value": 23,
+                "unit": 0,
+                "referenceDatum": 1
+            },
+            "ppr": false,
+            "private": false,
+            "skydiveActivity": false,
+            "winchOnly": false,
+            "frequencies": [
+                {
+                    "value": "131.255",
+                    "unit": 2,
+                    "type": 14,
+                    "name": "TWR",
+                    "primary": true,
+                    "publicUse": true,
+                    "_id": "62614a945e9ded5710444d7a"
+                },
+                {
+                    "value": "129.855",
+                    "unit": 2,
+                    "type": 13,
+                    "name": "Nordholz Radar",
+                    "primary": false,
+                    "publicUse": true,
+                    "_id": "62614a945e9ded5710444d7b"
+                }
+            ],
+            "runways": [
+                {
+                    "designator": "08",
+                    "trueHeading": 75,
+                    "alignedTrueNorth": false,
+                    "operations": 0,
+                    "mainRunway": true,
+                    "turnDirection": 2,
+                    "takeOffOnly": false,
+                    "landingOnly": false,
+                    "surface": {
+                        "composition": [
+                            0
+                        ],
+                        "mainComposite": 0,
+                        "condition": 0,
+                        "pcn": "86/F/A/W/T"
+                    },
+                    "dimension": {
+                        "length": {
+                            "value": 2440,
+                            "unit": 0
+                        },
+                        "width": {
+                            "value": 45,
+                            "unit": 0
+                        }
+                    },
+                    "declaredDistance": {
+                        "tora": {
+                            "value": 2440,
+                            "unit": 0
+                        },
+                        "lda": {
+                            "value": 2440,
+                            "unit": 0
+                        }
+                    },
+                    "pilotCtrlLighting": false,
+                    "visualApproachAids": [
+                        1
+                    ],
+                    "_id": "62614a945e9ded5710444d7c"
+                },
+                {
+                    "designator": "26",
+                    "trueHeading": 255,
+                    "alignedTrueNorth": false,
+                    "operations": 0,
+                    "mainRunway": true,
+                    "turnDirection": 2,
+                    "takeOffOnly": false,
+                    "landingOnly": false,
+                    "surface": {
+                        "composition": [
+                            0
+                        ],
+                        "mainComposite": 0,
+                        "condition": 0,
+                        "pcn": "86/F/A/W/T"
+                    },
+                    "dimension": {
+                        "length": {
+                            "value": 2440,
+                            "unit": 0
+                        },
+                        "width": {
+                            "value": 45,
+                            "unit": 0
+                        }
+                    },
+                    "declaredDistance": {
+                        "tora": {
+                            "value": 2440,
+                            "unit": 0
+                        },
+                        "lda": {
+                            "value": 2440,
+                            "unit": 0
+                        }
+                    },
+                    "pilotCtrlLighting": false,
+                    "visualApproachAids": [
+                        1
+                    ],
+                    "_id": "62614a945e9ded5710444d7d"
+                }
+            ],
+            "createdAt": "2022-04-21T12:14:12.499Z",
+            "updatedAt": "2023-01-07T13:37:29.029Z",
+            "createdBy": "AUTO-IMPORTER",
+            "updatedBy": "openaip-system",
+            "elevationGeoid": {
+                "geoidHeight": 39.637578504000004,
+                "hae": 62.637578504000004
+            }
+        },
+        {
+            "_id": "62614aa95e9ded5710445641",
+            "name": "SCHOENHAGEN",
+            "icaoCode": "EDAZ",
+            "type": 9,
+            "trafficType": [
+                0,
+                1
+            ],
+            "magneticDeclination": 4.692,
+            "country": "DE",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.16,
+                    52.203888888889
+                ]
+            },
+            "elevation": {
+                "value": 41,
+                "unit": 0,
+                "referenceDatum": 1
+            },
+            "ppr": false,
+            "private": false,
+            "skydiveActivity": false,
+            "winchOnly": false,
+            "frequencies": [
+                {
+                    "value": "131.155",
+                    "unit": 2,
+                    "type": 10,
+                    "name": "Schönhagen INFORMATION",
+                    "primary": true,
+                    "publicUse": true,
+                    "remarks": "AFIS airfield, frequency type changed to Information",
+                    "_id": "62614aa95e9ded5710445642"
+                },
+                {
+                    "value": "118.490",
+                    "unit": 2,
+                    "type": 15,
+                    "name": "Schönhagen ATIS",
+                    "primary": false,
+                    "publicUse": true,
+                    "_id": "63528652e3015274227e5e66"
+                }
+            ],
+            "runways": [
+                {
+                    "designator": "12",
+                    "trueHeading": 116,
+                    "alignedTrueNorth": false,
+                    "operations": 0,
+                    "mainRunway": false,
+                    "turnDirection": 2,
+                    "takeOffOnly": false,
+                    "landingOnly": false,
+                    "surface": {
+                        "composition": [
+                            2
+                        ],
+                        "mainComposite": 2,
+                        "condition": 0,
+                        "mtow": {
+                            "value": 2,
+                            "unit": 9
+                        }
+                    },
+                    "dimension": {
+                        "length": {
+                            "value": 760,
+                            "unit": 0
+                        },
+                        "width": {
+                            "value": 40,
+                            "unit": 0
+                        }
+                    },
+                    "declaredDistance": {
+                        "tora": {
+                            "value": 625,
+                            "unit": 0
+                        },
+                        "lda": {
+                            "value": 625,
+                            "unit": 0
+                        }
+                    },
+                    "pilotCtrlLighting": false,
+                    "_id": "62614aa95e9ded5710445643"
+                },
+                {
+                    "designator": "30",
+                    "trueHeading": 296,
+                    "alignedTrueNorth": false,
+                    "operations": 0,
+                    "mainRunway": false,
+                    "turnDirection": 2,
+                    "takeOffOnly": false,
+                    "landingOnly": false,
+                    "surface": {
+                        "composition": [
+                            2
+                        ],
+                        "mainComposite": 2,
+                        "condition": 0,
+                        "mtow": {
+                            "value": 2,
+                            "unit": 9
+                        }
+                    },
+                    "dimension": {
+                        "length": {
+                            "value": 760,
+                            "unit": 0
+                        },
+                        "width": {
+                            "value": 40,
+                            "unit": 0
+                        }
+                    },
+                    "declaredDistance": {
+                        "tora": {
+                            "value": 710,
+                            "unit": 0
+                        },
+                        "lda": {
+                            "value": 710,
+                            "unit": 0
+                        }
+                    },
+                    "pilotCtrlLighting": false,
+                    "_id": "62614aa95e9ded5710445644"
+                },
+                {
+                    "designator": "12",
+                    "trueHeading": 116,
+                    "alignedTrueNorth": false,
+                    "operations": 0,
+                    "mainRunway": false,
+                    "turnDirection": 2,
+                    "takeOffOnly": false,
+                    "landingOnly": false,
+                    "surface": {
+                        "composition": [
+                            0
+                        ],
+                        "mainComposite": 0,
+                        "condition": 0,
+                        "pcn": "25/F/A/X/T"
+                    },
+                    "dimension": {
+                        "length": {
+                            "value": 700,
+                            "unit": 0
+                        },
+                        "width": {
+                            "value": 18,
+                            "unit": 0
+                        }
+                    },
+                    "declaredDistance": {
+                        "tora": {
+                            "value": 700,
+                            "unit": 0
+                        },
+                        "lda": {
+                            "value": 700,
+                            "unit": 0
+                        }
+                    },
+                    "pilotCtrlLighting": false,
+                    "_id": "62614aa95e9ded5710445645"
+                },
+                {
+                    "designator": "30",
+                    "trueHeading": 296,
+                    "alignedTrueNorth": false,
+                    "operations": 0,
+                    "mainRunway": false,
+                    "turnDirection": 2,
+                    "takeOffOnly": false,
+                    "landingOnly": false,
+                    "surface": {
+                        "composition": [
+                            0
+                        ],
+                        "mainComposite": 0,
+                        "condition": 0,
+                        "pcn": "25/F/A/X/T"
+                    },
+                    "dimension": {
+                        "length": {
+                            "value": 700,
+                            "unit": 0
+                        },
+                        "width": {
+                            "value": 18,
+                            "unit": 0
+                        }
+                    },
+                    "declaredDistance": {
+                        "tora": {
+                            "value": 700,
+                            "unit": 0
+                        },
+                        "lda": {
+                            "value": 700,
+                            "unit": 0
+                        }
+                    },
+                    "pilotCtrlLighting": false,
+                    "_id": "62614aa95e9ded5710445646"
+                },
+                {
+                    "designator": "07",
+                    "trueHeading": 72,
+                    "alignedTrueNorth": false,
+                    "operations": 0,
+                    "mainRunway": true,
+                    "turnDirection": 2,
+                    "takeOffOnly": false,
+                    "landingOnly": false,
+                    "surface": {
+                        "composition": [
+                            0
+                        ],
+                        "mainComposite": 0,
+                        "condition": 0,
+                        "pcn": "25/F/A/X/T"
+                    },
+                    "dimension": {
+                        "length": {
+                            "value": 1510,
+                            "unit": 0
+                        },
+                        "width": {
+                            "value": 23,
+                            "unit": 0
+                        }
+                    },
+                    "declaredDistance": {
+                        "tora": {
+                            "value": 1340,
+                            "unit": 0
+                        },
+                        "lda": {
+                            "value": 1340,
+                            "unit": 0
+                        }
+                    },
+                    "pilotCtrlLighting": false,
+                    "visualApproachAids": [
+                        1
+                    ],
+                    "_id": "62614aa95e9ded5710445647"
+                },
+                {
+                    "designator": "25",
+                    "trueHeading": 252,
+                    "alignedTrueNorth": false,
+                    "operations": 0,
+                    "mainRunway": true,
+                    "turnDirection": 2,
+                    "takeOffOnly": false,
+                    "landingOnly": false,
+                    "surface": {
+                        "composition": [
+                            0
+                        ],
+                        "mainComposite": 0,
+                        "condition": 0,
+                        "pcn": "25/F/A/X/T"
+                    },
+                    "dimension": {
+                        "length": {
+                            "value": 1510,
+                            "unit": 0
+                        },
+                        "width": {
+                            "value": 23,
+                            "unit": 0
+                        }
+                    },
+                    "declaredDistance": {
+                        "tora": {
+                            "value": 1270,
+                            "unit": 0
+                        },
+                        "lda": {
+                            "value": 1270,
+                            "unit": 0
+                        }
+                    },
+                    "pilotCtrlLighting": false,
+                    "visualApproachAids": [
+                        1
+                    ],
+                    "_id": "62614aa95e9ded5710445648"
+                }
+            ],
+            "createdAt": "2022-04-21T12:14:33.610Z",
+            "updatedAt": "2023-03-30T08:35:41.773Z",
+            "createdBy": "AUTO-IMPORTER",
+            "updatedBy": "eBT9qSrxquPVguazo7MwJzzaf2p1",
+            "elevationGeoid": {
+                "geoidHeight": 40.894634399999575,
+                "hae": 81.89463439999957
+            },
+            "services": {
+                "fuelTypes": [
+                    1,
+                    3,
+                    6
+                ],
+                "gliderTowing": [
+                    1
+                ]
+            }
+        },
+        {
+            "_id": "62614aaa5e9ded5710445673",
+            "name": "SCHWAEBISCH HALL",
+            "icaoCode": "EDTY",
+            "type": 9,
+            "trafficType": [
+                0,
+                1
+            ],
+            "magneticDeclination": 3.634,
+            "country": "DE",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.783622222222222,
+                    49.11837777777778
+                ]
+            },
+            "elevation": {
+                "value": 388,
+                "unit": 0,
+                "referenceDatum": 1
+            },
+            "ppr": false,
+            "private": false,
+            "skydiveActivity": true,
+            "winchOnly": false,
+            "frequencies": [
+                {
+                    "value": "129.230",
+                    "unit": 2,
+                    "type": 10,
+                    "name": "SCHWÄBISCH HALL INFORMATION",
+                    "primary": true,
+                    "publicUse": true,
+                    "_id": "62614aaa5e9ded5710445674"
+                },
+                {
+                    "value": "133.880",
+                    "unit": 2,
+                    "type": 15,
+                    "name": "ATIS",
+                    "primary": false,
+                    "publicUse": true,
+                    "_id": "62614aaa5e9ded5710445675"
+                }
+            ],
+            "runways": [
+                {
+                    "designator": "10",
+                    "trueHeading": 96,
+                    "alignedTrueNorth": false,
+                    "operations": 0,
+                    "mainRunway": false,
+                    "turnDirection": 2,
+                    "takeOffOnly": false,
+                    "landingOnly": false,
+                    "surface": {
+                        "composition": [
+                            2
+                        ],
+                        "mainComposite": 2,
+                        "condition": 0,
+                        "mtow": {
+                            "value": 2,
+                            "unit": 9
+                        }
+                    },
+                    "dimension": {
+                        "length": {
+                            "value": 750,
+                            "unit": 0
+                        },
+                        "width": {
+                            "value": 30,
+                            "unit": 0
+                        }
+                    },
+                    "declaredDistance": {
+                        "tora": {
+                            "value": 750,
+                            "unit": 0
+                        },
+                        "lda": {
+                            "value": 750,
+                            "unit": 0
+                        }
+                    },
+                    "pilotCtrlLighting": false,
+                    "_id": "62614aaa5e9ded5710445676"
+                },
+                {
+                    "designator": "28",
+                    "trueHeading": 276,
+                    "alignedTrueNorth": false,
+                    "operations": 0,
+                    "mainRunway": false,
+                    "turnDirection": 2,
+                    "takeOffOnly": false,
+                    "landingOnly": false,
+                    "surface": {
+                        "composition": [
+                            2
+                        ],
+                        "mainComposite": 2,
+                        "condition": 0,
+                        "mtow": {
+                            "value": 2,
+                            "unit": 9
+                        }
+                    },
+                    "dimension": {
+                        "length": {
+                            "value": 750,
+                            "unit": 0
+                        },
+                        "width": {
+                            "value": 30,
+                            "unit": 0
+                        }
+                    },
+                    "declaredDistance": {
+                        "tora": {
+                            "value": 750,
+                            "unit": 0
+                        },
+                        "lda": {
+                            "value": 750,
+                            "unit": 0
+                        }
+                    },
+                    "pilotCtrlLighting": false,
+                    "_id": "62614aaa5e9ded5710445677"
+                },
+                {
+                    "designator": "10",
+                    "trueHeading": 96,
+                    "alignedTrueNorth": false,
+                    "operations": 0,
+                    "mainRunway": true,
+                    "turnDirection": 2,
+                    "takeOffOnly": false,
+                    "landingOnly": false,
+                    "surface": {
+                        "composition": [
+                            1
+                        ],
+                        "mainComposite": 1,
+                        "condition": 0,
+                        "mtow": {
+                            "value": 14,
+                            "unit": 9
+                        }
+                    },
+                    "dimension": {
+                        "length": {
+                            "value": 1540,
+                            "unit": 0
+                        },
+                        "width": {
+                            "value": 30,
+                            "unit": 0
+                        }
+                    },
+                    "declaredDistance": {
+                        "tora": {
+                            "value": 1365,
+                            "unit": 0
+                        },
+                        "lda": {
+                            "value": 1365,
+                            "unit": 0
+                        }
+                    },
+                    "pilotCtrlLighting": false,
+                    "visualApproachAids": [
+                        1
+                    ],
+                    "_id": "62614aaa5e9ded5710445678"
+                },
+                {
+                    "designator": "28",
+                    "trueHeading": 276,
+                    "alignedTrueNorth": false,
+                    "operations": 0,
+                    "mainRunway": true,
+                    "turnDirection": 2,
+                    "takeOffOnly": false,
+                    "landingOnly": false,
+                    "surface": {
+                        "composition": [
+                            1
+                        ],
+                        "mainComposite": 1,
+                        "condition": 0,
+                        "mtow": {
+                            "value": 14,
+                            "unit": 9
+                        }
+                    },
+                    "dimension": {
+                        "length": {
+                            "value": 1540,
+                            "unit": 0
+                        },
+                        "width": {
+                            "value": 30,
+                            "unit": 0
+                        }
+                    },
+                    "declaredDistance": {
+                        "tora": {
+                            "value": 1413,
+                            "unit": 0
+                        },
+                        "lda": {
+                            "value": 1413,
+                            "unit": 0
+                        }
+                    },
+                    "pilotCtrlLighting": false,
+                    "visualApproachAids": [
+                        1
+                    ],
+                    "_id": "62614aaa5e9ded5710445679"
+                }
+            ],
+            "createdAt": "2022-04-21T12:14:34.120Z",
+            "updatedAt": "2023-03-31T05:49:39.520Z",
+            "createdBy": "AUTO-IMPORTER",
+            "updatedBy": "eBT9qSrxquPVguazo7MwJzzaf2p1",
+            "elevationGeoid": {
+                "geoidHeight": 48.52293664064001,
+                "hae": 436.52293664064
+            },
+            "services": {
+                "fuelTypes": [
+                    1,
+                    3
+                ],
+                "gliderTowing": [
+                    0,
+                    1,
+                    2
+                ]
+            }
+        },
+        {
+            "_id": "62614ab2cb27f42509447431",
+            "name": "STRAUSBERG",
+            "icaoCode": "EDAY",
+            "type": 9,
+            "trafficType": [
+                0,
+                1
+            ],
+            "magneticDeclination": 4.933,
+            "country": "DE",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.915833333333,
+                    52.58
+                ]
+            },
+            "elevation": {
+                "value": 80,
+                "unit": 0,
+                "referenceDatum": 1
+            },
+            "ppr": false,
+            "private": false,
+            "skydiveActivity": false,
+            "winchOnly": false,
+            "frequencies": [
+                {
+                    "value": "118.735",
+                    "unit": 2,
+                    "type": 10,
+                    "name": "Strausberg Information",
+                    "primary": true,
+                    "publicUse": true,
+                    "remarks": "AFIS airfield, frequency type changed to Information",
+                    "_id": "62614ab2cb27f42509447432"
+                }
+            ],
+            "runways": [
+                {
+                    "designator": "05",
+                    "trueHeading": 45,
+                    "alignedTrueNorth": false,
+                    "operations": 0,
+                    "mainRunway": true,
+                    "turnDirection": 2,
+                    "takeOffOnly": false,
+                    "landingOnly": false,
+                    "surface": {
+                        "composition": [
+                            1
+                        ],
+                        "mainComposite": 1,
+                        "condition": 0,
+                        "pcn": "38/R/B/W/T"
+                    },
+                    "dimension": {
+                        "length": {
+                            "value": 1200,
+                            "unit": 0
+                        },
+                        "width": {
+                            "value": 28,
+                            "unit": 0
+                        }
+                    },
+                    "declaredDistance": {
+                        "tora": {
+                            "value": 1200,
+                            "unit": 0
+                        },
+                        "lda": {
+                            "value": 1200,
+                            "unit": 0
+                        }
+                    },
+                    "pilotCtrlLighting": false,
+                    "visualApproachAids": [
+                        1
+                    ],
+                    "_id": "62614ab2cb27f42509447433"
+                },
+                {
+                    "designator": "23",
+                    "trueHeading": 225,
+                    "alignedTrueNorth": false,
+                    "operations": 0,
+                    "mainRunway": true,
+                    "turnDirection": 2,
+                    "takeOffOnly": false,
+                    "landingOnly": false,
+                    "surface": {
+                        "composition": [
+                            1
+                        ],
+                        "mainComposite": 1,
+                        "condition": 0,
+                        "pcn": "38/R/B/W/T"
+                    },
+                    "dimension": {
+                        "length": {
+                            "value": 1200,
+                            "unit": 0
+                        },
+                        "width": {
+                            "value": 28,
+                            "unit": 0
+                        }
+                    },
+                    "declaredDistance": {
+                        "tora": {
+                            "value": 1200,
+                            "unit": 0
+                        },
+                        "lda": {
+                            "value": 1200,
+                            "unit": 0
+                        }
+                    },
+                    "pilotCtrlLighting": false,
+                    "visualApproachAids": [
+                        1
+                    ],
+                    "_id": "62614ab2cb27f42509447434"
+                },
+                {
+                    "designator": "05",
+                    "trueHeading": 45,
+                    "alignedTrueNorth": false,
+                    "operations": 0,
+                    "mainRunway": false,
+                    "turnDirection": 2,
+                    "takeOffOnly": false,
+                    "landingOnly": false,
+                    "surface": {
+                        "composition": [
+                            2
+                        ],
+                        "mainComposite": 2,
+                        "condition": 0,
+                        "mtow": {
+                            "value": 5.7,
+                            "unit": 9
+                        }
+                    },
+                    "dimension": {
+                        "length": {
+                            "value": 1199,
+                            "unit": 0
+                        },
+                        "width": {
+                            "value": 40,
+                            "unit": 0
+                        }
+                    },
+                    "declaredDistance": {
+                        "tora": {
+                            "value": 1199,
+                            "unit": 0
+                        },
+                        "lda": {
+                            "value": 1199,
+                            "unit": 0
+                        }
+                    },
+                    "pilotCtrlLighting": false,
+                    "_id": "62614ab2cb27f42509447435"
+                },
+                {
+                    "designator": "23",
+                    "trueHeading": 225,
+                    "alignedTrueNorth": false,
+                    "operations": 0,
+                    "mainRunway": false,
+                    "turnDirection": 2,
+                    "takeOffOnly": false,
+                    "landingOnly": false,
+                    "surface": {
+                        "composition": [
+                            2
+                        ],
+                        "mainComposite": 2,
+                        "condition": 0,
+                        "mtow": {
+                            "value": 5.7,
+                            "unit": 9
+                        }
+                    },
+                    "dimension": {
+                        "length": {
+                            "value": 1199,
+                            "unit": 0
+                        },
+                        "width": {
+                            "value": 40,
+                            "unit": 0
+                        }
+                    },
+                    "declaredDistance": {
+                        "tora": {
+                            "value": 1199,
+                            "unit": 0
+                        },
+                        "lda": {
+                            "value": 1199,
+                            "unit": 0
+                        }
+                    },
+                    "pilotCtrlLighting": false,
+                    "_id": "62614ab2cb27f42509447436"
+                }
+            ],
+            "createdAt": "2022-04-21T12:14:42.153Z",
+            "updatedAt": "2023-03-30T08:38:19.028Z",
+            "createdBy": "AUTO-IMPORTER",
+            "updatedBy": "eBT9qSrxquPVguazo7MwJzzaf2p1",
+            "elevationGeoid": {
+                "geoidHeight": 38.650376400000454,
+                "hae": 118.65037640000045
+            },
+            "services": {
+                "fuelTypes": [
+                    0,
+                    1,
+                    3
+                ],
+                "gliderTowing": [
+                    0,
+                    1,
+                    2
+                ]
+            }
+        },
+        {
+            "_id": "62614ab5cb27f425094475bc",
+            "name": "TRIER-FOEHREN",
+            "icaoCode": "EDRT",
+            "type": 0,
+            "trafficType": [
+                0,
+                1
+            ],
+            "magneticDeclination": 2.818,
+            "country": "DE",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.7875,
+                    49.8639
+                ]
+            },
+            "elevation": {
+                "value": 203,
+                "unit": 0,
+                "referenceDatum": 1
+            },
+            "ppr": false,
+            "private": false,
+            "skydiveActivity": false,
+            "winchOnly": false,
+            "frequencies": [
+                {
+                    "value": "118.390",
+                    "unit": 2,
+                    "type": 16,
+                    "name": "Trier Radio",
+                    "primary": true,
+                    "publicUse": true,
+                    "_id": "62614ab5cb27f425094475bd"
+                }
+            ],
+            "runways": [
+                {
+                    "designator": "04",
+                    "trueHeading": 41,
+                    "alignedTrueNorth": false,
+                    "operations": 0,
+                    "mainRunway": true,
+                    "turnDirection": 2,
+                    "takeOffOnly": false,
+                    "landingOnly": false,
+                    "surface": {
+                        "composition": [
+                            1
+                        ],
+                        "mainComposite": 1,
+                        "condition": 0,
+                        "mtow": {
+                            "value": 15,
+                            "unit": 9
+                        }
+                    },
+                    "dimension": {
+                        "length": {
+                            "value": 1200,
+                            "unit": 0
+                        },
+                        "width": {
+                            "value": 30,
+                            "unit": 0
+                        }
+                    },
+                    "declaredDistance": {
+                        "tora": {
+                            "value": 1200,
+                            "unit": 0
+                        },
+                        "lda": {
+                            "value": 1200,
+                            "unit": 0
+                        }
+                    },
+                    "pilotCtrlLighting": false,
+                    "visualApproachAids": [
+                        1
+                    ],
+                    "_id": "62614ab5cb27f425094475be"
+                },
+                {
+                    "designator": "22",
+                    "trueHeading": 221,
+                    "alignedTrueNorth": false,
+                    "operations": 0,
+                    "mainRunway": true,
+                    "turnDirection": 2,
+                    "takeOffOnly": false,
+                    "landingOnly": false,
+                    "surface": {
+                        "composition": [
+                            1
+                        ],
+                        "mainComposite": 1,
+                        "condition": 0,
+                        "mtow": {
+                            "value": 15,
+                            "unit": 9
+                        }
+                    },
+                    "dimension": {
+                        "length": {
+                            "value": 1200,
+                            "unit": 0
+                        },
+                        "width": {
+                            "value": 30,
+                            "unit": 0
+                        }
+                    },
+                    "declaredDistance": {
+                        "tora": {
+                            "value": 1130,
+                            "unit": 0
+                        },
+                        "lda": {
+                            "value": 1130,
+                            "unit": 0
+                        }
+                    },
+                    "pilotCtrlLighting": false,
+                    "visualApproachAids": [
+                        1
+                    ],
+                    "_id": "62614ab5cb27f425094475bf"
+                }
+            ],
+            "createdAt": "2022-04-21T12:14:45.688Z",
+            "updatedAt": "2023-01-07T13:37:40.768Z",
+            "createdBy": "AUTO-IMPORTER",
+            "updatedBy": "openaip-system",
+            "elevationGeoid": {
+                "geoidHeight": 48.45730584000003,
+                "hae": 251.45730584000003
+            }
+        },
+        {
+            "_id": "62614ac25e9ded5710445ef4",
+            "name": "ZWEIBRUECKEN",
+            "icaoCode": "EDRZ",
+            "type": 9,
+            "trafficType": [
+                0,
+                1
+            ],
+            "magneticDeclination": 2.982,
+            "country": "DE",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.4006,
+                    49.2094
+                ]
+            },
+            "elevation": {
+                "value": 345,
+                "unit": 0,
+                "referenceDatum": 1
+            },
+            "ppr": true,
+            "private": false,
+            "skydiveActivity": false,
+            "winchOnly": false,
+            "frequencies": [
+                {
+                    "value": "123.830",
+                    "unit": 2,
+                    "type": 10,
+                    "name": "Zweibrücken INFORMATION",
+                    "primary": true,
+                    "publicUse": true,
+                    "_id": "62614ac25e9ded5710445ef5"
+                }
+            ],
+            "runways": [
+                {
+                    "designator": "03",
+                    "trueHeading": 28,
+                    "alignedTrueNorth": false,
+                    "operations": 0,
+                    "mainRunway": true,
+                    "turnDirection": 2,
+                    "takeOffOnly": false,
+                    "landingOnly": false,
+                    "surface": {
+                        "composition": [
+                            0
+                        ],
+                        "mainComposite": 0,
+                        "condition": 0,
+                        "pcn": "75/F/A/W/T"
+                    },
+                    "dimension": {
+                        "length": {
+                            "value": 2675,
+                            "unit": 0
+                        },
+                        "width": {
+                            "value": 45,
+                            "unit": 0
+                        }
+                    },
+                    "declaredDistance": {
+                        "tora": {
+                            "value": 2400,
+                            "unit": 0
+                        },
+                        "lda": {
+                            "value": 2400,
+                            "unit": 0
+                        }
+                    },
+                    "pilotCtrlLighting": false,
+                    "visualApproachAids": [
+                        1
+                    ],
+                    "_id": "62614ac25e9ded5710445ef6"
+                },
+                {
+                    "designator": "21",
+                    "trueHeading": 208,
+                    "alignedTrueNorth": false,
+                    "operations": 0,
+                    "mainRunway": true,
+                    "turnDirection": 2,
+                    "takeOffOnly": false,
+                    "landingOnly": false,
+                    "surface": {
+                        "composition": [
+                            0
+                        ],
+                        "mainComposite": 0,
+                        "condition": 0,
+                        "pcn": "75/F/A/W/T"
+                    },
+                    "dimension": {
+                        "length": {
+                            "value": 2675,
+                            "unit": 0
+                        },
+                        "width": {
+                            "value": 45,
+                            "unit": 0
+                        }
+                    },
+                    "declaredDistance": {
+                        "tora": {
+                            "value": 2675,
+                            "unit": 0
+                        },
+                        "lda": {
+                            "value": 2675,
+                            "unit": 0
+                        }
+                    },
+                    "pilotCtrlLighting": false,
+                    "_id": "62614ac25e9ded5710445ef7"
+                }
+            ],
+            "createdAt": "2022-04-21T12:14:58.607Z",
+            "updatedAt": "2023-01-07T13:37:45.508Z",
+            "createdBy": "AUTO-IMPORTER",
+            "updatedBy": "openaip-system",
+            "elevationGeoid": {
+                "geoidHeight": 48.88587359999997,
+                "hae": 393.88587359999997
+            },
+            "services": {
+                "fuelTypes": [
+                    1,
+                    3,
+                    0
+                ],
+                "handlingFacilities": [
+                    0,
+                    2
+                ]
+            }
+        }
+    ]
+}
