@@ -1,0 +1,16 @@
+{
+  "source": "Unity",
+  "applications": [
+    {
+      "app_key": "application.generated.unity.2020urpmapsdktest.exe",
+      "launch_type": "url",
+      "url": "steam://launch/",
+      "action_manifest_path": "C:\\Uni\\Studium\\Semester 2\\VP2\\Projekt\\VP2-LRV\\Assets\\StreamingAssets\\SteamVR\\actions.json",
+      "strings": {
+        "en_us": {
+          "name": "2020-URP-MapSDK-test [Testing]"
+        }
+      }
+    }
+  ]
+}
