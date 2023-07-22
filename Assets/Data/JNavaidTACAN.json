@@ -1,0 +1,1571 @@
+{
+    "Items": [
+        {
+            "_id": "62616c4dabdcc7f0ccbbdadb",
+            "name": "BÜCHEL",
+            "identifier": "BUE",
+            "type": 1,
+            "country": "DE",
+            "channel": "118X",
+            "frequency": {
+                "value": "117.100",
+                "unit": 2
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.0694444444444,
+                    50.178611111111
+                ]
+            },
+            "elevation": {
+                "value": 475,
+                "unit": 0,
+                "referenceDatum": 1
+            },
+            "magneticDeclination": 2.979,
+            "alignedTrueNorth": false,
+            "createdAt": "2022-04-21T14:38:05.221Z",
+            "updatedAt": "2023-06-29T10:16:06.859Z",
+            "createdBy": "import-script",
+            "updatedBy": "OPONcQnzWGOLiJSceNaf8pvx1fA2",
+            "elevationGeoid": {
+                "geoidHeight": 48.52161833333341,
+                "hae": 523.5216183333334
+            },
+            "range": {
+                "value": 50,
+                "unit": 2
+            },
+            "hoursOfOperation": {
+                "operatingHours": [
+                    {
+                        "dayOfWeek": 0,
+                        "startTime": "00:00",
+                        "endTime": "00:00",
+                        "byNotam": false,
+                        "sunrise": false,
+                        "sunset": false,
+                        "publicHolidaysExcluded": false
+                    },
+                    {
+                        "dayOfWeek": 1,
+                        "startTime": "00:00",
+                        "endTime": "00:00",
+                        "byNotam": false,
+                        "sunrise": false,
+                        "sunset": false,
+                        "publicHolidaysExcluded": false
+                    },
+                    {
+                        "dayOfWeek": 2,
+                        "startTime": "00:00",
+                        "endTime": "00:00",
+                        "byNotam": false,
+                        "sunrise": false,
+                        "sunset": false,
+                        "publicHolidaysExcluded": false
+                    },
+                    {
+                        "dayOfWeek": 3,
+                        "startTime": "00:00",
+                        "endTime": "00:00",
+                        "byNotam": false,
+                        "sunrise": false,
+                        "sunset": false,
+                        "publicHolidaysExcluded": false
+                    },
+                    {
+                        "dayOfWeek": 4,
+                        "startTime": "00:00",
+                        "endTime": "00:00",
+                        "byNotam": false,
+                        "sunrise": false,
+                        "sunset": false,
+                        "publicHolidaysExcluded": false
+                    },
+                    {
+                        "dayOfWeek": 5,
+                        "startTime": "00:00",
+                        "endTime": "00:00",
+                        "byNotam": false,
+                        "sunrise": false,
+                        "sunset": false,
+                        "publicHolidaysExcluded": false
+                    },
+                    {
+                        "dayOfWeek": 6,
+                        "startTime": "00:00",
+                        "endTime": "00:00",
+                        "byNotam": false,
+                        "sunrise": false,
+                        "sunset": false,
+                        "publicHolidaysExcluded": false
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "62616d03abdcc7f0ccbbf486",
+            "name": "GEDERN",
+            "identifier": "GED",
+            "type": 1,
+            "country": "DE",
+            "channel": "45X",
+            "frequency": {
+                "value": "110.800",
+                "unit": 2
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.249163888888889,
+                    50.411947222222224
+                ]
+            },
+            "elevation": {
+                "value": 471,
+                "unit": 0,
+                "referenceDatum": 1
+            },
+            "magneticDeclination": 3.578,
+            "alignedTrueNorth": false,
+            "createdAt": "2022-04-21T14:41:07.655Z",
+            "updatedAt": "2023-06-29T10:50:32.409Z",
+            "createdBy": "import-script",
+            "updatedBy": "OPONcQnzWGOLiJSceNaf8pvx1fA2",
+            "elevationGeoid": {
+                "geoidHeight": 48.29851293264335,
+                "hae": 519.2985129326433
+            },
+            "range": {
+                "value": 70,
+                "unit": 2
+            },
+            "hoursOfOperation": {
+                "operatingHours": [
+                    {
+                        "dayOfWeek": 0,
+                        "startTime": "00:00",
+                        "endTime": "00:00",
+                        "byNotam": false,
+                        "sunrise": false,
+                        "sunset": false,
+                        "publicHolidaysExcluded": false
+                    },
+                    {
+                        "dayOfWeek": 1,
+                        "startTime": "00:00",
+                        "endTime": "00:00",
+                        "byNotam": false,
+                        "sunrise": false,
+                        "sunset": false,
+                        "publicHolidaysExcluded": false
+                    },
+                    {
+                        "dayOfWeek": 2,
+                        "startTime": "00:00",
+                        "endTime": "00:00",
+                        "byNotam": false,
+                        "sunrise": false,
+                        "sunset": false,
+                        "publicHolidaysExcluded": false
+                    },
+                    {
+                        "dayOfWeek": 3,
+                        "startTime": "00:00",
+                        "endTime": "00:00",
+                        "byNotam": false,
+                        "sunrise": false,
+                        "sunset": false,
+                        "publicHolidaysExcluded": false
+                    },
+                    {
+                        "dayOfWeek": 4,
+                        "startTime": "00:00",
+                        "endTime": "00:00",
+                        "byNotam": false,
+                        "sunrise": false,
+                        "sunset": false,
+                        "publicHolidaysExcluded": false
+                    },
+                    {
+                        "dayOfWeek": 5,
+                        "startTime": "00:00",
+                        "endTime": "00:00",
+                        "byNotam": false,
+                        "sunrise": false,
+                        "sunset": false,
+                        "publicHolidaysExcluded": false
+                    },
+                    {
+                        "dayOfWeek": 6,
+                        "startTime": "00:00",
+                        "endTime": "00:00",
+                        "byNotam": false,
+                        "sunrise": false,
+                        "sunset": false,
+                        "publicHolidaysExcluded": false
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "62616d04abdcc7f0ccbbf491",
+            "name": "GEILENKIRCHEN",
+            "identifier": "GIX",
+            "type": 1,
+            "country": "DE",
+            "channel": "18X",
+            "frequency": {
+                "value": "108.100",
+                "unit": 2
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.045,
+                    50.963333333333
+                ]
+            },
+            "elevation": {
+                "value": 87,
+                "unit": 0,
+                "referenceDatum": 1
+            },
+            "magneticDeclination": 2.684,
+            "alignedTrueNorth": false,
+            "createdAt": "2022-04-21T14:41:08.004Z",
+            "updatedAt": "2023-06-29T10:50:24.259Z",
+            "createdBy": "import-script",
+            "updatedBy": "OPONcQnzWGOLiJSceNaf8pvx1fA2",
+            "elevationGeoid": {
+                "geoidHeight": 45.69685440000154,
+                "hae": 132.69685440000154
+            },
+            "range": {
+                "value": 80,
+                "unit": 2
+            },
+            "hoursOfOperation": {
+                "operatingHours": [
+                    {
+                        "dayOfWeek": 0,
+                        "startTime": "00:00",
+                        "endTime": "00:00",
+                        "byNotam": false,
+                        "sunrise": false,
+                        "sunset": false,
+                        "publicHolidaysExcluded": false
+                    },
+                    {
+                        "dayOfWeek": 1,
+                        "startTime": "00:00",
+                        "endTime": "00:00",
+                        "byNotam": false,
+                        "sunrise": false,
+                        "sunset": false,
+                        "publicHolidaysExcluded": false
+                    },
+                    {
+                        "dayOfWeek": 2,
+                        "startTime": "00:00",
+                        "endTime": "00:00",
+                        "byNotam": false,
+                        "sunrise": false,
+                        "sunset": false,
+                        "publicHolidaysExcluded": false
+                    },
+                    {
+                        "dayOfWeek": 3,
+                        "startTime": "00:00",
+                        "endTime": "00:00",
+                        "byNotam": false,
+                        "sunrise": false,
+                        "sunset": false,
+                        "publicHolidaysExcluded": false
+                    },
+                    {
+                        "dayOfWeek": 4,
+                        "startTime": "00:00",
+                        "endTime": "00:00",
+                        "byNotam": false,
+                        "sunrise": false,
+                        "sunset": false,
+                        "publicHolidaysExcluded": false
+                    },
+                    {
+                        "dayOfWeek": 5,
+                        "startTime": "00:00",
+                        "endTime": "00:00",
+                        "byNotam": false,
+                        "sunrise": false,
+                        "sunset": false,
+                        "publicHolidaysExcluded": false
+                    },
+                    {
+                        "dayOfWeek": 6,
+                        "startTime": "00:00",
+                        "endTime": "00:00",
+                        "byNotam": false,
+                        "sunrise": false,
+                        "sunset": false,
+                        "publicHolidaysExcluded": false
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "62616d45abdcc7f0ccbbfda6",
+            "name": "HOHN",
+            "identifier": "HNT",
+            "type": 1,
+            "country": "DE",
+            "channel": "100X",
+            "frequency": {
+                "value": "115.300",
+                "unit": 2
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.5386111111111,
+                    54.310833333333
+                ]
+            },
+            "elevation": {
+                "value": 8,
+                "unit": 0,
+                "referenceDatum": 1
+            },
+            "magneticDeclination": 3.785,
+            "alignedTrueNorth": false,
+            "createdAt": "2022-04-21T14:42:13.596Z",
+            "updatedAt": "2023-06-29T10:49:19.271Z",
+            "createdBy": "import-script",
+            "updatedBy": "OPONcQnzWGOLiJSceNaf8pvx1fA2",
+            "elevationGeoid": {
+                "geoidHeight": 39.94576119999968,
+                "hae": 47.94576119999968
+            },
+            "range": {
+                "value": 30,
+                "unit": 2
+            },
+            "hoursOfOperation": {
+                "operatingHours": [
+                    {
+                        "dayOfWeek": 0,
+                        "startTime": "00:00",
+                        "endTime": "00:00",
+                        "byNotam": false,
+                        "sunrise": false,
+                        "sunset": false,
+                        "publicHolidaysExcluded": false
+                    },
+                    {
+                        "dayOfWeek": 1,
+                        "startTime": "00:00",
+                        "endTime": "00:00",
+                        "byNotam": false,
+                        "sunrise": false,
+                        "sunset": false,
+                        "publicHolidaysExcluded": false
+                    },
+                    {
+                        "dayOfWeek": 2,
+                        "startTime": "00:00",
+                        "endTime": "00:00",
+                        "byNotam": false,
+                        "sunrise": false,
+                        "sunset": false,
+                        "publicHolidaysExcluded": false
+                    },
+                    {
+                        "dayOfWeek": 3,
+                        "startTime": "00:00",
+                        "endTime": "00:00",
+                        "byNotam": false,
+                        "sunrise": false,
+                        "sunset": false,
+                        "publicHolidaysExcluded": false
+                    },
+                    {
+                        "dayOfWeek": 4,
+                        "startTime": "00:00",
+                        "endTime": "00:00",
+                        "byNotam": false,
+                        "sunrise": false,
+                        "sunset": false,
+                        "publicHolidaysExcluded": false
+                    },
+                    {
+                        "dayOfWeek": 5,
+                        "startTime": "00:00",
+                        "endTime": "00:00",
+                        "byNotam": false,
+                        "sunrise": false,
+                        "sunset": false,
+                        "publicHolidaysExcluded": false
+                    },
+                    {
+                        "dayOfWeek": 6,
+                        "startTime": "00:00",
+                        "endTime": "00:00",
+                        "byNotam": false,
+                        "sunrise": false,
+                        "sunset": false,
+                        "publicHolidaysExcluded": false
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "62616d47abdcc7f0ccbbfdfe",
+            "name": "HOLZDORF",
+            "identifier": "HOZ",
+            "type": 1,
+            "country": "DE",
+            "channel": "119Y",
+            "frequency": {
+                "value": "117.250",
+                "unit": 2
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.198333333333,
+                    51.766666666667
+                ]
+            },
+            "elevation": {
+                "value": 79,
+                "unit": 0,
+                "referenceDatum": 1
+            },
+            "magneticDeclination": 4.71,
+            "alignedTrueNorth": false,
+            "createdAt": "2022-04-21T14:42:15.895Z",
+            "updatedAt": "2023-06-29T10:49:13.953Z",
+            "createdBy": "import-script",
+            "updatedBy": "OPONcQnzWGOLiJSceNaf8pvx1fA2",
+            "elevationGeoid": {
+                "geoidHeight": 42.45843599999907,
+                "hae": 121.45843599999907
+            },
+            "hoursOfOperation": {
+                "operatingHours": [
+                    {
+                        "dayOfWeek": 0,
+                        "startTime": "00:00",
+                        "endTime": "00:00",
+                        "byNotam": false,
+                        "sunrise": false,
+                        "sunset": false,
+                        "publicHolidaysExcluded": false
+                    },
+                    {
+                        "dayOfWeek": 1,
+                        "startTime": "00:00",
+                        "endTime": "00:00",
+                        "byNotam": false,
+                        "sunrise": false,
+                        "sunset": false,
+                        "publicHolidaysExcluded": false
+                    },
+                    {
+                        "dayOfWeek": 2,
+                        "startTime": "00:00",
+                        "endTime": "00:00",
+                        "byNotam": false,
+                        "sunrise": false,
+                        "sunset": false,
+                        "publicHolidaysExcluded": false
+                    },
+                    {
+                        "dayOfWeek": 3,
+                        "startTime": "00:00",
+                        "endTime": "00:00",
+                        "byNotam": false,
+                        "sunrise": false,
+                        "sunset": false,
+                        "publicHolidaysExcluded": false
+                    },
+                    {
+                        "dayOfWeek": 4,
+                        "startTime": "00:00",
+                        "endTime": "00:00",
+                        "byNotam": false,
+                        "sunrise": false,
+                        "sunset": false,
+                        "publicHolidaysExcluded": false
+                    },
+                    {
+                        "dayOfWeek": 5,
+                        "startTime": "00:00",
+                        "endTime": "00:00",
+                        "byNotam": false,
+                        "sunrise": false,
+                        "sunset": false,
+                        "publicHolidaysExcluded": false
+                    },
+                    {
+                        "dayOfWeek": 6,
+                        "startTime": "00:00",
+                        "endTime": "00:00",
+                        "byNotam": false,
+                        "sunrise": false,
+                        "sunset": false,
+                        "publicHolidaysExcluded": false
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "62616d59abdcc7f0ccbc00a8",
+            "name": "INGOLSTADT",
+            "identifier": "IGL",
+            "type": 1,
+            "country": "DE",
+            "channel": "51X",
+            "frequency": {
+                "value": "111.400",
+                "unit": 2
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.569722222222,
+                    48.718055555556
+                ]
+            },
+            "elevation": {
+                "value": 361,
+                "unit": 0,
+                "referenceDatum": 1
+            },
+            "magneticDeclination": 4.092,
+            "alignedTrueNorth": false,
+            "createdAt": "2022-04-21T14:42:33.163Z",
+            "updatedAt": "2023-06-29T10:48:05.318Z",
+            "createdBy": "import-script",
+            "updatedBy": "OPONcQnzWGOLiJSceNaf8pvx1fA2",
+            "elevationGeoid": {
+                "geoidHeight": 46.262243833334054,
+                "hae": 407.2622438333341
+            },
+            "hoursOfOperation": {
+                "operatingHours": [
+                    {
+                        "dayOfWeek": 0,
+                        "startTime": "00:00",
+                        "endTime": "00:00",
+                        "byNotam": false,
+                        "sunrise": false,
+                        "sunset": false,
+                        "publicHolidaysExcluded": false
+                    },
+                    {
+                        "dayOfWeek": 1,
+                        "startTime": "00:00",
+                        "endTime": "00:00",
+                        "byNotam": false,
+                        "sunrise": false,
+                        "sunset": false,
+                        "publicHolidaysExcluded": false
+                    },
+                    {
+                        "dayOfWeek": 2,
+                        "startTime": "00:00",
+                        "endTime": "00:00",
+                        "byNotam": false,
+                        "sunrise": false,
+                        "sunset": false,
+                        "publicHolidaysExcluded": false
+                    },
+                    {
+                        "dayOfWeek": 3,
+                        "startTime": "00:00",
+                        "endTime": "00:00",
+                        "byNotam": false,
+                        "sunrise": false,
+                        "sunset": false,
+                        "publicHolidaysExcluded": false
+                    },
+                    {
+                        "dayOfWeek": 4,
+                        "startTime": "00:00",
+                        "endTime": "00:00",
+                        "byNotam": false,
+                        "sunrise": false,
+                        "sunset": false,
+                        "publicHolidaysExcluded": false
+                    },
+                    {
+                        "dayOfWeek": 5,
+                        "startTime": "00:00",
+                        "endTime": "00:00",
+                        "byNotam": false,
+                        "sunrise": false,
+                        "sunset": false,
+                        "publicHolidaysExcluded": false
+                    },
+                    {
+                        "dayOfWeek": 6,
+                        "startTime": "00:00",
+                        "endTime": "00:00",
+                        "byNotam": false,
+                        "sunrise": false,
+                        "sunset": false,
+                        "publicHolidaysExcluded": false
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "62616d9babdcc7f0ccbc0a69",
+            "name": "LAAGE",
+            "identifier": "LAG",
+            "type": 1,
+            "country": "DE",
+            "channel": "19Y",
+            "frequency": {
+                "value": "108.250",
+                "unit": 2
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.286388888889,
+                    53.919722222222
+                ]
+            },
+            "elevation": {
+                "value": 37,
+                "unit": 0,
+                "referenceDatum": 1
+            },
+            "magneticDeclination": 4.618,
+            "alignedTrueNorth": false,
+            "createdAt": "2022-04-21T14:43:39.307Z",
+            "updatedAt": "2023-06-29T10:45:29.735Z",
+            "createdBy": "import-script",
+            "updatedBy": "OPONcQnzWGOLiJSceNaf8pvx1fA2",
+            "elevationGeoid": {
+                "geoidHeight": 38.80937000000034,
+                "hae": 75.80937000000034
+            },
+            "range": {
+                "value": 80,
+                "unit": 2
+            },
+            "hoursOfOperation": {
+                "operatingHours": [
+                    {
+                        "dayOfWeek": 0,
+                        "startTime": "00:00",
+                        "endTime": "00:00",
+                        "byNotam": false,
+                        "sunrise": false,
+                        "sunset": false,
+                        "publicHolidaysExcluded": false
+                    },
+                    {
+                        "dayOfWeek": 1,
+                        "startTime": "00:00",
+                        "endTime": "00:00",
+                        "byNotam": false,
+                        "sunrise": false,
+                        "sunset": false,
+                        "publicHolidaysExcluded": false
+                    },
+                    {
+                        "dayOfWeek": 2,
+                        "startTime": "00:00",
+                        "endTime": "00:00",
+                        "byNotam": false,
+                        "sunrise": false,
+                        "sunset": false,
+                        "publicHolidaysExcluded": false
+                    },
+                    {
+                        "dayOfWeek": 3,
+                        "startTime": "00:00",
+                        "endTime": "00:00",
+                        "byNotam": false,
+                        "sunrise": false,
+                        "sunset": false,
+                        "publicHolidaysExcluded": false
+                    },
+                    {
+                        "dayOfWeek": 4,
+                        "startTime": "00:00",
+                        "endTime": "00:00",
+                        "byNotam": false,
+                        "sunrise": false,
+                        "sunset": false,
+                        "publicHolidaysExcluded": false
+                    },
+                    {
+                        "dayOfWeek": 5,
+                        "startTime": "00:00",
+                        "endTime": "00:00",
+                        "byNotam": false,
+                        "sunrise": false,
+                        "sunset": false,
+                        "publicHolidaysExcluded": false
+                    },
+                    {
+                        "dayOfWeek": 6,
+                        "startTime": "00:00",
+                        "endTime": "00:00",
+                        "byNotam": false,
+                        "sunrise": false,
+                        "sunset": false,
+                        "publicHolidaysExcluded": false
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "62616daeabdcc7f0ccbc0d3f",
+            "name": "LECHFELD",
+            "identifier": "LCH",
+            "type": 1,
+            "country": "DE",
+            "channel": "25X",
+            "frequency": {
+                "value": "108.800",
+                "unit": 2
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.858888888889,
+                    48.190555555556
+                ]
+            },
+            "elevation": {
+                "value": 549,
+                "unit": 0,
+                "referenceDatum": 1
+            },
+            "magneticDeclination": 3.896,
+            "alignedTrueNorth": false,
+            "createdAt": "2022-04-21T14:43:58.456Z",
+            "updatedAt": "2023-06-29T11:06:20.281Z",
+            "createdBy": "import-script",
+            "updatedBy": "OPONcQnzWGOLiJSceNaf8pvx1fA2",
+            "elevationGeoid": {
+                "geoidHeight": 46.538826400000005,
+                "hae": 595.5388264000001
+            },
+            "range": {
+                "value": 40,
+                "unit": 2
+            },
+            "hoursOfOperation": {
+                "operatingHours": [
+                    {
+                        "dayOfWeek": 0,
+                        "startTime": "00:00",
+                        "endTime": "00:00",
+                        "byNotam": false,
+                        "sunrise": false,
+                        "sunset": false,
+                        "publicHolidaysExcluded": false
+                    },
+                    {
+                        "dayOfWeek": 1,
+                        "startTime": "00:00",
+                        "endTime": "00:00",
+                        "byNotam": false,
+                        "sunrise": false,
+                        "sunset": false,
+                        "publicHolidaysExcluded": false
+                    },
+                    {
+                        "dayOfWeek": 2,
+                        "startTime": "00:00",
+                        "endTime": "00:00",
+                        "byNotam": false,
+                        "sunrise": false,
+                        "sunset": false,
+                        "publicHolidaysExcluded": false
+                    },
+                    {
+                        "dayOfWeek": 3,
+                        "startTime": "00:00",
+                        "endTime": "00:00",
+                        "byNotam": false,
+                        "sunrise": false,
+                        "sunset": false,
+                        "publicHolidaysExcluded": false
+                    },
+                    {
+                        "dayOfWeek": 4,
+                        "startTime": "00:00",
+                        "endTime": "00:00",
+                        "byNotam": false,
+                        "sunrise": false,
+                        "sunset": false,
+                        "publicHolidaysExcluded": false
+                    },
+                    {
+                        "dayOfWeek": 5,
+                        "startTime": "00:00",
+                        "endTime": "00:00",
+                        "byNotam": false,
+                        "sunrise": false,
+                        "sunset": false,
+                        "publicHolidaysExcluded": false
+                    },
+                    {
+                        "dayOfWeek": 6,
+                        "startTime": "00:00",
+                        "endTime": "00:00",
+                        "byNotam": false,
+                        "sunrise": false,
+                        "sunset": false,
+                        "publicHolidaysExcluded": false
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "62616e33abdcc7f0ccbc1fd2",
+            "name": "NEUBURG",
+            "identifier": "NEU",
+            "type": 1,
+            "country": "DE",
+            "channel": "26X",
+            "frequency": {
+                "value": "108.900",
+                "unit": 2
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.210833333333,
+                    48.7125
+                ]
+            },
+            "elevation": {
+                "value": 379,
+                "unit": 0,
+                "referenceDatum": 1
+            },
+            "magneticDeclination": 4.006,
+            "alignedTrueNorth": false,
+            "createdAt": "2022-04-21T14:46:11.985Z",
+            "updatedAt": "2023-06-29T11:03:37.066Z",
+            "createdBy": "import-script",
+            "updatedBy": "OPONcQnzWGOLiJSceNaf8pvx1fA2",
+            "elevationGeoid": {
+                "geoidHeight": 46.63834950000049,
+                "hae": 425.63834950000046
+            },
+            "range": {
+                "value": 40,
+                "unit": 2
+            },
+            "hoursOfOperation": {
+                "operatingHours": [
+                    {
+                        "dayOfWeek": 0,
+                        "startTime": "00:00",
+                        "endTime": "00:00",
+                        "byNotam": false,
+                        "sunrise": false,
+                        "sunset": false,
+                        "publicHolidaysExcluded": false
+                    },
+                    {
+                        "dayOfWeek": 1,
+                        "startTime": "00:00",
+                        "endTime": "00:00",
+                        "byNotam": false,
+                        "sunrise": false,
+                        "sunset": false,
+                        "publicHolidaysExcluded": false
+                    },
+                    {
+                        "dayOfWeek": 2,
+                        "startTime": "00:00",
+                        "endTime": "00:00",
+                        "byNotam": false,
+                        "sunrise": false,
+                        "sunset": false,
+                        "publicHolidaysExcluded": false
+                    },
+                    {
+                        "dayOfWeek": 3,
+                        "startTime": "00:00",
+                        "endTime": "00:00",
+                        "byNotam": false,
+                        "sunrise": false,
+                        "sunset": false,
+                        "publicHolidaysExcluded": false
+                    },
+                    {
+                        "dayOfWeek": 4,
+                        "startTime": "00:00",
+                        "endTime": "00:00",
+                        "byNotam": false,
+                        "sunrise": false,
+                        "sunset": false,
+                        "publicHolidaysExcluded": false
+                    },
+                    {
+                        "dayOfWeek": 5,
+                        "startTime": "00:00",
+                        "endTime": "00:00",
+                        "byNotam": false,
+                        "sunrise": false,
+                        "sunset": false,
+                        "publicHolidaysExcluded": false
+                    },
+                    {
+                        "dayOfWeek": 6,
+                        "startTime": "00:00",
+                        "endTime": "00:00",
+                        "byNotam": false,
+                        "sunrise": false,
+                        "sunset": false,
+                        "publicHolidaysExcluded": false
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "62616e3fabdcc7f0ccbc2175",
+            "name": "NORDHOLZ",
+            "identifier": "NDO",
+            "type": 1,
+            "country": "DE",
+            "channel": "118X",
+            "frequency": {
+                "value": "117.100",
+                "unit": 2
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.6536111111111,
+                    53.768888888889
+                ]
+            },
+            "elevation": {
+                "value": 14,
+                "unit": 0,
+                "referenceDatum": 1
+            },
+            "magneticDeclination": 3.488,
+            "alignedTrueNorth": false,
+            "createdAt": "2022-04-21T14:46:23.136Z",
+            "updatedAt": "2023-06-29T11:03:31.800Z",
+            "createdBy": "import-script",
+            "updatedBy": "OPONcQnzWGOLiJSceNaf8pvx1fA2",
+            "elevationGeoid": {
+                "geoidHeight": 39.638753066666595,
+                "hae": 53.638753066666595
+            },
+            "range": {
+                "value": 60,
+                "unit": 2
+            },
+            "hoursOfOperation": {
+                "operatingHours": [
+                    {
+                        "dayOfWeek": 0,
+                        "startTime": "00:00",
+                        "endTime": "00:00",
+                        "byNotam": false,
+                        "sunrise": false,
+                        "sunset": false,
+                        "publicHolidaysExcluded": false
+                    },
+                    {
+                        "dayOfWeek": 1,
+                        "startTime": "00:00",
+                        "endTime": "00:00",
+                        "byNotam": false,
+                        "sunrise": false,
+                        "sunset": false,
+                        "publicHolidaysExcluded": false
+                    },
+                    {
+                        "dayOfWeek": 2,
+                        "startTime": "00:00",
+                        "endTime": "00:00",
+                        "byNotam": false,
+                        "sunrise": false,
+                        "sunset": false,
+                        "publicHolidaysExcluded": false
+                    },
+                    {
+                        "dayOfWeek": 3,
+                        "startTime": "00:00",
+                        "endTime": "00:00",
+                        "byNotam": false,
+                        "sunrise": false,
+                        "sunset": false,
+                        "publicHolidaysExcluded": false
+                    },
+                    {
+                        "dayOfWeek": 4,
+                        "startTime": "00:00",
+                        "endTime": "00:00",
+                        "byNotam": false,
+                        "sunrise": false,
+                        "sunset": false,
+                        "publicHolidaysExcluded": false
+                    },
+                    {
+                        "dayOfWeek": 5,
+                        "startTime": "00:00",
+                        "endTime": "00:00",
+                        "byNotam": false,
+                        "sunrise": false,
+                        "sunset": false,
+                        "publicHolidaysExcluded": false
+                    },
+                    {
+                        "dayOfWeek": 6,
+                        "startTime": "00:00",
+                        "endTime": "00:00",
+                        "byNotam": false,
+                        "sunrise": false,
+                        "sunset": false,
+                        "publicHolidaysExcluded": false
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "62616e5cabdcc7f0ccbc25ed",
+            "name": "OSNABRÜCK",
+            "identifier": "OSB",
+            "type": 1,
+            "country": "DE",
+            "channel": "20Y",
+            "frequency": {
+                "value": "108.350",
+                "unit": 2
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.285,
+                    52.2
+                ]
+            },
+            "elevation": {
+                "value": 109,
+                "unit": 0,
+                "referenceDatum": 1
+            },
+            "magneticDeclination": 3.347,
+            "alignedTrueNorth": false,
+            "createdAt": "2022-04-21T14:46:52.254Z",
+            "updatedAt": "2023-06-29T11:02:46.665Z",
+            "createdBy": "import-script",
+            "updatedBy": "OPONcQnzWGOLiJSceNaf8pvx1fA2",
+            "elevationGeoid": {
+                "geoidHeight": 44.22880799999999,
+                "hae": 153.228808
+            },
+            "range": {
+                "value": 50,
+                "unit": 2
+            },
+            "hoursOfOperation": {
+                "operatingHours": [
+                    {
+                        "dayOfWeek": 0,
+                        "startTime": "00:00",
+                        "endTime": "00:00",
+                        "byNotam": false,
+                        "sunrise": false,
+                        "sunset": false,
+                        "publicHolidaysExcluded": false
+                    },
+                    {
+                        "dayOfWeek": 1,
+                        "startTime": "00:00",
+                        "endTime": "00:00",
+                        "byNotam": false,
+                        "sunrise": false,
+                        "sunset": false,
+                        "publicHolidaysExcluded": false
+                    },
+                    {
+                        "dayOfWeek": 2,
+                        "startTime": "00:00",
+                        "endTime": "00:00",
+                        "byNotam": false,
+                        "sunrise": false,
+                        "sunset": false,
+                        "publicHolidaysExcluded": false
+                    },
+                    {
+                        "dayOfWeek": 3,
+                        "startTime": "00:00",
+                        "endTime": "00:00",
+                        "byNotam": false,
+                        "sunrise": false,
+                        "sunset": false,
+                        "publicHolidaysExcluded": false
+                    },
+                    {
+                        "dayOfWeek": 4,
+                        "startTime": "00:00",
+                        "endTime": "00:00",
+                        "byNotam": false,
+                        "sunrise": false,
+                        "sunset": false,
+                        "publicHolidaysExcluded": false
+                    },
+                    {
+                        "dayOfWeek": 5,
+                        "startTime": "00:00",
+                        "endTime": "00:00",
+                        "byNotam": false,
+                        "sunrise": false,
+                        "sunset": false,
+                        "publicHolidaysExcluded": false
+                    },
+                    {
+                        "dayOfWeek": 6,
+                        "startTime": "00:00",
+                        "endTime": "00:00",
+                        "byNotam": false,
+                        "sunrise": false,
+                        "sunset": false,
+                        "publicHolidaysExcluded": false
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "62616ef6abdcc7f0ccbc3ba0",
+            "name": "SCHLESWIG",
+            "identifier": "SWG",
+            "type": 1,
+            "country": "DE",
+            "channel": "55X",
+            "frequency": {
+                "value": "111.800",
+                "unit": 2
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.5163888888889,
+                    54.463611111111
+                ]
+            },
+            "elevation": {
+                "value": 17,
+                "unit": 0,
+                "referenceDatum": 1
+            },
+            "magneticDeclination": 3.783,
+            "alignedTrueNorth": false,
+            "createdAt": "2022-04-21T14:49:26.470Z",
+            "updatedAt": "2023-06-29T11:15:59.461Z",
+            "createdBy": "import-script",
+            "updatedBy": "OPONcQnzWGOLiJSceNaf8pvx1fA2",
+            "elevationGeoid": {
+                "geoidHeight": 40.1054123666666,
+                "hae": 57.1054123666666
+            },
+            "range": {
+                "value": 80,
+                "unit": 2
+            },
+            "hoursOfOperation": {
+                "operatingHours": [
+                    {
+                        "dayOfWeek": 0,
+                        "startTime": "00:00",
+                        "endTime": "00:00",
+                        "byNotam": false,
+                        "sunrise": false,
+                        "sunset": false,
+                        "publicHolidaysExcluded": false
+                    },
+                    {
+                        "dayOfWeek": 1,
+                        "startTime": "00:00",
+                        "endTime": "00:00",
+                        "byNotam": false,
+                        "sunrise": false,
+                        "sunset": false,
+                        "publicHolidaysExcluded": false
+                    },
+                    {
+                        "dayOfWeek": 2,
+                        "startTime": "00:00",
+                        "endTime": "00:00",
+                        "byNotam": false,
+                        "sunrise": false,
+                        "sunset": false,
+                        "publicHolidaysExcluded": false
+                    },
+                    {
+                        "dayOfWeek": 3,
+                        "startTime": "00:00",
+                        "endTime": "00:00",
+                        "byNotam": false,
+                        "sunrise": false,
+                        "sunset": false,
+                        "publicHolidaysExcluded": false
+                    },
+                    {
+                        "dayOfWeek": 4,
+                        "startTime": "00:00",
+                        "endTime": "00:00",
+                        "byNotam": false,
+                        "sunrise": false,
+                        "sunset": false,
+                        "publicHolidaysExcluded": false
+                    },
+                    {
+                        "dayOfWeek": 5,
+                        "startTime": "00:00",
+                        "endTime": "00:00",
+                        "byNotam": false,
+                        "sunrise": false,
+                        "sunset": false,
+                        "publicHolidaysExcluded": false
+                    },
+                    {
+                        "dayOfWeek": 6,
+                        "startTime": "00:00",
+                        "endTime": "00:00",
+                        "byNotam": false,
+                        "sunrise": false,
+                        "sunset": false,
+                        "publicHolidaysExcluded": false
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "62616f14abdcc7f0ccbc4015",
+            "name": "SPANGDAHLEM",
+            "identifier": "SPA",
+            "type": 1,
+            "country": "DE",
+            "channel": "32X",
+            "frequency": {
+                "value": "109.500",
+                "unit": 2
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.697697,
+                    49.97899
+                ]
+            },
+            "elevation": {
+                "value": 356,
+                "unit": 0,
+                "referenceDatum": 1
+            },
+            "magneticDeclination": 2.876,
+            "alignedTrueNorth": false,
+            "createdAt": "2022-04-21T14:49:56.813Z",
+            "updatedAt": "2023-06-29T11:15:07.205Z",
+            "createdBy": "import-script",
+            "updatedBy": "OPONcQnzWGOLiJSceNaf8pvx1fA2",
+            "elevationGeoid": {
+                "geoidHeight": 48.39837331323503,
+                "hae": 404.398373313235
+            },
+            "range": {
+                "value": 60,
+                "unit": 2
+            },
+            "hoursOfOperation": {
+                "operatingHours": [
+                    {
+                        "dayOfWeek": 0,
+                        "startTime": "00:00",
+                        "endTime": "00:00",
+                        "byNotam": false,
+                        "sunrise": false,
+                        "sunset": false,
+                        "publicHolidaysExcluded": false
+                    },
+                    {
+                        "dayOfWeek": 1,
+                        "startTime": "00:00",
+                        "endTime": "00:00",
+                        "byNotam": false,
+                        "sunrise": false,
+                        "sunset": false,
+                        "publicHolidaysExcluded": false
+                    },
+                    {
+                        "dayOfWeek": 2,
+                        "startTime": "00:00",
+                        "endTime": "00:00",
+                        "byNotam": false,
+                        "sunrise": false,
+                        "sunset": false,
+                        "publicHolidaysExcluded": false
+                    },
+                    {
+                        "dayOfWeek": 3,
+                        "startTime": "00:00",
+                        "endTime": "00:00",
+                        "byNotam": false,
+                        "sunrise": false,
+                        "sunset": false,
+                        "publicHolidaysExcluded": false
+                    },
+                    {
+                        "dayOfWeek": 4,
+                        "startTime": "00:00",
+                        "endTime": "00:00",
+                        "byNotam": false,
+                        "sunrise": false,
+                        "sunset": false,
+                        "publicHolidaysExcluded": false
+                    },
+                    {
+                        "dayOfWeek": 5,
+                        "startTime": "00:00",
+                        "endTime": "00:00",
+                        "byNotam": false,
+                        "sunrise": false,
+                        "sunset": false,
+                        "publicHolidaysExcluded": false
+                    },
+                    {
+                        "dayOfWeek": 6,
+                        "startTime": "00:00",
+                        "endTime": "00:00",
+                        "byNotam": false,
+                        "sunrise": false,
+                        "sunset": false,
+                        "publicHolidaysExcluded": false
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "62616fb4abdcc7f0ccbc5691",
+            "name": "WITTMUND",
+            "identifier": "WTM",
+            "type": 1,
+            "country": "DE",
+            "channel": "82X",
+            "frequency": {
+                "value": "113.500",
+                "unit": 2
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.725,
+                    53.554444444444
+                ]
+            },
+            "elevation": {
+                "value": 1,
+                "unit": 0,
+                "referenceDatum": 1
+            },
+            "magneticDeclination": 3.191,
+            "alignedTrueNorth": false,
+            "createdAt": "2022-04-21T14:52:36.779Z",
+            "updatedAt": "2023-06-29T11:12:59.886Z",
+            "createdBy": "import-script",
+            "updatedBy": "OPONcQnzWGOLiJSceNaf8pvx1fA2",
+            "elevationGeoid": {
+                "geoidHeight": 40.1736800000007,
+                "hae": 41.1736800000007
+            },
+            "range": {
+                "value": 60,
+                "unit": 2
+            },
+            "hoursOfOperation": {
+                "operatingHours": [
+                    {
+                        "dayOfWeek": 0,
+                        "startTime": "00:00",
+                        "endTime": "00:00",
+                        "byNotam": false,
+                        "sunrise": false,
+                        "sunset": false,
+                        "publicHolidaysExcluded": false
+                    },
+                    {
+                        "dayOfWeek": 1,
+                        "startTime": "00:00",
+                        "endTime": "00:00",
+                        "byNotam": false,
+                        "sunrise": false,
+                        "sunset": false,
+                        "publicHolidaysExcluded": false
+                    },
+                    {
+                        "dayOfWeek": 2,
+                        "startTime": "00:00",
+                        "endTime": "00:00",
+                        "byNotam": false,
+                        "sunrise": false,
+                        "sunset": false,
+                        "publicHolidaysExcluded": false
+                    },
+                    {
+                        "dayOfWeek": 3,
+                        "startTime": "00:00",
+                        "endTime": "00:00",
+                        "byNotam": false,
+                        "sunrise": false,
+                        "sunset": false,
+                        "publicHolidaysExcluded": false
+                    },
+                    {
+                        "dayOfWeek": 4,
+                        "startTime": "00:00",
+                        "endTime": "00:00",
+                        "byNotam": false,
+                        "sunrise": false,
+                        "sunset": false,
+                        "publicHolidaysExcluded": false
+                    },
+                    {
+                        "dayOfWeek": 5,
+                        "startTime": "00:00",
+                        "endTime": "00:00",
+                        "byNotam": false,
+                        "sunrise": false,
+                        "sunset": false,
+                        "publicHolidaysExcluded": false
+                    },
+                    {
+                        "dayOfWeek": 6,
+                        "startTime": "00:00",
+                        "endTime": "00:00",
+                        "byNotam": false,
+                        "sunrise": false,
+                        "sunset": false,
+                        "publicHolidaysExcluded": false
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "62616fb9abdcc7f0ccbc5736",
+            "name": "WUNSTORF",
+            "identifier": "WUN",
+            "type": 1,
+            "country": "DE",
+            "channel": "95Y",
+            "frequency": {
+                "value": "114.850",
+                "unit": 2
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.4294444444444,
+                    52.454722222222
+                ]
+            },
+            "elevation": {
+                "value": 51,
+                "unit": 0,
+                "referenceDatum": 1
+            },
+            "magneticDeclination": 3.69,
+            "alignedTrueNorth": false,
+            "createdAt": "2022-04-21T14:52:41.188Z",
+            "updatedAt": "2023-06-29T11:12:54.196Z",
+            "createdBy": "import-script",
+            "updatedBy": "OPONcQnzWGOLiJSceNaf8pvx1fA2",
+            "elevationGeoid": {
+                "geoidHeight": 42.829940266667506,
+                "hae": 93.8299402666675
+            },
+            "range": {
+                "value": 80,
+                "unit": 2
+            },
+            "hoursOfOperation": {
+                "operatingHours": [
+                    {
+                        "dayOfWeek": 0,
+                        "startTime": "00:00",
+                        "endTime": "00:00",
+                        "byNotam": false,
+                        "sunrise": false,
+                        "sunset": false,
+                        "publicHolidaysExcluded": false
+                    },
+                    {
+                        "dayOfWeek": 1,
+                        "startTime": "00:00",
+                        "endTime": "00:00",
+                        "byNotam": false,
+                        "sunrise": false,
+                        "sunset": false,
+                        "publicHolidaysExcluded": false
+                    },
+                    {
+                        "dayOfWeek": 2,
+                        "startTime": "00:00",
+                        "endTime": "00:00",
+                        "byNotam": false,
+                        "sunrise": false,
+                        "sunset": false,
+                        "publicHolidaysExcluded": false
+                    },
+                    {
+                        "dayOfWeek": 3,
+                        "startTime": "00:00",
+                        "endTime": "00:00",
+                        "byNotam": false,
+                        "sunrise": false,
+                        "sunset": false,
+                        "publicHolidaysExcluded": false
+                    },
+                    {
+                        "dayOfWeek": 4,
+                        "startTime": "00:00",
+                        "endTime": "00:00",
+                        "byNotam": false,
+                        "sunrise": false,
+                        "sunset": false,
+                        "publicHolidaysExcluded": false
+                    },
+                    {
+                        "dayOfWeek": 5,
+                        "startTime": "00:00",
+                        "endTime": "00:00",
+                        "byNotam": false,
+                        "sunrise": false,
+                        "sunset": false,
+                        "publicHolidaysExcluded": false
+                    },
+                    {
+                        "dayOfWeek": 6,
+                        "startTime": "00:00",
+                        "endTime": "00:00",
+                        "byNotam": false,
+                        "sunrise": false,
+                        "sunset": false,
+                        "publicHolidaysExcluded": false
+                    }
+                ]
+            }
+        }
+    ]
+}

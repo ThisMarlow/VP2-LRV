@@ -1270,6 +1270,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6497651423919799969, guid: 0ea1f5b4034d08743abb116ba4df9cbc, type: 3}
+      propertyPath: _elevationScale
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6497651423919799969, guid: 0ea1f5b4034d08743abb116ba4df9cbc, type: 3}
+      propertyPath: _center._latitude
+      value: 51.3277778625
+      objectReference: {fileID: 0}
+    - target: {fileID: 6497651423919799969, guid: 0ea1f5b4034d08743abb116ba4df9cbc, type: 3}
+      propertyPath: _center._longitude
+      value: 7.17694425580001
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0ea1f5b4034d08743abb116ba4df9cbc, type: 3}
 --- !u!1 &6497651424691105316 stripped
@@ -1290,8 +1302,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _mapPinLayer: {fileID: 6497651424691105318}
-  _mapPinPrefab: {fileID: 114401410002030188, guid: f241c23c6594f6c42b94edd4fc7c55d9, type: 3}
+  _airportPinPrefab: {fileID: 114401410002030188, guid: f241c23c6594f6c42b94edd4fc7c55d9, type: 3}
+  _waypointPinPrefab: {fileID: 2580367971977931415, guid: c37836acad644be4ba3d5f72122f90e4, type: 3}
   _airportJsonFile: {fileID: 4900000, guid: 66454f1fddea73449a2ebe1409e0c6b1, type: 3}
+  _navaidJsonFiles:
+  - {fileID: 4900000, guid: 5800e73875f0c204bae0e32c6f7fc8b6, type: 3}
+  - {fileID: 4900000, guid: 6bdf9db8211d45644a6f0bf20a2a63c4, type: 3}
 --- !u!114 &6497651424691105318
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1307,6 +1323,6 @@ MonoBehaviour:
   _layerName: WaypointPins
   _mapPins:
     _list: []
-  _isClusteringEnabled: 1
-  _clusterThreshold: 5
+  _isClusteringEnabled: 0
+  _clusterThreshold: 20
   _clusterMapPinPrefab: {fileID: 114898586744110094, guid: f4116a2847277ca47b646c628588fbce, type: 3}

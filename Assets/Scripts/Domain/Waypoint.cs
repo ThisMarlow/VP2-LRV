@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [System.Serializable]
-public class Airport
+public class Waypoint
 {
     public string name;
-    public string icaoCode;
-    public int type;
+    public string identifier;
     public Geometry geometry;
+    public Elevation elevation;
 }

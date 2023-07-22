@@ -37,7 +37,7 @@ using System.Xml;
 	</message:hasMember>*/
 
 [System.Serializable]
-public class Waypoint
+public class Waypoint_old
 {
     public string designator;
     public string waypointName;
@@ -55,7 +55,7 @@ public class Waypoint
 public class Waypoints : MonoBehaviour
 {
     public static Waypoints instanz;
-    public List<Waypoint> waypointList;
+    public List<Waypoint_old> waypointList;
 
     void Start()
     {
@@ -76,7 +76,7 @@ public class Waypoints : MonoBehaviour
     private void ReadXML(string filePath)
     {
         //new List of Waypoints
-        waypointList = new List<Waypoint>();
+        waypointList = new List<Waypoint_old>();
         
         //loads XML
         XmlDocument xmlDoc = new XmlDocument();
@@ -91,7 +91,7 @@ public class Waypoints : MonoBehaviour
         //Transforms each Waypoint
         foreach (XmlNode node in designatedPointNodes)
         {
-            Waypoint waypoint = new Waypoint();
+            Waypoint_old waypoint = new Waypoint_old();
             //type
             XmlNode typeNode = node.SelectSingleNode("aixm:type", namespaceManager);
             if (typeNode != null)
