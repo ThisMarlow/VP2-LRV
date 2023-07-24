@@ -35,6 +35,9 @@ public class MapPinProvider : MonoBehaviour
     [SerializeField]
     private TextAsset[] _navaidJsonFiles = null;
 
+    [SerializeField]
+    private TextAsset[] _airspacesJsonFiles = null;
+
     private void Awake()
     {
         Debug.Assert(_mapPinLayer != null);
@@ -42,9 +45,14 @@ public class MapPinProvider : MonoBehaviour
         Debug.Assert(_waypointPinPrefab != null);
         Debug.Assert(_airportJsonFile != null);
         //StartCoroutine(LoadMapPinsFromCsv());
-        //StartCoroutine(LoadAirportPinsFromJson());
+        StartCoroutine(LoadAirportPinsFromJson());
         StartCoroutine(LoadWaypointPinsFromJson());
     }
+
+    //IEnumerator LoadAirspacesFromJson()
+    //{
+
+    //}
 
     IEnumerator LoadWaypointPinsFromJson()
     {

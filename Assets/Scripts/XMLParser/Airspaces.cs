@@ -9,7 +9,7 @@ using System.Xml;
 public class Airspaces : MonoBehaviour
 {
     public static Airspaces instanz;
-    public List<Airspace> AirspaceList { get; set; }
+    public List<Airspace_XML> AirspaceList { get; set; }
     
 
     // Start is called before the first frame update
@@ -38,7 +38,7 @@ public class Airspaces : MonoBehaviour
 
     private void ReadXML(string filepath)
     {
-        AirspaceList = new List<Airspace>();
+        AirspaceList = new List<Airspace_XML>();
 
         //loads XML
         XmlDocument xmlDoc = new XmlDocument();
@@ -51,7 +51,7 @@ public class Airspaces : MonoBehaviour
 
         foreach (XmlNode node in airspaceNodes)
         {
-            Airspace airspace = new Airspace();
+            Airspace_XML airspace = new Airspace_XML();
             XmlNode searchNode;
 
             searchNode = node.SelectSingleNode("aixm:type", namespaceManager);
@@ -95,7 +95,7 @@ public class Airspaces : MonoBehaviour
 }
 
 [System.Serializable]
-public class Airspace
+public class Airspace_XML
 {
     public string Type { get; set; }
     public string Classification { get; set; }
