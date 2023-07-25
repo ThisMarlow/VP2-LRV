@@ -94,7 +94,8 @@ public class SceneHandler : MonoBehaviour
                     airport = "SCHOENHAGEN";
                 }
             }
-
+            Debug.Log(selected_airport_mat);
+            Debug.Log(airportchosen.GetComponent<MeshRenderer>().material);
             airportchosen.GetComponent<MeshRenderer>().material = selected_airport_mat;
 
             // e.target.transform.parent.GetChild(0).text
