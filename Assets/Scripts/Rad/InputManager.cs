@@ -39,6 +39,6 @@ public class InputManager : MonoBehaviour
 
     private void PressRelease(SteamVR_Action_Boolean fromAction, SteamVR_Input_Sources fromSource)
     {
-        print("Released");
+        radialMenu.ActivateHighlightedSection();
     }
 }

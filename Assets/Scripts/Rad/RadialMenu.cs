@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class RadialMenu : MonoBehaviour
 {
+    public GameObject menu; 
     [Header("Scene")]
     public Transform selectionTransform = null;
     public Transform cursorTransform = null;
@@ -19,6 +20,25 @@ public class RadialMenu : MonoBehaviour
     private RadialSection highlightedSection = null;
 
     private readonly float degreeIncrement = 90.0f;
+
+    private void Awake()
+    {
+        CreateAndSetupSections();
+    }
+
+    private void CreateAndSetupSections()
+    {
+        radialSections = new List<RadialSection>()
+        {
+            top,
+            right,
+            bottom,
+            left
+        };
+
+        foreach (RadialSection section in radialSections)
+            section.iconRenderer.sprite = section.icon;
+    }
 
     private void Start()
     {
@@ -36,6 +56,8 @@ public class RadialMenu : MonoBehaviour
         float rotation = GetDegree(direction);
 
         SetCursorPosition();
+        SetSelectionRotation(rotation);
+        SetSelectedEvent(rotation);
     }
 
     private float GetDegree(Vector2 direction)
@@ -54,8 +76,54 @@ public class RadialMenu : MonoBehaviour
         cursorTransform.localPosition = touchPosition;
     }
 
+    private void SetSelectionRotation(float newRotation)
+    {
+        float snappedRotation = SnapRotation(newRotation);
+        selectionTransform.localEulerAngles = new Vector3(0, 0, -snappedRotation);
+    }
+
+    private float SnapRotation(float rotation)
+    {
+        return GetNearestIncrement(rotation) * degreeIncrement;
+    }
+
+    private int GetNearestIncrement(float rotation)
+    {
+        return Mathf.RoundToInt(rotation / degreeIncrement);
+    }
+
+    private void SetSelectedEvent(float currentRotation)
+    {
+        int index = GetNearestIncrement(currentRotation);
+
+        if (index == 4)
+            index = 0;
+
+        highlightedSection = radialSections[index];
+    }
+
     public void SetTouchPosition(Vector2 newValue)
     {
         touchPosition = newValue;
     }
+
+    public void ActivateHighlightedSection()
+    {
+        highlightedSection.onPress.Invoke();
+    }
+
+    public void ChangeActive()
+    {
+        if (menu.activeSelf == true)
+        {
+            menu.SetActive(false);
+        }
+
+        else if (menu.activeSelf != true)
+        {
+            menu.SetActive(true);
+        }
+
+    }
+   
 }
