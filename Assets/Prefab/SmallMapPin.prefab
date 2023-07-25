@@ -289,7 +289,7 @@ GameObject:
   - component: {fileID: 4538093146654690}
   m_Layer: 0
   m_Name: Root
-  m_TagString: Untagged
+  m_TagString: waypoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

@@ -9,6 +9,7 @@ public class RadialMenuFunctions : MonoBehaviour
     /*public List<GameObject> airspaceContainer;
     string objectName = "AP";*/
     public GameObject airspaceContainer;
+    public GameObject[] waypoints;
     /*
     public void SetFilter()
     {
@@ -49,5 +50,23 @@ public class RadialMenuFunctions : MonoBehaviour
             print("Setz True");
             Debug.Log("Setz True");*/
     }
+    public void waypointChange() {
+        waypoints = GameObject.FindGameObjectsWithTag("waypoint");
+        if (waypoints[0].activeSelf == true) 
+        {
+            foreach (GameObject waypoint in waypoints) 
+            {
+                waypoint.SetActive(false);
+            }
+        }
+        else {
+            foreach (GameObject waypoint in waypoints) 
+            {
+                waypoint.SetActive(true);
+            }
+        }
+        
     }
+
+}
 //}
