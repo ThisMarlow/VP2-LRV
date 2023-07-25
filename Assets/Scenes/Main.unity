@@ -1175,6 +1175,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   homeMenu: {fileID: 394122821}
   filterMenu: {fileID: 729982701}
+  airspaceContainer: {fileID: 0}
 --- !u!1 &434209095
 GameObject:
   m_ObjectHideFlags: 0
@@ -2069,7 +2070,19 @@ MonoBehaviour:
     iconRenderer: {fileID: 1892194430}
     onPress:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 729982702}
+          m_TargetAssemblyTypeName: RadialMenuFunctions, Assembly-CSharp
+          m_MethodName: airSpaceChange
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
   right:
     icon: {fileID: 21300000, guid: e5651398c896cfa4391c6dde7e77df8d, type: 3}
     iconRenderer: {fileID: 1482098022}
@@ -2114,6 +2127,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   homeMenu: {fileID: 394122821}
   filterMenu: {fileID: 729982701}
+  airspaceContainer: {fileID: 8467285}
 --- !u!1 &798104616
 GameObject:
   m_ObjectHideFlags: 0
