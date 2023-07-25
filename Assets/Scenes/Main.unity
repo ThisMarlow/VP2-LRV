@@ -1845,6 +1845,7 @@ MonoBehaviour:
     actionPath: /actions/default/in/MenuSelectionPosition
     needsReinit: 0
   radialMenu: {fileID: 394122821}
+  activeMenu: {fileID: 394122819}
 --- !u!4 &661498920
 Transform:
   m_ObjectHideFlags: 0
