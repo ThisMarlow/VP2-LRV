@@ -10,6 +10,7 @@ public class RadialMenuFunctions : MonoBehaviour
     string objectName = "AP";*/
     public GameObject airspaceContainer;
     public GameObject[] waypoints;
+    public GameObject[] airports;
     /*
     public void SetFilter()
     {
@@ -51,7 +52,7 @@ public class RadialMenuFunctions : MonoBehaviour
             Debug.Log("Setz True");*/
     }
     public void waypointChange() {
-        if (waypoints.Length == 0 || waypoints != null) {
+        if (waypoints.Length == 0 || waypoints == null) {
             waypoints = GameObject.FindGameObjectsWithTag("waypoint");
         }
         if (waypoints[0].activeSelf == true) 
@@ -66,6 +67,28 @@ public class RadialMenuFunctions : MonoBehaviour
             foreach (GameObject waypoint in waypoints) 
             {
                 waypoint.SetActive(true);
+            }
+        }
+    }
+    public void airportChange()
+    {
+        if (airports.Length == 0 || airports == null)
+        {
+            airports = GameObject.FindGameObjectsWithTag("airport");
+        }
+        if (airports[0].activeSelf == true)
+        {
+            foreach (GameObject airport in airports)
+            {
+                airport.SetActive(false);
+            }
+        }
+
+        else
+        {
+            foreach (GameObject airport in airports)
+            {
+                airport.SetActive(true);
             }
         }
     }

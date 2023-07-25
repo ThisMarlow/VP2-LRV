@@ -1652,7 +1652,19 @@ MonoBehaviour:
     iconRenderer: {fileID: 1482098022}
     onPress:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 729982702}
+          m_TargetAssemblyTypeName: RadialMenuFunctions, Assembly-CSharp
+          m_MethodName: airportChange
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
   bottom:
     icon: {fileID: 21300000, guid: df0941db9d26fc747bdab4894354dce5, type: 3}
     iconRenderer: {fileID: 2144904457}
@@ -1691,6 +1703,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   airspaceContainer: {fileID: 8467285}
   waypoints: []
+  airports: []
 --- !u!1 &798104616
 GameObject:
   m_ObjectHideFlags: 0
