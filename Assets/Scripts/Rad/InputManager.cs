@@ -12,7 +12,6 @@ public class InputManager : MonoBehaviour
 
     [Header("Scene Objects")]
     public RadialMenu radialMenu = null;
-    public GameObject activeMenu = null;
 
     private void Awake()
     {
@@ -35,9 +34,7 @@ public class InputManager : MonoBehaviour
 
     private void Touch(SteamVR_Action_Boolean fromAction, SteamVR_Input_Sources fromSource, bool newState)
     {
-        if(activeMenu.activeSelf != true){
             radialMenu.Show(newState);
-        }
     }
 
     private void PressRelease(SteamVR_Action_Boolean fromAction, SteamVR_Input_Sources fromSource)
