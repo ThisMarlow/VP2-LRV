@@ -1320,6 +1320,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 529154117, guid: dc06161b6d97feb419f45f03b62e14b9, type: 3}
+      propertyPath: default_airport_mat
+      value: 
+      objectReference: {fileID: 2100000, guid: 980b11d8adc9a8a40b048ef631abcb77, type: 2}
+    - target: {fileID: 529154117, guid: dc06161b6d97feb419f45f03b62e14b9, type: 3}
+      propertyPath: default_waypoint_mat
+      value: 
+      objectReference: {fileID: 2100000, guid: 77844d4ac57b377449602f7cdfdc56de, type: 2}
+    - target: {fileID: 529154117, guid: dc06161b6d97feb419f45f03b62e14b9, type: 3}
+      propertyPath: selected_airport_mat
+      value: 
+      objectReference: {fileID: 2100000, guid: 3c425ff04738d2d488129d9a897474fe, type: 2}
+    - target: {fileID: 529154117, guid: dc06161b6d97feb419f45f03b62e14b9, type: 3}
+      propertyPath: selected_waypoint_mat
+      value: 
+      objectReference: {fileID: 2100000, guid: 75d26baa6be2edd4f848fc77e30d1341, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dc06161b6d97feb419f45f03b62e14b9, type: 3}
 --- !u!1 &709732725
@@ -2690,7 +2706,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1581219932}
   - component: {fileID: 1581219935}
-  - component: {fileID: 1581219934}
   - component: {fileID: 1581219933}
   m_Layer: 0
   m_Name: Camera
@@ -2746,14 +2761,6 @@ MonoBehaviour:
   m_RequiresDepthTexture: 0
   m_RequiresColorTexture: 0
   m_Version: 2
---- !u!81 &1581219934
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1581219931}
-  m_Enabled: 1
 --- !u!20 &1581219935
 Camera:
   m_ObjectHideFlags: 0
