@@ -30,12 +30,17 @@ public class SceneHandler : MonoBehaviour
         }
         else if (e.target.name == "Cube")
         {
-            if (e.target.transform.parent.transform.GetChild(0).GetComponent<TextMeshPro>().text == "HAMBURG-FINKENWERDER")
+            if (e.target.transform.parent.transform.GetChild(0).GetComponent<TextMeshPro>().text == "SCHOENHAGEN")
             {
-                e.target.transform.parent.transform.GetChild(0).GetComponent<TextMeshPro>().text = "HAMBURG-FINKENWERDER, Längengrad: 100gdmb, Breitengrad: egnkg, Art: IFR-Flughafen";
-                e.target.transform.localScale += new Vector3(1, 1, 1);
+                e.target.transform.parent.transform.GetChild(0).GetComponent<TextMeshPro>().text = "SCHOENHHAGEN, Längengrad: 100gdmb, Breitengrad: egnkg, Art: IFR-Flughafen";
+                e.target.transform.localScale += new Vector3(0.5f, 0.5f, 0.5f);
             }
-            
+            if (e.target.transform.parent.transform.GetChild(0).GetComponent<TextMeshPro>().text == "MAGDEBURG-CITY")
+            {
+                e.target.transform.parent.transform.GetChild(0).GetComponent<TextMeshPro>().text = "MAGDEBURG-CITY, Längengrad: 100gdmb, Breitengrad: egnkg, Art: IFR-Flughafen";
+                e.target.transform.localScale += new Vector3(0.5f, 0.5f, 0.5f);
+            }
+
             // e.target.transform.parent.GetChild(0).text
             Debug.Log("Target:" + e.target.transform.parent.transform.GetChild(0).GetComponent<TextMeshPro>().text);
             Debug.Log("Target:" + e.target);
