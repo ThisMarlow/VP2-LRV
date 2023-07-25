@@ -10,6 +10,8 @@ using TMPro;
 public class SceneHandler : MonoBehaviour
 {
     public SteamVR_LaserPointer laserPointer;
+    private string airport = "";
+    private GameObject airportchosen;
 
     void Awake()
     {
@@ -30,16 +32,50 @@ public class SceneHandler : MonoBehaviour
         }
         else if (e.target.name == "Cube")
         {
-            if (e.target.transform.parent.transform.GetChild(0).GetComponent<TextMeshPro>().text == "SCHOENHAGEN")
+            if (airport == "") 
             {
-                e.target.transform.parent.transform.GetChild(0).GetComponent<TextMeshPro>().text = "SCHOENHHAGEN, Längengrad: 100gdmb, Breitengrad: egnkg, Art: IFR-Flughafen";
-                e.target.transform.localScale += new Vector3(0.5f, 0.5f, 0.5f);
+                if (e.target.transform.parent.transform.GetChild(0).GetComponent<TextMeshPro>().text == "SCHOENHAGEN")
+                {
+                    airportchosen = e.target;
+                    e.target.transform.parent.transform.GetChild(0).GetComponent<TextMeshPro>().text = "SCHOENHAGEN, Lï¿½ngengrad: 100gdmb, Breitengrad: egnkg, Art: IFR-Flughafen";
+                    e.target.transform.localScale += new Vector3(0.5f, 0.5f, 0.5f);
+                    airport = "SCHOENHAGEN";
+                }   
+                if (e.target.transform.parent.transform.GetChild(0).GetComponent<TextMeshPro>().text == "MAGDEBURG-CITY")
+                {  
+                    airportchosen = e.target;
+                    e.target.transform.parent.transform.GetChild(0).GetComponent<TextMeshPro>().text = "MAGDEBURG-CITY, Lï¿½ngengrad: 100gdmb, Breitengrad: egnkg, Art: IFR-Flughafen";
+                    e.target.transform.localScale += new Vector3(0.5f, 0.5f, 0.5f);
+                    airport = "MAGDEBURG-CITY";
+                }
             }
-            if (e.target.transform.parent.transform.GetChild(0).GetComponent<TextMeshPro>().text == "MAGDEBURG-CITY")
+            else if (airport == "SCHOENHAGEN") 
             {
-                e.target.transform.parent.transform.GetChild(0).GetComponent<TextMeshPro>().text = "MAGDEBURG-CITY, Längengrad: 100gdmb, Breitengrad: egnkg, Art: IFR-Flughafen";
-                e.target.transform.localScale += new Vector3(0.5f, 0.5f, 0.5f);
+                airportchosen.transform.parent.transform.GetChild(0).GetComponent<TextMeshPro>().text = "SCHOENHAGEN";
+                airportchosen.transform.localScale -= new Vector3(0.5f, 0.5f, 0.5f);
+                airport = ""; 
+                if (e.target.transform.parent.transform.GetChild(0).GetComponent<TextMeshPro>().text == "MAGDEBURG-CITY")
+                {
+                    airportchosen = e.target;
+                    e.target.transform.parent.transform.GetChild(0).GetComponent<TextMeshPro>().text = "MAGDEBURG-CITY, Lï¿½ngengrad: 100gdmb, Breitengrad: egnkg, Art: IFR-Flughafen";
+                    e.target.transform.localScale += new Vector3(0.5f, 0.5f, 0.5f);
+                    airport = "MAGDEBURG-CITY";
+                }
             }
+            else if (airport == "MAGDEBURG-CITY") 
+            {
+                airportchosen.transform.parent.transform.GetChild(0).GetComponent<TextMeshPro>().text = "MAGDEBURG-CITY";
+                airportchosen.transform.localScale -= new Vector3(0.5f, 0.5f, 0.5f);
+                airport = ""; 
+                if (e.target.transform.parent.transform.GetChild(0).GetComponent<TextMeshPro>().text == "SCHOENHAGEN")
+                {
+                    airportchosen = e.target;
+                    e.target.transform.parent.transform.GetChild(0).GetComponent<TextMeshPro>().text = "SCHOENHAGEN, Lï¿½ngengrad: 100gdmb, Breitengrad: egnkg, Art: IFR-Flughafen";
+                    e.target.transform.localScale += new Vector3(0.5f, 0.5f, 0.5f);
+                    airport = "SCHOENHAGEN";
+                }
+            }
+            
 
             // e.target.transform.parent.GetChild(0).text
             Debug.Log("Target:" + e.target.transform.parent.transform.GetChild(0).GetComponent<TextMeshPro>().text);
