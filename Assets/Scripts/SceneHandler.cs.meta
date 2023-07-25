@@ -3,7 +3,12 @@ guid: 0a80ccd788ee90047b645c815222ed38
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - selected_airport_mat: {fileID: 2100000, guid: 3c425ff04738d2d488129d9a897474fe, type: 2}
+  - default_airport_mat: {fileID: 2100000, guid: 980b11d8adc9a8a40b048ef631abcb77, type: 2}
+  - selected_waypoint_mat: {fileID: 2100000, guid: 75d26baa6be2edd4f848fc77e30d1341, type: 2}
+  - default_waypoint_mat: {fileID: 2100000, guid: 77844d4ac57b377449602f7cdfdc56de, type: 2}
+  - laserPointer: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

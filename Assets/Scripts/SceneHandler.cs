@@ -9,11 +9,19 @@ using TMPro;
 
 public class SceneHandler : MonoBehaviour
 {
+    public Material selected_airport_mat;
+    public Material default_airport_mat;
+
+    public Material selected_waypoint_mat;
+    public Material default_waypoint_mat;
+
     public SteamVR_LaserPointer laserPointer;
     private string airport = "";
     private GameObject airportchosen;
+    private GameObject prev_airportchosen;
     private string waypoint = "";
     private GameObject waypointchosen;
+    private GameObject prev_waypointchosen;
 
     void Awake()
     {
@@ -24,6 +32,15 @@ public class SceneHandler : MonoBehaviour
 
     public void PointerClick(object sender, PointerEventArgs e)
     {
+        if(prev_airportchosen != null || prev_airportchosen != e.target.gameObject)
+        {
+            prev_airportchosen.GetComponent<MeshRenderer>().material = default_airport_mat;
+        }
+        if(prev_waypointchosen != null || prev_waypointchosen != waypointchosen)
+        {
+            prev_waypointchosen.GetComponent<MeshRenderer>().material = default_waypoint_mat;
+        }
+
         if (e.target.name == "CubeNot")
         {
             Debug.Log("Cube was clicked");
@@ -33,7 +50,7 @@ public class SceneHandler : MonoBehaviour
             Debug.Log("Button was clicked");
         }
         else if (e.target.name == "Cube")
-        {
+        {            
             if (airport == "")
             {
                 if (e.target.transform.parent.transform.GetChild(0).GetComponent<TextMeshPro>().text == "SCHOENHAGEN")
@@ -78,12 +95,14 @@ public class SceneHandler : MonoBehaviour
                 }
             }
 
+            airportchosen.GetComponent<MeshRenderer>().material = selected_airport_mat;
 
             // e.target.transform.parent.GetChild(0).text
             Debug.Log("Target:" + e.target.transform.parent.transform.GetChild(0).GetComponent<TextMeshPro>().text);
             Debug.Log("Target:" + e.target);
             Debug.Log("Parent:" + e.target.transform.parent);
             Debug.Log("Airport was clicked");
+            prev_airportchosen = airportchosen;
         }
 
         else if (e.target.name == "Sphere")
@@ -296,6 +315,8 @@ public class SceneHandler : MonoBehaviour
                     waypoint = "MAGDEBURG";
                 }
             }
+            waypointchosen.GetComponent<MeshRenderer>().material = selected_waypoint_mat;
+            prev_waypointchosen = waypointchosen;
         }
     }
 
