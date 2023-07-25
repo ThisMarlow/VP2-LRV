@@ -32,11 +32,11 @@ public class SceneHandler : MonoBehaviour
 
     public void PointerClick(object sender, PointerEventArgs e)
     {
-        if(prev_airportchosen != null || prev_airportchosen != e.target.gameObject)
+        if(prev_airportchosen != null && prev_airportchosen != e.target.gameObject)
         {
             prev_airportchosen.GetComponent<MeshRenderer>().material = default_airport_mat;
         }
-        if(prev_waypointchosen != null || prev_waypointchosen != waypointchosen)
+        if(prev_waypointchosen != null && prev_waypointchosen != waypointchosen)
         {
             prev_waypointchosen.GetComponent<MeshRenderer>().material = default_waypoint_mat;
         }
