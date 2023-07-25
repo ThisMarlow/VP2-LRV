@@ -35,7 +35,7 @@ public class InputManager : MonoBehaviour
 
     private void Touch(SteamVR_Action_Boolean fromAction, SteamVR_Input_Sources fromSource, bool newState)
     {
-        if(activeMenu.activeSelf == true){
+        if(activeMenu.activeSelf != true){
             radialMenu.Show(newState);
         }
     }
