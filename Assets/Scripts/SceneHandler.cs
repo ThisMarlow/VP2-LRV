@@ -18,10 +18,8 @@ public class SceneHandler : MonoBehaviour
     public SteamVR_LaserPointer laserPointer;
     private string airport = "";
     private GameObject airportchosen;
-    private GameObject prev_airportchosen;
     private string waypoint = "";
     private GameObject waypointchosen;
-    private GameObject prev_waypointchosen;
 
     void Awake()
     {
@@ -32,15 +30,6 @@ public class SceneHandler : MonoBehaviour
 
     public void PointerClick(object sender, PointerEventArgs e)
     {
-        if(prev_airportchosen != null && prev_airportchosen != e.target.gameObject)
-        {
-            prev_airportchosen.GetComponent<MeshRenderer>().material = default_airport_mat;
-        }
-        if(prev_waypointchosen != null && prev_waypointchosen != waypointchosen)
-        {
-            prev_waypointchosen.GetComponent<MeshRenderer>().material = default_waypoint_mat;
-        }
-
         if (e.target.name == "CubeNot")
         {
             Debug.Log("Cube was clicked");
@@ -59,6 +48,7 @@ public class SceneHandler : MonoBehaviour
                     e.target.transform.parent.transform.GetChild(0).GetComponent<TextMeshPro>().text = "SCHOENHAGEN, Längengrad: 52.203888888889, Breitengrad: 13.16, Art: VFR- und IFR-Flughafen, Landebahnen: 6";
                     e.target.transform.localScale += new Vector3(0.5f, 0.5f, 0.5f);
                     airport = "SCHOENHAGEN";
+                    airportchosen.GetComponent<MeshRenderer>().material = selected_airport_mat;
                 }
                 if (e.target.transform.parent.transform.GetChild(0).GetComponent<TextMeshPro>().text == "MAGDEBURG-CITY")
                 {
@@ -66,6 +56,7 @@ public class SceneHandler : MonoBehaviour
                     e.target.transform.parent.transform.GetChild(0).GetComponent<TextMeshPro>().text = "MAGDEBURG-CITY, Längengrad: 52.0736, Breitengrad: 11.6264, Art: VFR- und IFR-Flughafen, Landebahnen: 4";
                     e.target.transform.localScale += new Vector3(0.5f, 0.5f, 0.5f);
                     airport = "MAGDEBURG-CITY";
+                    airportchosen.GetComponent<MeshRenderer>().material = selected_airport_mat;
                 }
             }
             else if (airport == "SCHOENHAGEN")
@@ -73,12 +64,14 @@ public class SceneHandler : MonoBehaviour
                 airportchosen.transform.parent.transform.GetChild(0).GetComponent<TextMeshPro>().text = "SCHOENHAGEN";
                 airportchosen.transform.localScale -= new Vector3(0.5f, 0.5f, 0.5f);
                 airport = "";
+                airportchosen.GetComponent<MeshRenderer>().material = default_airport_mat;
                 if (e.target.transform.parent.transform.GetChild(0).GetComponent<TextMeshPro>().text == "MAGDEBURG-CITY")
                 {
                     airportchosen = e.target.gameObject;
                     e.target.transform.parent.transform.GetChild(0).GetComponent<TextMeshPro>().text = "MAGDEBURG-CITY, Längengrad: 52.0736, Breitengrad: 11.6264, Art: VFR- und IFR-Flughafen, Landebahnen: 4";
                     e.target.transform.localScale += new Vector3(0.5f, 0.5f, 0.5f);
                     airport = "MAGDEBURG-CITY";
+                    airportchosen.GetComponent<MeshRenderer>().material = selected_airport_mat;
                 }
             }
             else if (airport == "MAGDEBURG-CITY")
@@ -86,24 +79,16 @@ public class SceneHandler : MonoBehaviour
                 airportchosen.transform.parent.transform.GetChild(0).GetComponent<TextMeshPro>().text = "MAGDEBURG-CITY";
                 airportchosen.transform.localScale -= new Vector3(0.5f, 0.5f, 0.5f);
                 airport = "";
+                airportchosen.GetComponent<MeshRenderer>().material = default_airport_mat;
                 if (e.target.transform.parent.transform.GetChild(0).GetComponent<TextMeshPro>().text == "SCHOENHAGEN")
                 {
                     airportchosen = e.target.gameObject;
                     e.target.transform.parent.transform.GetChild(0).GetComponent<TextMeshPro>().text = "SCHOENHAGEN, Längengrad: 52.203888888889, Breitengrad: 13.16, Art: VFR- und IFR-Flughafen, Landebahnen: 6";
                     e.target.transform.localScale += new Vector3(0.5f, 0.5f, 0.5f);
                     airport = "SCHOENHAGEN";
+                    airportchosen.GetComponent<MeshRenderer>().material = selected_airport_mat;
                 }
             }
-            Debug.Log(selected_airport_mat);
-            Debug.Log(airportchosen.GetComponent<MeshRenderer>().material);
-            airportchosen.GetComponent<MeshRenderer>().material = selected_airport_mat;
-
-            // e.target.transform.parent.GetChild(0).text
-            Debug.Log("Target:" + e.target.transform.parent.transform.GetChild(0).GetComponent<TextMeshPro>().text);
-            Debug.Log("Target:" + e.target);
-            Debug.Log("Parent:" + e.target.transform.parent);
-            Debug.Log("Airport was clicked");
-            prev_airportchosen = airportchosen;
         }
 
         else if (e.target.name == "Sphere")
@@ -116,6 +101,7 @@ public class SceneHandler : MonoBehaviour
                     e.target.transform.parent.transform.GetChild(1).GetComponent<TextMeshPro>().text = "HEHLINGEN, Längengrad: 52.3633346558, Breitengrad: 10.7952775955, Typ: DVOR-DME, Distanz: 80 NM";
                     e.target.transform.localScale += new Vector3(0.5f, 0.5f, 0.5f);
                     waypoint = "HEHLINGEN";
+                    waypointchosen.GetComponent<MeshRenderer>().material = selected_waypoint_mat;
                 }
                 if (e.target.transform.parent.transform.GetChild(1).GetComponent<TextMeshPro>().text == "MAGDEBURG")
                 {
@@ -123,6 +109,7 @@ public class SceneHandler : MonoBehaviour
                     e.target.transform.parent.transform.GetChild(1).GetComponent<TextMeshPro>().text = "MAGDEBURG, Längengrad: 51.9949989319, Breitengrad: 11.7944440842, Typ: VOR-DME, Distanz: 80 NM";
                     e.target.transform.localScale += new Vector3(0.5f, 0.5f, 0.5f);
                     waypoint = "MAGDEBURG";
+                    waypointchosen.GetComponent<MeshRenderer>().material = selected_waypoint_mat;
                 }
                 if (e.target.transform.parent.transform.GetChild(1).GetComponent<TextMeshPro>().text == "GOTEM")
                 {
@@ -130,6 +117,7 @@ public class SceneHandler : MonoBehaviour
                     e.target.transform.parent.transform.GetChild(1).GetComponent<TextMeshPro>().text = "GOTEM, Längengrad: 51.3430557251, Breitengrad: 11.5974998474, Typ: DVOR-DME, Distanz: 60 NM";
                     e.target.transform.localScale += new Vector3(0.5f, 0.5f, 0.5f);
                     waypoint = "GOTEM";
+                    waypointchosen.GetComponent<MeshRenderer>().material = selected_waypoint_mat;
                 }
                 if (e.target.transform.parent.transform.GetChild(1).GetComponent<TextMeshPro>().text == "LEIPZIG")
                 {
@@ -137,6 +125,7 @@ public class SceneHandler : MonoBehaviour
                     e.target.transform.parent.transform.GetChild(1).GetComponent<TextMeshPro>().text = "LEIPZIG, Längengrad: 51.436111111111, Breitengrad: 12.473611111111, Typ: DVOR-DME, Distanz: 80 NM";
                     e.target.transform.localScale += new Vector3(0.5f, 0.5f, 0.5f);
                     waypoint = "LEIPZIG";
+                    waypointchosen.GetComponent<MeshRenderer>().material = selected_waypoint_mat;
                 }
                 if (e.target.transform.parent.transform.GetChild(1).GetComponent<TextMeshPro>().text == "HOLZDORF")
                 {
@@ -144,6 +133,7 @@ public class SceneHandler : MonoBehaviour
                     e.target.transform.parent.transform.GetChild(1).GetComponent<TextMeshPro>().text = "HOLZDORF, Längengrad: 51.766666666667, Breitengrad: 13.198333333333, Typ: TACAN, Distanz: N/A";
                     e.target.transform.localScale += new Vector3(0.5f, 0.5f, 0.5f);
                     waypoint = "HOLZDORF";
+                    waypointchosen.GetComponent<MeshRenderer>().material = selected_waypoint_mat;
                 }
             }
             else if (waypoint == "HEHLINGEN")
@@ -151,12 +141,14 @@ public class SceneHandler : MonoBehaviour
                 waypointchosen.transform.parent.transform.GetChild(1).GetComponent<TextMeshPro>().text = "HEHLINGEN";
                 waypointchosen.transform.localScale -= new Vector3(0.5f, 0.5f, 0.5f);
                 waypoint = "";
+                waypointchosen.GetComponent<MeshRenderer>().material = default_waypoint_mat;
                 if (e.target.transform.parent.transform.GetChild(1).GetComponent<TextMeshPro>().text == "MAGDEBURG")
                 {
                     waypointchosen = e.target.gameObject;
                     e.target.transform.parent.transform.GetChild(1).GetComponent<TextMeshPro>().text = "MAGDEBURG, Längengrad: 51.9949989319, Breitengrad: 11.7944440842, Typ: VOR-DME, Distanz: 80 NM";
                     e.target.transform.localScale += new Vector3(0.5f, 0.5f, 0.5f);
                     waypoint = "MAGDEBURG";
+                    waypointchosen.GetComponent<MeshRenderer>().material = selected_waypoint_mat;
                 }
                 if (e.target.transform.parent.transform.GetChild(1).GetComponent<TextMeshPro>().text == "GOTEM")
                 {
@@ -164,6 +156,7 @@ public class SceneHandler : MonoBehaviour
                     e.target.transform.parent.transform.GetChild(1).GetComponent<TextMeshPro>().text = "GOTEM, Längengrad: 51.3430557251, Breitengrad: 11.5974998474, Typ: DVOR-DME, Distanz: 60 NM";
                     e.target.transform.localScale += new Vector3(0.5f, 0.5f, 0.5f);
                     waypoint = "GOTEM";
+                    waypointchosen.GetComponent<MeshRenderer>().material = selected_waypoint_mat;
                 }
                 if (e.target.transform.parent.transform.GetChild(1).GetComponent<TextMeshPro>().text == "LEIPZIG")
                 {
@@ -171,6 +164,7 @@ public class SceneHandler : MonoBehaviour
                     e.target.transform.parent.transform.GetChild(1).GetComponent<TextMeshPro>().text = "LEIPZIG, Längengrad: 51.436111111111, Breitengrad: 12.473611111111, Typ: DVOR-DME, Distanz: 80 NM";
                     e.target.transform.localScale += new Vector3(0.5f, 0.5f, 0.5f);
                     waypoint = "LEIPZIG";
+                    waypointchosen.GetComponent<MeshRenderer>().material = selected_waypoint_mat;
                 }
                 if (e.target.transform.parent.transform.GetChild(1).GetComponent<TextMeshPro>().text == "HOLZDORF")
                 {
@@ -178,6 +172,7 @@ public class SceneHandler : MonoBehaviour
                     e.target.transform.parent.transform.GetChild(1).GetComponent<TextMeshPro>().text = "HOLZDORF, Längengrad: 51.766666666667, Breitengrad: 13.198333333333, Typ: TACAN, Distanz: N/A";
                     e.target.transform.localScale += new Vector3(0.5f, 0.5f, 0.5f);
                     waypoint = "HOLZDORF";
+                    waypointchosen.GetComponent<MeshRenderer>().material = selected_waypoint_mat;
                 }
             }
             else if (waypoint == "MAGDEBURG")
@@ -185,12 +180,14 @@ public class SceneHandler : MonoBehaviour
                 waypointchosen.transform.parent.transform.GetChild(1).GetComponent<TextMeshPro>().text = "MAGDEBURG";
                 waypointchosen.transform.localScale -= new Vector3(0.5f, 0.5f, 0.5f);
                 waypoint = "";
+                waypointchosen.GetComponent<MeshRenderer>().material = default_waypoint_mat;
                 if (e.target.transform.parent.transform.GetChild(1).GetComponent<TextMeshPro>().text == "HEHLINGEN")
                 {
                     waypointchosen = e.target.gameObject;
                     e.target.transform.parent.transform.GetChild(1).GetComponent<TextMeshPro>().text = "HEHLINGEN, Längengrad: 52.3633346558, Breitengrad: 10.7952775955, Typ: DVOR-DME, Distanz: 80 NM";
                     e.target.transform.localScale += new Vector3(0.5f, 0.5f, 0.5f);
                     waypoint = "HEHLINGEN";
+                    waypointchosen.GetComponent<MeshRenderer>().material = selected_waypoint_mat;
                 }
                 if (e.target.transform.parent.transform.GetChild(1).GetComponent<TextMeshPro>().text == "GOTEM")
                 {
@@ -198,6 +195,7 @@ public class SceneHandler : MonoBehaviour
                     e.target.transform.parent.transform.GetChild(1).GetComponent<TextMeshPro>().text = "GOTEM, Längengrad: 51.3430557251, Breitengrad: 11.5974998474, Typ: DVOR-DME, Distanz: 60 NM";
                     e.target.transform.localScale += new Vector3(0.5f, 0.5f, 0.5f);
                     waypoint = "GOTEM";
+                    waypointchosen.GetComponent<MeshRenderer>().material = selected_waypoint_mat;
                 }
                 if (e.target.transform.parent.transform.GetChild(1).GetComponent<TextMeshPro>().text == "LEIPZIG")
                 {
@@ -205,6 +203,7 @@ public class SceneHandler : MonoBehaviour
                     e.target.transform.parent.transform.GetChild(1).GetComponent<TextMeshPro>().text = "LEIPZIG, Längengrad: 51.436111111111, Breitengrad: 12.473611111111, Typ: DVOR-DME, Distanz: 80 NM";
                     e.target.transform.localScale += new Vector3(0.5f, 0.5f, 0.5f);
                     waypoint = "LEIPZIG";
+                    waypointchosen.GetComponent<MeshRenderer>().material = selected_waypoint_mat;
                 }
                 if (e.target.transform.parent.transform.GetChild(1).GetComponent<TextMeshPro>().text == "HOLZDORF")
                 {
@@ -212,6 +211,7 @@ public class SceneHandler : MonoBehaviour
                     e.target.transform.parent.transform.GetChild(1).GetComponent<TextMeshPro>().text = "HOLZDORF, Längengrad: 51.766666666667, Breitengrad: 13.198333333333, Typ: TACAN, Distanz: N/A";
                     e.target.transform.localScale += new Vector3(0.5f, 0.5f, 0.5f);
                     waypoint = "HOLZDORF";
+                    waypointchosen.GetComponent<MeshRenderer>().material = selected_waypoint_mat;
                 }
             }
             else if (waypoint == "GOTEM")
@@ -219,12 +219,14 @@ public class SceneHandler : MonoBehaviour
                 waypointchosen.transform.parent.transform.GetChild(1).GetComponent<TextMeshPro>().text = "GOTEM";
                 waypointchosen.transform.localScale -= new Vector3(0.5f, 0.5f, 0.5f);
                 waypoint = "";
+                waypointchosen.GetComponent<MeshRenderer>().material = default_waypoint_mat;
                 if (e.target.transform.parent.transform.GetChild(1).GetComponent<TextMeshPro>().text == "HEHLINGEN")
                 {
                     waypointchosen = e.target.gameObject;
                     e.target.transform.parent.transform.GetChild(1).GetComponent<TextMeshPro>().text = "HEHLINGEN, Längengrad: 52.3633346558, Breitengrad: 10.7952775955, Typ: DVOR-DME, Distanz: 80 NM";
                     e.target.transform.localScale += new Vector3(0.5f, 0.5f, 0.5f);
                     waypoint = "HEHLINGEN";
+                    waypointchosen.GetComponent<MeshRenderer>().material = selected_waypoint_mat;
                 }
                 if (e.target.transform.parent.transform.GetChild(1).GetComponent<TextMeshPro>().text == "MAGDEBURG")
                 {
@@ -232,6 +234,7 @@ public class SceneHandler : MonoBehaviour
                     e.target.transform.parent.transform.GetChild(1).GetComponent<TextMeshPro>().text = "MAGDEBURG, Längengrad: 51.9949989319, Breitengrad: 11.7944440842, Typ: VOR-DME, Distanz: 80 NM";
                     e.target.transform.localScale += new Vector3(0.5f, 0.5f, 0.5f);
                     waypoint = "MAGDEBURG";
+                    waypointchosen.GetComponent<MeshRenderer>().material = selected_waypoint_mat;
                 }
                 if (e.target.transform.parent.transform.GetChild(1).GetComponent<TextMeshPro>().text == "LEIPZIG")
                 {
@@ -239,6 +242,7 @@ public class SceneHandler : MonoBehaviour
                     e.target.transform.parent.transform.GetChild(1).GetComponent<TextMeshPro>().text = "LEIPZIG, Längengrad: 51.436111111111, Breitengrad: 12.473611111111, Typ: DVOR-DME, Distanz: 80 NM";
                     e.target.transform.localScale += new Vector3(0.5f, 0.5f, 0.5f);
                     waypoint = "LEIPZIG";
+                    waypointchosen.GetComponent<MeshRenderer>().material = selected_waypoint_mat;
                 }
                 if (e.target.transform.parent.transform.GetChild(1).GetComponent<TextMeshPro>().text == "HOLZDORF")
                 {
@@ -246,6 +250,7 @@ public class SceneHandler : MonoBehaviour
                     e.target.transform.parent.transform.GetChild(1).GetComponent<TextMeshPro>().text = "HOLZDORF, Längengrad: 51.766666666667, Breitengrad: 13.198333333333, Typ: TACAN, Distanz: N/A";
                     e.target.transform.localScale += new Vector3(0.5f, 0.5f, 0.5f);
                     waypoint = "HOLZDORF";
+                    waypointchosen.GetComponent<MeshRenderer>().material = selected_waypoint_mat;
                 }
             }
             else if (waypoint == "LEIPZIG")
@@ -253,12 +258,14 @@ public class SceneHandler : MonoBehaviour
                 waypointchosen.transform.parent.transform.GetChild(1).GetComponent<TextMeshPro>().text = "LEIPZIG";
                 waypointchosen.transform.localScale -= new Vector3(0.5f, 0.5f, 0.5f);
                 waypoint = "";
+                waypointchosen.GetComponent<MeshRenderer>().material = default_waypoint_mat;
                 if (e.target.transform.parent.transform.GetChild(1).GetComponent<TextMeshPro>().text == "HEHLINGEN")
                 {
                     waypointchosen = e.target.gameObject;
                     e.target.transform.parent.transform.GetChild(1).GetComponent<TextMeshPro>().text = "HEHLINGEN, Längengrad: 52.3633346558, Breitengrad: 10.7952775955, Typ: DVOR-DME, Distanz: 80 NM";
                     e.target.transform.localScale += new Vector3(0.5f, 0.5f, 0.5f);
                     waypoint = "HEHLINGEN";
+                    waypointchosen.GetComponent<MeshRenderer>().material = selected_waypoint_mat;
                 }
                 if (e.target.transform.parent.transform.GetChild(1).GetComponent<TextMeshPro>().text == "GOTEM")
                 {
@@ -266,6 +273,7 @@ public class SceneHandler : MonoBehaviour
                     e.target.transform.parent.transform.GetChild(1).GetComponent<TextMeshPro>().text = "GOTEM, Längengrad: 51.3430557251, Breitengrad: 11.5974998474, Typ: DVOR-DME, Distanz: 60 NM";
                     e.target.transform.localScale += new Vector3(0.5f, 0.5f, 0.5f);
                     waypoint = "GOTEM";
+                    waypointchosen.GetComponent<MeshRenderer>().material = selected_waypoint_mat;
                 }
                 if (e.target.transform.parent.transform.GetChild(1).GetComponent<TextMeshPro>().text == "MAGDEBURG")
                 {
@@ -273,6 +281,7 @@ public class SceneHandler : MonoBehaviour
                     e.target.transform.parent.transform.GetChild(1).GetComponent<TextMeshPro>().text = "MAGDEBURG, Längengrad: 51.9949989319, Breitengrad: 11.7944440842, Typ: VOR-DME, Distanz: 80 NM";
                     e.target.transform.localScale += new Vector3(0.5f, 0.5f, 0.5f);
                     waypoint = "MAGDEBURG";
+                    waypointchosen.GetComponent<MeshRenderer>().material = selected_waypoint_mat;
                 }
                 if (e.target.transform.parent.transform.GetChild(1).GetComponent<TextMeshPro>().text == "HOLZDORF")
                 {
@@ -280,6 +289,7 @@ public class SceneHandler : MonoBehaviour
                     e.target.transform.parent.transform.GetChild(1).GetComponent<TextMeshPro>().text = "HOLZDORF, Längengrad: 51.766666666667, Breitengrad: 13.198333333333, Typ: TACAN, Distanz: N/A";
                     e.target.transform.localScale += new Vector3(0.5f, 0.5f, 0.5f);
                     waypoint = "HOLZDORF";
+                    waypointchosen.GetComponent<MeshRenderer>().material = selected_waypoint_mat;
                 }
             }
             else if (waypoint == "HOLZDORF")
@@ -287,12 +297,14 @@ public class SceneHandler : MonoBehaviour
                 waypointchosen.transform.parent.transform.GetChild(1).GetComponent<TextMeshPro>().text = "HOLZDORF";
                 waypointchosen.transform.localScale -= new Vector3(0.5f, 0.5f, 0.5f);
                 waypoint = "";
+                waypointchosen.GetComponent<MeshRenderer>().material = default_waypoint_mat;
                 if (e.target.transform.parent.transform.GetChild(1).GetComponent<TextMeshPro>().text == "HEHLINGEN")
                 {
                     waypointchosen = e.target.gameObject;
                     e.target.transform.parent.transform.GetChild(1).GetComponent<TextMeshPro>().text = "HEHLINGEN, Längengrad: 52.3633346558, Breitengrad: 10.7952775955, Typ: DVOR-DME, Distanz: 80 NM";
                     e.target.transform.localScale += new Vector3(0.5f, 0.5f, 0.5f);
                     waypoint = "HEHLINGEN";
+                    waypointchosen.GetComponent<MeshRenderer>().material = selected_waypoint_mat;
                 }
                 if (e.target.transform.parent.transform.GetChild(1).GetComponent<TextMeshPro>().text == "GOTEM")
                 {
@@ -300,6 +312,7 @@ public class SceneHandler : MonoBehaviour
                     e.target.transform.parent.transform.GetChild(1).GetComponent<TextMeshPro>().text = "GOTEM, Längengrad: 51.3430557251, Breitengrad: 11.5974998474, Typ: DVOR-DME, Distanz: 60 NM";
                     e.target.transform.localScale += new Vector3(0.5f, 0.5f, 0.5f);
                     waypoint = "GOTEM";
+                    waypointchosen.GetComponent<MeshRenderer>().material = selected_waypoint_mat;
                 }
                 if (e.target.transform.parent.transform.GetChild(1).GetComponent<TextMeshPro>().text == "LEIPZIG")
                 {
@@ -307,6 +320,7 @@ public class SceneHandler : MonoBehaviour
                     e.target.transform.parent.transform.GetChild(1).GetComponent<TextMeshPro>().text = "LEIPZIG, Längengrad: 51.436111111111, Breitengrad: 12.473611111111, Typ: DVOR-DME, Distanz: 80 NM";
                     e.target.transform.localScale += new Vector3(0.5f, 0.5f, 0.5f);
                     waypoint = "LEIPZIG";
+                    waypointchosen.GetComponent<MeshRenderer>().material = selected_waypoint_mat;
                 }
                 if (e.target.transform.parent.transform.GetChild(1).GetComponent<TextMeshPro>().text == "MAGDEBURG")
                 {
@@ -314,10 +328,9 @@ public class SceneHandler : MonoBehaviour
                     e.target.transform.parent.transform.GetChild(1).GetComponent<TextMeshPro>().text = "MAGDEBURG, Längengrad: 51.9949989319, Breitengrad: 11.7944440842, Typ: VOR-DME, Distanz: 80 NM";
                     e.target.transform.localScale += new Vector3(0.5f, 0.5f, 0.5f);
                     waypoint = "MAGDEBURG";
+                    waypointchosen.GetComponent<MeshRenderer>().material = selected_waypoint_mat;
                 }
             }
-            waypointchosen.GetComponent<MeshRenderer>().material = selected_waypoint_mat;
-            prev_waypointchosen = waypointchosen;
         }
     }
 
